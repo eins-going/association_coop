@@ -125,18 +125,17 @@ section{padding:88px 0}
 .purpose-box p{font-family:var(--sans);font-size:15px;line-height:1.95}
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:52px}
 .pillar{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;box-shadow:0 1px 2px rgba(16,26,43,.04)}
-.pillar .pillar-icon{font-family:var(--sans);font-size:22px;font-weight:700;color:var(--accent);line-height:1;width:52px;height:52px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius);background:var(--accent-soft);margin-bottom:18px}
-.pillar h4{font-family:var(--sans);font-size:16.5px;margin:14px 0 8px;font-weight:700}
+.pillar h4{font-family:var(--sans);font-size:16.5px;margin:0 0 8px;font-weight:700}
 .pillar p{font-family:var(--sans);font-size:13.5px;color:var(--ink-soft);line-height:1.8}
-
 /* ===== 회장 인사말 ===== */
 .greeting{display:grid;grid-template-columns:260px 1fr;gap:48px;align-items:start}
 .president-card{border-top:4px solid var(--seal);padding-top:22px}
-.president-card b{display:block;font-size:21px;font-weight:900}
-.president-card span{display:block;margin-top:6px;font-size:13px;color:var(--ink-soft)}
+.president-photo{width:190px;aspect-ratio:3/4;object-fit:cover;object-position:center 18%;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--white);margin:0 auto 18px;display:block}
 .greeting-body{font-size:16px;line-height:1.95;color:var(--ink)}
 .greeting-body p+p{margin-top:18px}
-.signature{margin-top:26px;font-weight:700;color:var(--ink)}
+.signature{margin-top:30px;padding-top:20px;border-top:1px solid var(--line);text-align:right}
+.signature b{display:block;font-size:19px;font-weight:900;color:var(--ink)}
+.signature span{display:block;margin-top:4px;font-size:13px;color:var(--ink-soft)}
 
 /* ===== 조직도 ===== */
 .org-legend{display:flex;gap:26px;margin-bottom:34px;font-size:13px;flex-wrap:wrap}
@@ -315,10 +314,10 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
   nav.main{display:none}
   .nav-toggle{display:block}
   .event{grid-template-columns:1fr;gap:8px}
-  .pillars{grid-template-columns:1fr}
   .journal{grid-template-columns:1fr}
   .journal-cover .jt{writing-mode:horizontal-tb;letter-spacing:.2em;font-size:24px;margin:0}
   .hline-wrap{display:none}
+  .pillars{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -408,17 +407,14 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
     </div>
     <div class="pillars">
       <div class="pillar">
-        <div class="pillar-icon">연</div>
         <h4>연구 — 공통이론의 확립</h4>
         <p>조합조직론·거버넌스·법제·경제학·회계감사·재무위험·성과평가·윤리분쟁의 8대 공통이론 분과가 조합 유형을 초월하는 경영원리를 정립합니다.</p>
       </div>
       <div class="pillar">
-        <div class="pillar-icon">검</div>
         <h4>검증 — 현장과의 결합</h4>
         <p>연구자가 이론을 만들고, 조합장과 실무자가 현실성을 검증하며, 법률·회계 전문가가 제도적 정확성을 확보하는 삼각 검증체계를 운영합니다.</p>
       </div>
       <div class="pillar">
-        <div class="pillar-icon">표</div>
         <h4>표준 — 사회적 적용</h4>
         <p>연구성과 위에 조합경영지도사 자격, 조합거버넌스 인증, 표준정관과 내부통제 기준을 구축하여 조합의 투명성과 전문성을 높입니다.</p>
       </div>
@@ -435,13 +431,17 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
     </div>
     <div class="greeting">
       <div class="president-card">
-        <b>김진용(경영학 박사)</b>
-        <span>한국조합경영학회 초대 회장</span>
+        <img class="president-photo" src="학회장%20김진용.jpg" alt="김진용 한국조합경영학회 초대 회장">
       </div>
       <div class="greeting-body">
         <p>한국조합경영학회 홈페이지를 찾아주신 여러분께 감사드립니다. 조합은 조합원의 참여와 공동의 목적을 바탕으로 운영되는 중요한 조직이지만, 그동안 경영학의 독립된 연구대상으로 충분히 다루어지지 못했습니다.</p>
         <p>본 학회는 협동조합·공제조합·노동조합·직능조합을 비롯한 다양한 법정조합과 조합형 조직을 하나의 조직범주로 연구하고, 조합의 거버넌스·회계·감사·위험관리·성과평가에 관한 이론과 실무표준을 정립하고자 합니다.</p>
+        <p>이를 위해 학술연구의 엄밀성과 현장 실무의 경험을 함께 연결하겠습니다. 조합의 의사결정 구조, 조합원 권리, 집행기관의 책임, 회계와 감사, 위험관리와 성과배분을 종합적으로 살피고, 각 조합 유형에 적용할 수 있는 기준과 교육체계를 마련하겠습니다.</p>
         <p>연구자, 전문가, 조합장과 실무자가 함께 지식을 만들고 현장에서 검증할 때 조합경영학은 살아 있는 학문이 될 수 있습니다. 한국조합경영학회가 조합의 투명성과 책임경영, 조합원 가치 향상에 기여하는 공론장이 되도록 최선을 다하겠습니다.</p>
+        <div class="signature">
+          <b>김진용(경영학 박사)</b>
+          <span>한국조합경영학회 초대 회장</span>
+        </div>
       </div>
     </div>
   </div>
