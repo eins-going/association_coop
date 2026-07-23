@@ -1,6 +1,13 @@
 {
+  "version": 3,
   "cleanUrls": true,
   "trailingSlash": false,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
   "headers": [
     {
       "source": "/favicon.svg",
