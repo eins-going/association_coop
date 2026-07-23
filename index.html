@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="한국조합경영학회 공식 홈페이지 — 조합경영학 이론과 실무를 연결하는 학술단체입니다.">
-<meta name="theme-color" content="#141B26">
+<meta name="theme-color" content="#1428A0">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="한국조합경영학회 — Korean Society for Management Studies of Member-Based Organizations">
@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css">
 <style>
 :root{
   /* neutrals */
@@ -77,7 +78,7 @@ header{background:var(--white);border-bottom:1px solid var(--line);position:stic
 .masthead{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
 .brand{display:flex;align-items:center;gap:14px}
 .seal-mark{width:48px;height:48px;flex-shrink:0;position:relative}
-.seal-mark svg{width:100%;height:100%}
+.seal-mark svg,.seal-mark img{width:100%;height:100%;object-fit:contain;display:block}
 .brand-text .kr{font-family:var(--sans);font-weight:900;font-size:21px;letter-spacing:.01em;line-height:1.2}
 .brand-text .en{font-family:var(--sans);font-size:8.5px;letter-spacing:.06em;color:var(--ink-soft);text-transform:uppercase;margin-top:2px}
 nav.main ul{display:flex;gap:6px;list-style:none}
@@ -237,7 +238,7 @@ section{padding:88px 0}
 .event-tab.active{color:var(--paper);border-bottom-color:var(--seal);font-weight:700}
 .event-tab:hover{color:var(--paper)}
 .event-list{display:grid;gap:1px;background:var(--ink-line);border:1px solid var(--ink-line);border-radius:var(--radius);overflow:hidden}
-.event{display:grid;grid-template-columns:130px 110px 1fr auto;gap:24px;align-items:center;background:var(--ink);padding:24px 28px;transition:background .15s}
+.event{display:grid;grid-template-columns:155px 110px 1fr auto;gap:24px;align-items:center;background:var(--ink);padding:24px 28px;transition:background .15s}
 .event:hover{background:var(--ink-2)}
 .event .date{font-family:var(--sans);font-size:15px;font-weight:700;color:var(--paper)}
 .event .date small{display:block;font-family:var(--sans);font-weight:400;font-size:11px;color:var(--ink-muted);letter-spacing:.06em}
@@ -298,6 +299,7 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
 .foot-grid li{padding:4px 0}
 .foot-grid a:hover{color:var(--paper)}
 .foot-brand .kr{font-family:var(--sans);font-weight:900;font-size:18px;color:var(--paper)}
+.foot-brand .en{margin-top:5px;font-size:11px;line-height:1.55;letter-spacing:.035em;color:var(--ink-dim)}
 .foot-brand p{font-family:var(--sans);margin-top:12px;line-height:1.85}
 .foot-bottom{display:flex;justify-content:space-between;padding-top:24px;font-size:12px;flex-wrap:wrap;gap:10px}
 
@@ -319,6 +321,156 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
   .hline-wrap{display:none}
   .pillars{grid-template-columns:1fr}
 }
+
+/* ===== 2026 visual refresh — Samsung.com inspired ===== */
+:root{
+  --ink:#111318;
+  --ink-2:#171a22;
+  --ink-3:#202430;
+  --ink-line:#3d4352;
+  --ink-muted:#b5bac7;
+  --ink-dim:#747986;
+  --ink-soft:#5d626e;
+  --paper:#fff;
+  --paper-dim:#f4f6f9;
+  --white:#fff;
+  --line:#e3e6ec;
+  --line-dark:#a8adb8;
+  --accent:#1428a0;
+  --accent-dark:#0d1d78;
+  --accent-soft:#eef1fb;
+  --seal:#1428a0;
+  --seal-dark:#0d1d78;
+  --seal-soft:#eef1fb;
+  --gold:#111;
+  --gold-dark:#333;
+  --gold-soft:#f1f1f1;
+  --radius:24px;
+  --radius-sm:999px;
+  --sans:'SamsungOneKorean','SamsungOne','Pretendard Variable','Pretendard','Noto Sans KR',Arial,sans-serif;
+}
+body{background:#fff;line-height:1.6;letter-spacing:0;word-break:keep-all}
+.wrap{max-width:1440px;padding-left:48px;padding-right:48px}
+.utility{display:none}
+header{border:0;box-shadow:0 1px 0 rgba(0,0,0,.08)}
+.masthead{max-width:1440px;min-height:82px;padding:12px 48px;gap:30px}
+.brand{gap:13px;min-width:max-content}
+.seal-mark{width:52px;height:52px}
+.brand-text .kr{font-size:19.5px;line-height:1.25;letter-spacing:0;font-weight:800}
+.brand-text .en{display:block;max-width:305px;margin-top:3px;font-size:8.5px;line-height:1.35;letter-spacing:.025em;color:#747986;text-transform:none;white-space:nowrap}
+nav.main ul{gap:2px;align-items:center}
+nav.main a{font-size:14px;font-weight:700;padding:10px 13px;border:0;border-radius:999px;transition:background .2s,color .2s}
+nav.main a:hover{color:#000;background:#f2f2f2}
+.join-btn{background:#000!important;color:#fff!important;padding:11px 21px!important}
+.join-btn:hover{background:#333!important}
+
+.hero{margin:0 auto;background:#f3f5fa;color:#111318;max-width:1440px;min-height:690px;display:flex;flex-direction:column;justify-content:center;border-radius:0 0 32px 32px}
+.hero::before{background:radial-gradient(circle at 81% 52%,rgba(20,40,160,.16),transparent 19%),radial-gradient(circle at 81% 52%,transparent 0 25%,rgba(20,40,160,.055) 25.2% 25.8%,transparent 26%),linear-gradient(115deg,transparent 60%,rgba(255,255,255,.78));opacity:1}
+.hero::after{content:'KSMO';position:absolute;right:4%;top:50%;transform:translateY(-50%);font-size:clamp(90px,15vw,230px);font-weight:900;letter-spacing:-.09em;color:rgba(0,0,0,.045);line-height:1}
+.hero .wrap{width:100%;padding-top:110px;padding-bottom:90px}
+.hero .eyebrow{font-size:12px;letter-spacing:.14em;color:#555;margin-bottom:20px;font-weight:700}
+.hero .eyebrow::before{display:none}
+.hero h1{font-size:clamp(44px,5.7vw,78px);line-height:1.16;letter-spacing:-.035em;max-width:920px;color:#000}
+.hero h1 em{color:#1428a0;border:0}
+.hero .thesis{margin-top:28px;max-width:720px;font-size:17px;line-height:1.75;color:#444;padding:0;border:0}
+.hero .actions{margin-top:36px;padding:0}
+.btn{padding:12px 24px;border-radius:999px;font-size:14px;line-height:1.45}
+.btn-seal{background:#000}
+.btn-seal:hover{background:#333}
+.btn-ghost{border-color:#000;color:#000}
+.btn-ghost:hover{background:#000;color:#fff}
+.hero-stats{background:#fff;border:0;margin-top:auto}
+.hero-stats .wrap{padding-top:34px;padding-bottom:34px;gap:0}
+.hstat{color:#666;border-color:#ddd;padding:5px 28px;font-size:12.5px;line-height:1.55}
+.hstat:first-child{padding-left:0}
+.hstat b{font-size:17px;color:#000;margin-bottom:5px;letter-spacing:-.01em}
+
+section{padding:120px 0}
+.sec-alt{background:#f4f6f9;border:0}
+.sec-head{margin-bottom:56px;text-align:center}
+.sec-head .no{display:inline-block;font-size:12px;letter-spacing:.02em;color:#1428a0;background:#eef1fb;padding:7px 13px;border-radius:999px;margin-bottom:18px;font-weight:700}
+.sec-head h2{font-size:clamp(34px,4vw,52px);line-height:1.2;letter-spacing:-.025em}
+.sec-head p{font-size:16px;line-height:1.75;color:#666;max-width:760px;margin:18px auto 0}
+.about-grid{display:block;max-width:980px;margin:0 auto}
+.about-grid .lede{padding:0;background:transparent;border:0;font-size:17px}
+.purpose-box{border-radius:24px;padding:42px;background:#f7f7f7;border:0;font-size:17px}
+.purpose-box{background:#000;color:#fff}
+.purpose-box h3{color:#aaa}
+.purpose-box p{font-size:16px}
+.pillars{gap:24px;margin-top:24px}
+.pillar{border:0;border-radius:24px;padding:36px;background:#f4f6f9;box-shadow:none;min-height:190px}
+.pillar h4{font-size:20px}.pillar p{font-size:14px;color:#666}
+
+.greeting{grid-template-columns:250px minmax(0,1fr);gap:48px;max-width:1080px;margin:auto;align-items:start}
+.president-card{border:0;padding:0;align-self:start}
+.president-photo{width:100%;max-width:250px;aspect-ratio:3/4;border:0;border-radius:20px;margin:0;filter:grayscale(100%)}
+.president-card .signature{max-width:250px;margin-top:18px;padding-top:16px;text-align:left;border-top:1px solid #d5d5d5}
+.president-card .signature b{font-size:21px;letter-spacing:-.01em}
+.president-card .signature span{font-size:12.5px;line-height:1.6}
+.greeting-body{font-size:16.5px;line-height:1.9}
+.signature b{font-size:20px}
+
+.org-legend{justify-content:center}.chip{border-radius:50%}.chip.c-top{background:#111318;border-color:#111318}.chip.c-aca{background:#1428a0;border-color:#1428a0}.chip.c-prac{background:#5f6675;border-color:#5f6675}.chip.c-ind{background:#fff;border:1px solid #b7bbc4}
+.org-node{border:0;border-radius:999px;padding:15px 36px}
+.org-node.sub{border:1px solid #ddd;border-radius:16px}
+.wing{border:0;border-radius:24px;background:#fff;box-shadow:0 8px 30px rgba(0,0,0,.06)}
+.wing.academic .wing-head{background:#1428a0}.wing.practice .wing-head{background:#5f6675}
+.wing-head{padding:28px 30px}.wing-body,.wing.academic .wing-body,.wing.practice .wing-body{background:#fff;padding:26px}
+.cell{border:0!important;border-radius:14px;background:#f3f5f8;padding:13px 15px}
+.bridge span{background:#f4f6f9}.joint .cell{border-top:0!important;min-height:92px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.joint .cell b,.joint .cell span{width:100%}.ind-row{max-width:760px;gap:10px}.ind{min-height:78px;border:0;background:#fff;border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 3px 14px rgba(17,19,24,.045)}.ind b{font-size:14px}.ind span{font-size:11.5px}
+
+.sec-dark{background:#10131a}
+.sec-dark .sec-head .no{color:#cbd3ff;background:#252a38}
+.event-tabs{justify-content:center;border:0;gap:8px}.event-tab{border:0!important;border-radius:999px;background:#1d1d1d;padding:10px 20px}.event-tab.active{background:#fff;color:#000}
+.event-list{gap:10px;background:transparent;border:0;border-radius:0}
+.event{background:#191d27;border-radius:18px;padding:25px 30px}.event:hover{background:#232835}
+.event .kind{border:0;background:#2a2a2a;border-radius:999px;padding:7px 10px;color:#fff!important}
+.event .cta{color:#fff}.event .cta:hover{color:#fff;text-decoration:underline}
+
+.journal,.newsletter,.cert-card{border:0;border-radius:24px;box-shadow:none;background:#f4f6f9}
+.journal{display:block}
+.journal-cover{background:#111}.journal-cover::after{border-color:#444;border-radius:15px}
+.journal-info,.newsletter{padding:36px}.journal-info h3,.newsletter h3{margin:0;font-size:21px;line-height:1.35}.journal-info .en,.newsletter .nl-tag{margin:5px 0 16px;font-size:11.5px;line-height:1.4;letter-spacing:.08em;color:#5f5f5f;font-weight:500}.nl-form{border-radius:999px}.nl-form button{background:#000;border-radius:999px}.nl-form input{border-radius:999px 0 0 999px}
+.cert-grid{gap:24px}.cert-card .head{padding:30px 32px 22px}.cert-card .body{padding:24px 32px 32px}.badge{background:#111!important}
+.cert-ethics{background:#f1f1f1;border:0;border-radius:18px;padding:24px 28px}
+.award-main{background:#111318;border:0;border-radius:24px;padding:42px}.award-main .year{color:#b5bac7}
+.award-list{gap:12px}.award-item{border:0;border-radius:18px;padding:23px 25px;background:#fff}.award-item b{font-size:15px}
+.cta-band{background:#1428a0;padding:90px 0}.cta-band .wrap{flex-wrap:nowrap}.cta-band h2{font-size:clamp(32px,4vw,48px);line-height:1.2}.cta-band p{max-width:760px}.member-criteria li{border-color:rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.1)}.cta-band .btn{color:#111318;padding:14px 28px}
+footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}.foot-grid{border-color:#ddd}.foot-grid h4,.foot-brand .kr{color:#000}.foot-grid a:hover{color:#000;text-decoration:underline}
+
+@media(max-width:1180px){
+  .wrap{padding-left:28px;padding-right:28px}
+  .masthead{padding-left:28px;padding-right:28px}
+  nav.main a{padding:9px 8px;font-size:13px}
+  .brand-text .kr{font-size:18px}
+  .brand-text .en{display:none}
+  .seal-mark{width:46px;height:46px}
+}
+@media(max-width:960px){
+  .masthead{min-height:68px}.nav-toggle{display:block;font-size:0}.nav-toggle::after{content:'☰';font-size:22px;color:#000}
+  .masthead.open nav.main{padding:18px 24px;border:0;border-radius:0 0 20px 20px}.masthead.open nav.main a{display:block;padding:12px 15px}
+  .hero{min-height:auto;border-radius:0 0 24px 24px}.hero .wrap{padding-top:78px;padding-bottom:70px}.hero::after{font-size:25vw;top:25%}
+  .hero-stats .wrap{grid-template-columns:1fr 1fr}.hstat{border-left:0;padding:14px 12px 14px 0}
+  section{padding:88px 0}.about-grid,.pub-grid,.cert-grid,.award-layout,.greeting{grid-template-columns:1fr}.greeting{gap:34px;max-width:760px}.president-photo{max-width:210px;margin:0 auto}.president-card .signature{max-width:210px;margin-left:auto;margin-right:auto;text-align:center}
+  .twin{margin-top:30px;gap:20px}
+  .cta-band .wrap{align-items:flex-start;flex-direction:column}.foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  body{overflow-x:hidden}
+  .wrap{padding-left:20px;padding-right:20px}.masthead{padding-left:20px;padding-right:20px}.brand{gap:10px}.brand-text .kr{font-size:16px}.seal-mark{width:44px;height:44px}
+  .hero h1{font-size:clamp(34px,10vw,40px);line-height:1.2}.hero .thesis{font-size:15px}.hero .actions{gap:9px}.btn{padding:11px 18px}
+  .hero-stats .wrap{grid-template-columns:1fr}.hstat{border-top:1px solid #eee}.hstat:first-child{border-top:0}
+  section{padding:72px 0}.sec-head{text-align:left;margin-bottom:38px}.sec-head h2{font-size:clamp(29px,8vw,32px)}.sec-head p{margin-left:0;font-size:15px}
+  .about-grid .lede,.purpose-box{padding:0}.pillar{padding:28px;min-height:auto}.pillars{gap:14px}
+  .org-legend{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;justify-content:stretch;margin-bottom:28px}.org-legend span{font-size:12px}
+  .org{align-items:stretch}.org>.org-node{align-self:center;max-width:100%}.org-node{padding:13px 24px}.org-tier2{grid-template-columns:1fr;gap:9px}.org-tier2 .org-node{width:100%;max-width:300px}.vline{height:22px;align-self:center}.twin{margin-top:28px;gap:16px}.wing-head{padding:22px 20px}.wing-head h3{font-size:19px}.wing-body,.wing.academic .wing-body,.wing.practice .wing-body{padding:18px}.branch-title{margin-top:18px}.cells,.joint{grid-template-columns:1fr}.cell{padding:12px 14px}.bridge{margin-top:28px}.bridge::before{display:none}.bridge span{display:block;padding:0;background:transparent;font-size:13px;line-height:1.6}.joint{gap:8px;margin-top:14px}.joint .cell{min-height:78px}.ind-row{gap:8px;margin-top:30px}.ind{min-height:72px}.ind-note{text-align:left;line-height:1.7}
+  .event{padding:22px}.event-note{display:block;line-height:1.7}.event-note b{display:block;margin-bottom:4px}
+  .journal-info,.newsletter{padding:28px 24px}.journal-meta{grid-template-columns:1fr}.newsletter li{align-items:flex-start}.nl-form button{padding-left:18px;padding-right:18px}
+  .cert-card .head{padding:26px 24px 20px;flex-direction:column}.cert-card .body{padding:22px 24px 26px}.cert-card .foot{align-items:flex-start;flex-direction:column;gap:14px}.cert-ethics{padding:22px 24px}
+  .award-main{padding:30px 26px}.award-main h3{font-size:26px}.award-item{padding:20px}
+  .member-criteria{gap:8px}.member-criteria li{font-size:12px}.cta-band{padding:72px 0}
+  .foot-grid{grid-template-columns:1fr}.foot-bottom{flex-direction:column}
+}
 </style>
 </head>
 <body>
@@ -338,11 +490,7 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
   <div class="wrap masthead">
     <a class="brand" href="#">
       <div class="seal-mark" aria-hidden="true">
-        <svg viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg">
-          <rect x="2" y="2" width="48" height="48" fill="var(--accent)"/>
-          <rect x="6" y="6" width="40" height="40" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
-          <text x="26" y="31" text-anchor="middle" font-family="var(--sans)" font-size="11" fill="#FFFFFF" font-weight="700">KSMO</text>
-        </svg>
+        <img src="ksmo-logo.png" alt="">
       </div>
       <div class="brand-text">
         <div class="kr">한국조합경영학회</div>
@@ -358,7 +506,7 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
         <li><a href="#events">학술행사</a></li>
         <li><a href="#pub">발간물</a></li>
         <li><a href="#cert">자격·인증</a></li>
-        <li><a href="#awards">조합경영대상</a></li>
+        <li><a href="#awards">대한민국 조합경영대상</a></li>
         <li><a href="#membership" class="join-btn">입회 안내</a></li>
       </ul>
     </nav>
@@ -372,7 +520,7 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
   <div class="wrap">
     <div class="eyebrow">THE STUDY OF MEMBER-BASED ORGANIZATIONS</div>
     <h1>조합의 고유한 원리를<br><em>조합경영학</em>으로 체계화합니다</h1>
-    <p class="thesis">조합은 고유한 소유·의결·집행·통제·성과배분 구조를 가진 독립된 조직범주입니다. 한국조합경영학회는 그 공통 원리를 비교하고 체계화하여 조합경영학의 이론과 실무표준을 정립합니다. — 학회 창립 명제</p>
+    <p class="thesis">조합의 소유·의사결정·통제·성과 배분 원리를 비교 연구하여 조합경영학의 이론과 실무 기준을 세웁니다.</p>
     <div class="actions">
       <a class="btn btn-seal" href="#membership">창립회원 가입</a>
       <a class="btn btn-ghost" href="#org">학회 조직 보기</a>
@@ -392,31 +540,27 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
 <section id="about">
   <div class="wrap">
     <div class="sec-head">
-      <div class="no">제1장 · 학회 소개</div>
+      <div class="no">학회 소개</div>
       <h2>왜 조합경영학인가</h2>
     </div>
     <div class="about-grid">
       <div class="lede">
-        <p>협동조합과 공제조합, 농협·수협·신협, 노동조합과 직능조합. 제도와 목적은 다르지만 이들 모두 <strong>조합원은 누구이며, 집행자는 누가 통제하고, 성과와 위험은 어떻게 배분되는가</strong>라는 같은 질문을 안고 있습니다.</p>
-        <p style="margin-top:22px">그동안 한국의 조합 연구는 협동조합·금융·노동·공제·부동산·투자 분야로 분절되어 왔습니다. 한국조합경영학회는 영구적 조합조직을 중심에 두되 다양한 법정조합과 조합형 조직까지 포괄하여, 이를 <strong>하나의 조직범주</strong>로 비교·일반화하는 학제적 학술단체입니다.</p>
-      </div>
-      <div class="purpose-box">
-        <h3>정관 제2조 (목적)</h3>
-        <p>본 학회는 협동조합·공제조합 등 대한민국의 법정조합과 조합형 조직을 독립된 조직범주로 연구하고, 그 설립·운영·거버넌스·회계·감사·위험관리 및 성과에 관한 이론과 방법론을 체계화하여 조합경영학의 학문적 기초와 실무표준을 확립함을 목적으로 한다.</p>
+        <p>조합은 투자자 중심의 일반 기업과 달리, 조합원이 소유자이자 이용자 또는 참여자로서 공동의 목적을 이루는 조직입니다. 협동조합·농협·수협·신협·공제조합·노동조합·직능조합은 법적 근거와 사업 영역은 다르지만, <strong>조합원 주권, 민주적 의사결정, 집행기관의 책임과 통제, 성과와 위험의 공정한 배분</strong>이라는 공통의 경영 과제를 안고 있습니다.</p>
+        <p style="margin-top:22px">그러나 국내의 연구와 제도는 협동·금융·노동·공제·부동산·투자 등 분야별로 나뉘어, 조합 전반에 적용할 공통 원리와 비교 기준을 충분히 축적하지 못했습니다. 한국조합경영학회는 다양한 법정조합과 조합형 조직을 <strong>독립된 조직범주</strong>로 연구하여 설립·운영·거버넌스·회계·감사·위험관리·성과평가의 이론체계와 현장 표준을 구축하고, 조합원의 권익과 책임경영, 조직의 지속가능성을 높이고자 합니다.</p>
       </div>
     </div>
     <div class="pillars">
       <div class="pillar">
         <h4>연구 — 공통이론의 확립</h4>
-        <p>조합조직론·거버넌스·법제·경제학·회계감사·재무위험·성과평가·윤리분쟁의 8대 공통이론 분과가 조합 유형을 초월하는 경영원리를 정립합니다.</p>
+        <p>조합조직론·거버넌스·법제·경제학·회계·감사·재무·위험관리·성과평가·윤리·분쟁을 중심으로 조합 유형을 아우르는 경영 원리를 연구합니다.</p>
       </div>
       <div class="pillar">
         <h4>검증 — 현장과의 결합</h4>
-        <p>연구자가 이론을 만들고, 조합장과 실무자가 현실성을 검증하며, 법률·회계 전문가가 제도적 정확성을 확보하는 삼각 검증체계를 운영합니다.</p>
+        <p>연구자의 이론, 조합장과 실무자의 현장 경험, 법률·회계 전문가의 전문성을 연결하는 협력 체계를 지향합니다.</p>
       </div>
       <div class="pillar">
         <h4>표준 — 사회적 적용</h4>
-        <p>연구성과 위에 조합경영지도사 자격, 조합거버넌스 인증, 표준정관과 내부통제 기준을 구축하여 조합의 투명성과 전문성을 높입니다.</p>
+        <p>축적된 연구 성과를 바탕으로 교육과정, 평가 기준, 표준정관과 내부통제 지침을 단계적으로 마련하고자 합니다.</p>
       </div>
     </div>
   </div>
@@ -432,16 +576,16 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
     <div class="greeting">
       <div class="president-card">
         <img class="president-photo" src="학회장%20김진용.jpg" alt="김진용 한국조합경영학회 초대 회장">
+        <div class="signature">
+          <b>김진용</b>
+          <span>한국조합경영학회 초대 회장 · 경영학 박사</span>
+        </div>
       </div>
       <div class="greeting-body">
         <p>한국조합경영학회 홈페이지를 찾아주신 여러분께 감사드립니다. 조합은 조합원의 참여와 공동의 목적을 바탕으로 운영되는 중요한 조직이지만, 그동안 경영학의 독립된 연구대상으로 충분히 다루어지지 못했습니다.</p>
         <p>본 학회는 협동조합·공제조합·노동조합·직능조합을 비롯한 다양한 법정조합과 조합형 조직을 하나의 조직범주로 연구하고, 조합의 거버넌스·회계·감사·위험관리·성과평가에 관한 이론과 실무표준을 정립하고자 합니다.</p>
-        <p>이를 위해 학술연구의 엄밀성과 현장 실무의 경험을 함께 연결하겠습니다. 조합의 의사결정 구조, 조합원 권리, 집행기관의 책임, 회계와 감사, 위험관리와 성과배분을 종합적으로 살피고, 각 조합 유형에 적용할 수 있는 기준과 교육체계를 마련하겠습니다.</p>
+        <p>이를 위해 학술연구의 엄밀성과 현장의 경험을 연결하겠습니다. 조합의 의사결정 구조, 조합원 권리, 집행기관의 책임, 회계와 감사, 위험관리와 성과 배분을 종합적으로 살피고, 각 조합 유형에 적용할 수 있는 기준과 교육 체계를 마련하겠습니다.</p>
         <p>연구자, 전문가, 조합장과 실무자가 함께 지식을 만들고 현장에서 검증할 때 조합경영학은 살아 있는 학문이 될 수 있습니다. 한국조합경영학회가 조합의 투명성과 책임경영, 조합원 가치 향상에 기여하는 공론장이 되도록 최선을 다하겠습니다.</p>
-        <div class="signature">
-          <b>김진용(경영학 박사)</b>
-          <span>한국조합경영학회 초대 회장</span>
-        </div>
       </div>
     </div>
   </div>
@@ -451,9 +595,9 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
 <section id="org" class="sec-alt">
   <div class="wrap">
     <div class="sec-head">
-      <div class="no">제2장 · 조직도</div>
-      <h2>연구와 현장이 함께 만드는 조직</h2>
-      <p>본 학회의 조직은 이론을 생산하는 <b>학술연구 부문</b>과 현장을 대표하는 <b>실무경영 부문</b>의 두 날개로 구성되며, 두 부문은 공동위원회에서 만나 표준·교육·정책을 함께 만듭니다. 자격·인증 기구는 학술적 신뢰를 위해 이사회로부터 독립하여 운영됩니다.</p>
+      <div class="no">조직도</div>
+      <h2>학술과 실무를 잇는 조직 체계</h2>
+      <p>본 학회는 이론 연구를 담당하는 <b>학술연구 부문</b>과 현장 적용을 검토하는 <b>실무경영 부문</b>으로 구성됩니다. 두 부문은 공동위원회를 통해 표준·교육·정책 과제를 함께 추진하며, 자격·인증 심사의 독립성 확보를 운영 원칙으로 삼습니다.</p>
     </div>
 
     <div class="org-legend" aria-hidden="true">
@@ -481,7 +625,7 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
           <div class="wing-head">
             <div class="tag">ACADEMIC DIVISION</div>
             <h3>학술연구 부문</h3>
-            <p>부문장: 학술부회장 · 교수 및 박사급 연구자 중심 — 이론을 생산합니다</p>
+            <p>부문장: 학술부회장 · 교수 및 박사급 연구자 중심 — 이론 연구를 담당합니다</p>
           </div>
           <div class="wing-body">
             <div class="branch-title">공통이론 분과 (8)</div>
@@ -507,7 +651,7 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
           <div class="wing-head">
             <div class="tag">PRACTITIONER DIVISION</div>
             <h3>실무경영 부문</h3>
-            <p>부문장: 실무부회장 · 현직 조합장과 임원, 전문직 실무자 중심 — 현실을 검증합니다</p>
+            <p>부문장: 실무부회장 · 현직 조합장과 임원, 전문직 실무자 중심 — 현장 적용을 검토합니다</p>
           </div>
           <div class="wing-body">
             <div class="branch-title">유형별 실무분과 (7)</div>
@@ -544,7 +688,7 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
         <div class="ind"><b>인증원</b><span>조합거버넌스·경영품질 인증</span></div>
         <div class="ind"><b>독립심의위원회</b><span>자격·인증 이의신청 및 윤리심사</span></div>
       </div>
-      <p class="ind-note">자격검정원과 인증원은 <em>회장 및 이사회로부터 심사의 독립성</em>을 보장받으며, 그 결과에 대한 이의는 외부 전문가가 과반인 독립심의위원회가 최종 판단합니다.</p>
+      <p class="ind-note">자격검정원과 인증원은 <em>심사의 독립성과 이해상충 방지</em>를 운영 원칙으로 삼습니다. 세부 심사·이의 절차와 독립심의위원회 구성 기준은 관련 규정에 명시하여 공개할 예정입니다.</p>
     </div>
   </div>
 </section>
@@ -553,9 +697,9 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
 <section id="events" class="sec-dark">
   <div class="wrap">
     <div class="sec-head">
-      <div class="no">제3장 · 학술행사</div>
+      <div class="no">학술행사</div>
       <h2>포럼 · 세미나 · 웨비나</h2>
-      <p>연 2회 정기 학술대회를 정점으로, 월례 조합경영포럼과 정책세미나, 누구나 참여할 수 있는 온라인 웨비나를 운영합니다.</p>
+      <p>정기 학술대회와 조합경영포럼, 정책세미나, 온라인 웨비나를 통해 연구 성과와 현장 경험을 공유할 예정입니다.</p>
     </div>
     <div class="event-tabs" role="tablist">
       <button class="event-tab active" data-filter="all" role="tab" aria-selected="true">전체</button>
@@ -565,43 +709,43 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
     </div>
     <div class="event-list">
       <div class="event" data-kind="forum">
-        <div class="date">09. 12 (토)<small>서울 · 대면</small></div>
+        <div class="date">2026. 09. 12 (토)<small>서울 · 장소 추후 안내</small></div>
         <div class="kind forum">FORUM</div>
-        <div class="title"><b>창립 학술대회 — 조합경영학의 연구대상과 방법론</b><span>기조발표: 무엇을 조합으로 볼 것인가 · 법정조합 총람 개정판 공개</span></div>
+        <div class="title"><b>창립 학술대회 — 조합경영학의 연구대상과 방법론</b><span>기조발표: 무엇을 조합으로 볼 것인가 · 법정조합 총람 공개 예정</span></div>
         <a class="cta" href="#">사전등록 →</a>
       </div>
       <div class="event" data-kind="webinar">
-        <div class="date">08. 21 (금)<small>온라인 · Zoom</small></div>
+        <div class="date">2026. 08. 21 (금)<small>온라인 · 접속 방법 추후 안내</small></div>
         <div class="kind webinar">WEBINAR</div>
         <div class="title"><b>지역주택조합, 조합원은 무엇을 알 권리가 있는가</b><span>주택·정비조합경영분과 × 조합법제분과 공동 · 질의응답 60분</span></div>
         <a class="cta" href="#">참가 신청 →</a>
       </div>
       <div class="event" data-kind="seminar">
-        <div class="date">08. 28 (금)<small>국회 세미나실</small></div>
+        <div class="date">2026. 08. 28 (금)<small>서울 · 장소 추후 안내</small></div>
         <div class="kind seminar">SEMINAR</div>
         <div class="title"><b>정책세미나 — 조합 회계공시 제도의 개선 방향</b><span>조합회계·감사분과 주관 · 감독기관 및 국회 관계자 초청 토론</span></div>
         <a class="cta" href="#">방청 신청 →</a>
       </div>
       <div class="event" data-kind="forum">
-        <div class="date">10. 16 (금)<small>서울 · 대면</small></div>
+        <div class="date">2026. 10. 16 (금)<small>서울 · 장소 추후 안내</small></div>
         <div class="kind forum">FORUM</div>
         <div class="title"><b>제1회 월례 조합경영포럼 — 벤처투자조합 GP의 책임구조</b><span>투자조합경영분과 · 조합장협의회 사례발표 병행</span></div>
         <a class="cta" href="#">사전등록 →</a>
       </div>
       <div class="event" data-kind="webinar">
-        <div class="date">11. 06 (금)<small>온라인 · 실시간 송출</small></div>
+        <div class="date">2026. 11. 06 (금)<small>온라인 · 접속 방법 추후 안내</small></div>
         <div class="kind webinar">WEBINAR</div>
-        <div class="title"><b>협동조합 이사회는 무엇을 감독해야 하는가</b><span>조합거버넌스분과 · 조합경영지도사 보수교육 인정(2시간)</span></div>
+        <div class="title"><b>협동조합 이사회는 무엇을 감독해야 하는가</b><span>조합거버넌스분과 주관 · 향후 교육과정 연계 검토</span></div>
         <a class="cta" href="#">참가 신청 →</a>
       </div>
       <div class="event" data-kind="seminar">
-        <div class="date">12. 04 (금)<small>학회 세미나실</small></div>
+        <div class="date">2026. 12. 04 (금)<small>서울 · 장소 추후 안내</small></div>
         <div class="kind seminar">SEMINAR</div>
         <div class="title"><b>공제조합의 지급여력과 위험관리 세미나</b><span>조합재무·위험관리분과 × 공제조합경영분과 공동</span></div>
         <a class="cta" href="#">방청 신청 →</a>
       </div>
     </div>
-    <p class="event-note"><b>웨비나 다시보기 —</b> 지난 웨비나는 회원 전용 아카이브에서 시청할 수 있으며, 일부 강연은 조합경영지도사 보수교육 시간으로 인정됩니다.</p>
+    <p class="event-note"><b>웨비나 아카이브 —</b> 학술행사 영상과 발표 자료를 회원이 다시 볼 수 있는 아카이브를 준비하고 있습니다.</p>
   </div>
 </section>
 
@@ -609,38 +753,33 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
 <section id="pub" class="sec-alt">
   <div class="wrap">
     <div class="sec-head">
-      <div class="no">제4장 · 발간물</div>
+      <div class="no">발간물</div>
       <h2>학술지와 소식지</h2>
-      <p>학술지 『조합경영연구』는 창간호부터 KCI 학술지인증 요건을 염두에 둔 편집·심사·윤리체계로 운영되며, 소식지 『조합과 경영』은 회원과 현장을 잇는 격월간 매체입니다.</p>
+      <p>학술지 『조합경영연구』는 향후 KCI 등재를 목표로 편집·심사·연구윤리 체계를 준비하고 있으며, 소식지 『조합과 경영』은 회원과 현장을 잇는 격월간 매체로 발간할 예정입니다.</p>
     </div>
     <div class="pub-grid">
       <div class="journal">
-        <div class="journal-cover" aria-hidden="true">
-          <div class="seal-sq">KSMO</div>
-          <div class="jt">조합경영연구</div>
-          <div class="vol">VOL.1 · NO.1 · 2026<br>KSMO</div>
-        </div>
         <div class="journal-info">
           <h3>『조합경영연구』</h3>
           <div class="en">JOURNAL OF MEMBER-BASED ORGANIZATION MANAGEMENT STUDIES</div>
-          <p>조합의 조직·거버넌스·법제·회계·재무·성과에 관한 이론 및 실증 논문, 판례·사례연구, 정책논문을 게재하는 본 학회의 공식 학술지입니다.</p>
+          <p>조합의 조직·거버넌스·법제·회계·재무·성과에 관한 이론 및 실증 논문, 판례·사례 연구와 정책 논문을 게재할 본 학회의 공식 학술지입니다.</p>
           <div class="journal-meta">
-            <div><b>발행 주기</b>연 2회 정기 발행 (6월 · 12월)</div>
-            <div><b>심사 방식</b>외부 전문가 복수 익명심사</div>
-            <div><b>편집위원회</b>이사회로부터 독립 · 기관 다양성 확보</div>
-            <div><b>연구윤리</b>연구윤리규정 · 이해상충 공시 의무</div>
+            <div><b>발행 계획</b>연 2회 정기 발행 예정</div>
+            <div><b>심사 원칙</b>외부 전문가 복수 익명 심사</div>
+            <div><b>편집 원칙</b>편집 독립성 · 소속 기관 다양성 확보</div>
+            <div><b>연구윤리</b>연구윤리 규정 · 이해상충 공개</div>
           </div>
           <a class="link-more" href="#">논문 투고 규정 · 원고 모집</a>
         </div>
       </div>
       <div class="newsletter">
-        <div class="nl-tag">BIMONTHLY NEWSLETTER</div>
         <h3>소식지 『조합과 경영』</h3>
-        <p>분과 연구동향, 조합 현장 인터뷰, 판례·제도 브리핑, 학술행사 일정을 담아 격월로 발행합니다. 이메일로 무료 구독할 수 있습니다.</p>
+        <div class="nl-tag">BIMONTHLY NEWSLETTER</div>
+        <p>분과 연구 동향, 조합 현장 인터뷰, 판례·제도 브리핑과 학술행사 일정을 담은 격월간 소식지를 준비하고 있습니다.</p>
         <ul>
-          <li>제3호 — 재건축조합 총회, 전자의결의 조건 <span>2026. 07</span></li>
-          <li>제2호 — 조합장 인터뷰: 신협 30년의 거버넌스 <span>2026. 05</span></li>
-          <li>제1호 — 창간호: 법정조합 140여 개를 세다 <span>2026. 03</span></li>
+          <li>기획 주제 — 재건축조합 총회와 전자 의결의 조건 <span>발간 준비</span></li>
+          <li>기획 주제 — 조합장 인터뷰: 현장에서 본 거버넌스 <span>발간 준비</span></li>
+          <li>창간호 기획 — 법정조합의 범위와 분류 <span>발간 준비</span></li>
         </ul>
         <form class="nl-form" onsubmit="event.preventDefault();this.querySelector('button').textContent='신청 완료';">
           <label for="nl-email" style="position:absolute;left:-9999px">이메일 주소</label>
@@ -656,30 +795,30 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
 <section id="cert">
   <div class="wrap">
     <div class="sec-head">
-      <div class="no">제5장 · 자격과 인증</div>
+      <div class="no">자격과 인증</div>
       <h2>조합경영 전문성과 조직 신뢰를 높이는 자격·인증</h2>
-      <p>자격은 조합경영을 진단하고 지도할 전문가에게, 인증은 거버넌스와 경영품질을 갖춘 조합조직에 부여됩니다. 심사기준은 학회 연구성과와 공개된 표준에 따라 운영됩니다.</p>
+      <p>조합경영 전문가를 위한 교육·자격 체계와 조합의 거버넌스·경영품질을 평가하는 인증 체계를 준비하고 있습니다. 아래 내용은 연구와 시범 운영을 거쳐 확정할 계획입니다.</p>
     </div>
     <div class="cert-grid">
       <div class="cert-card">
         <div class="head">
           <div>
             <h3>조합경영지도사</h3>
-            <div class="sub">Certified Advisor in Member-Based Organization Management (CAMOM) · 민간자격</div>
+            <div class="sub">Certified Advisor in Member-Based Organization Management (CAMOM) · 민간자격 등록 준비</div>
           </div>
-          <span class="badge b1">개인 자격</span>
+          <span class="badge b1">도입 준비</span>
         </div>
         <div class="body">
-          <p>조합의 설립·운영·거버넌스·회계·분쟁예방을 진단하고 지도하는 전문가 자격입니다. 교육과정 이수 후 필기·사례심사를 거쳐 자격검정원이 검정합니다.</p>
+          <p>조합의 설립·운영·거버넌스·회계·분쟁 예방을 진단하고 지도할 전문가 교육·평가 체계입니다. 교육과정과 평가 기준은 연구 성과를 바탕으로 개발하고 있습니다.</p>
           <ul>
             <li>1차: 조합법제·조합경영원론 필기시험</li>
             <li>2차: 회계·감사·위험관리 필기시험</li>
             <li>3차: 실제 조합 진단보고서 사례심사</li>
-            <li>보수교육 연 8시간 · 자격 유효기간 3년</li>
+            <li>자격 유효기간과 보수교육 기준 별도 마련</li>
           </ul>
           <div class="foot">
-            <div class="price">교육 45시간 과정<small>검정료·교육비 별도 공지</small></div>
-            <a class="link-more" href="#">검정 일정 안내</a>
+            <div class="price">교육 45시간 과정안<small>일정·비용은 확정 후 공지</small></div>
+            <a class="link-more" href="#">도입 계획 안내</a>
           </div>
         </div>
       </div>
@@ -689,19 +828,19 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
             <h3>조합장 전문교육과정</h3>
             <div class="sub">Member-Based Organization Leadership Program · 수료증 과정</div>
           </div>
-          <span class="badge b3">교육 과정</span>
+          <span class="badge b3">과정 준비</span>
         </div>
         <div class="body">
-          <p>현직·예비 조합장과 임원을 위한 집중과정입니다. 총회 운영, 이사회·감사 관계, 정보공개, 분담금·자금관리, 이해상충 통제를 실제 사례로 학습합니다.</p>
+          <p>현직·예비 조합장과 임원을 위한 집중 교육과정입니다. 총회 운영, 이사회·감사 관계, 정보 공개, 분담금·자금 관리와 이해상충 통제를 실제 사례 중심으로 다룰 계획입니다.</p>
           <ul>
             <li>기본과정 3일 · 심화과정 2일</li>
             <li>유형별 트랙: 주택정비 / 협동 / 투자 / 공제</li>
-            <li>수료자는 조합장협의회 정회원 자격 부여</li>
-            <li>기관 위탁교육(조합 단체연수) 운영</li>
+            <li>수료자 네트워크와 후속 과정 연계 검토</li>
+            <li>기관 위탁교육과 조합 단체연수 과정 검토</li>
           </ul>
           <div class="foot">
-            <div class="price">연 4기 개설<small>기수별 40명 정원</small></div>
-            <a class="link-more" href="#">교육 신청</a>
+            <div class="price">교육과정 설계 중<small>일정·정원은 확정 후 공지</small></div>
+            <a class="link-more" href="#">과정 준비 안내</a>
           </div>
         </div>
       </div>
@@ -711,19 +850,19 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
             <h3>조합거버넌스 인증</h3>
             <div class="sub">Member-Based Organization Governance Certification (MOGC)</div>
           </div>
-          <span class="badge b2">조직 인증</span>
+          <span class="badge b2">인증 준비</span>
         </div>
         <div class="body">
-          <p>조합의 의결구조·정보공개·이해상충 통제·감사체계를 학회의 조합경영 8대 원칙에 따라 심사하여 등급을 부여합니다. 조합원과 감독기관에 대한 신뢰의 표지입니다.</p>
+          <p>조합의 의결 구조, 정보 공개, 이해상충 통제와 감사 체계를 평가하기 위해 개발 중인 인증 제도입니다. 평가 지표와 등급 체계는 연구와 시범 적용을 거쳐 확정할 예정입니다.</p>
           <ul>
             <li>서면심사 + 현장실사 2단계 심사</li>
-            <li>등급: 최우수(AAA) / 우수(AA) / 적합(A)</li>
-            <li>인증 유효기간 2년 · 중간 모니터링</li>
-            <li>심사위원은 학회 이해관계자 배제</li>
+            <li>등급 체계: 최우수(AAA) / 우수(AA) / 적합(A) 검토</li>
+            <li>인증 유효기간과 사후관리 기준 마련</li>
+            <li>심사 독립성과 이해상충 방지 원칙 적용</li>
           </ul>
           <div class="foot">
-            <div class="price">인증원 심사<small>조합 규모별 심사수수료</small></div>
-            <a class="link-more" href="#">인증 기준 보기</a>
+            <div class="price">인증 기준 개발 중<small>심사 절차·비용은 추후 공지</small></div>
+            <a class="link-more" href="#">개발 계획 안내</a>
           </div>
         </div>
       </div>
@@ -733,24 +872,24 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
             <h3>조합경영품질 인증</h3>
             <div class="sub">Management Quality Certification for Member-Based Organizations (MQC-MBO)</div>
           </div>
-          <span class="badge b2">조직 인증</span>
+          <span class="badge b2">시범 준비</span>
         </div>
         <div class="body">
-          <p>재무건전성, 내부통제, 조합원 편익, 지속가능성을 종합평가하는 경영품질 인증입니다. 조합평가모형과 조합거버넌스 지표의 연구성과가 심사기준의 근거가 됩니다.</p>
+          <p>재무 건전성, 내부통제, 조합원 편익과 지속가능성을 종합적으로 평가하기 위해 개발 중인 경영품질 인증 제도입니다.</p>
           <ul>
             <li>정량지표(재무·성과) + 정성심사(운영)</li>
-            <li>시범인증: 협약 조합 2~3곳 우선 실시</li>
-            <li>인증조합 명부 홈페이지 상시 공개</li>
-            <li>표준정관·내부통제 기준 무상 제공</li>
+            <li>협약 조합을 대상으로 시범 적용 검토</li>
+            <li>인증 결과 공개 범위와 방식 별도 마련</li>
+            <li>표준정관·내부통제 지침 연계 검토</li>
           </ul>
           <div class="foot">
-            <div class="price">시범사업 진행 중<small>본인증 2027년 개시 예정</small></div>
-            <a class="link-more" href="#">시범인증 참여</a>
+            <div class="price">시범사업 준비 중<small>도입 일정은 확정 후 공지</small></div>
+            <a class="link-more" href="#">시범사업 안내</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="cert-ethics"><b>운영 원칙 —</b> 본 학회의 자격·인증 사업은 「연구대상 확립 → 공통이론 개발 → 학술성과 축적 → 교육과정 개발 → 평가표준 개발 → 자격·인증 운영」의 순서를 지킵니다. 자격검정원·인증원의 심사에는 학회 임원과 특정 사업자가 관여할 수 없으며, 모든 기준문서는 학술지와 홈페이지에 공개됩니다.</div>
+    <div class="cert-ethics"><b>추진 원칙 —</b> 자격·인증 사업은 「연구대상 확립 → 공통이론 개발 → 학술성과 축적 → 교육과정 개발 → 평가 기준 개발 → 시범 운영」의 단계에 따라 준비합니다. 심사 독립성과 이해상충 방지 원칙을 관련 규정에 반영하고, 확정된 기준은 홈페이지에 공개할 예정입니다.</div>
   </div>
 </section>
 
@@ -758,21 +897,21 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
 <section id="awards" class="sec-alt">
   <div class="wrap">
     <div class="sec-head">
-      <div class="no">제6장 · 조합경영대상</div>
+      <div class="no">대한민국 조합경영대상</div>
       <h2>모범적인 조합경영을 발굴하고 확산합니다</h2>
-      <p>조합경영대상은 조합원 중심의 거버넌스, 투명한 회계와 책임 있는 운영, 지속가능한 성과를 보여준 조합과 조합장을 선정하여 시상하는 학회 공식 포상 제도입니다.</p>
+      <p>대한민국 조합경영대상은 조합원 중심의 거버넌스, 투명한 회계, 책임 있는 운영과 지속가능한 성과를 발굴하고 공유하기 위해 준비 중인 학회 포상 제도입니다.</p>
     </div>
     <div class="award-layout">
       <div class="award-main">
-        <div class="year">2026 MEMBER-BASED ORGANIZATION MANAGEMENT AWARDS</div>
-        <h3>2026 조합경영대상</h3>
-        <p>대상은 한 해 동안 조합경영의 모범을 보인 수상 조합과 조합장을 함께 선정합니다. 수상 사례는 학술대회와 학회 발간물을 통해 공유하여 조합경영 표준의 현장 확산에 활용합니다.</p>
-        <div class="status">수상 조합 및 조합장 · 선정 후 공개</div>
+        <div class="year">2026 KOREA MEMBER-BASED ORGANIZATION MANAGEMENT AWARDS</div>
+        <h3>2026 대한민국 조합경영대상</h3>
+        <p>한 해 동안 모범적인 조합경영 성과를 보여준 조합과 조합장을 선정하고, 우수 사례를 학술대회와 발간물을 통해 공유할 계획입니다.</p>
+        <div class="status">공모·심사 일정 · 확정 후 공개</div>
       </div>
-      <div class="award-list" aria-label="조합경영대상 시상 부문">
+      <div class="award-list" aria-label="대한민국 조합경영대상 시상 부문">
         <div class="award-item">
           <b>종합대상</b>
-          <span>2026 조합경영대상 수상 조합 및 조합장</span>
+          <span>거버넌스·경영품질·조합원가치 전반에서 우수한 조합 및 조합장</span>
         </div>
         <div class="award-item">
           <b>거버넌스 부문 최우수</b>
@@ -780,15 +919,15 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
         </div>
         <div class="award-item">
           <b>경영품질 부문 최우수</b>
-          <span>재무건전성, 내부통제, 성과관리 체계가 우수한 조합 및 조합장</span>
+          <span>재무 건전성, 내부통제, 성과 관리 체계가 우수한 조합 및 조합장</span>
         </div>
         <div class="award-item">
           <b>조합원가치 부문 최우수</b>
-          <span>조합원 편익, 정보공개, 분쟁예방과 신뢰 형성이 우수한 조합 및 조합장</span>
+          <span>조합원 편익, 정보 공개, 분쟁 예방과 신뢰 형성이 우수한 조합 및 조합장</span>
         </div>
       </div>
     </div>
-    <p class="award-note">심사 부문과 기준은 조합 유형별 특성을 반영하여 운영하며, 최종 수상자는 독립 심의 절차를 거쳐 발표합니다.</p>
+    <p class="award-note">심사 부문과 기준은 조합 유형별 특성을 반영해 마련하고 사전에 공개할 예정이며, 최종 수상자는 독립적인 심의 절차를 거쳐 선정할 계획입니다.</p>
   </div>
 </section>
 
@@ -797,9 +936,9 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
   <div class="wrap">
     <div>
       <h2>연구자와 조합장이 함께 만드는 학회</h2>
-      <p>조합경영학의 연구와 실무표준 정립에 참여할 정회원·실무회원·기관회원·학생회원을 모집합니다. 창립회원에게는 창간호 학술지와 창립 학술대회 초청이 제공됩니다.</p>
+      <p>조합경영학의 연구와 실무 기준 마련에 참여할 정회원·실무회원·기관회원·학생회원을 모집합니다. 창립회원에게는 창립 학술대회와 창간호 발간 소식을 우선 안내합니다.</p>
       <ul class="member-criteria" aria-label="주요 가입 자격">
-        <li>박사학위 소지자</li>
+        <li>박사 학위 소지자</li>
         <li>변호사·회계사 등 전문직</li>
         <li>조합장 및 조합 이사·감사</li>
         <li>조합 관련 기관·법인</li>
@@ -817,12 +956,13 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
     <div class="foot-grid">
       <div class="foot-brand">
         <div class="kr">한국조합경영학회</div>
+        <div class="en">Korean Society for Management Studies of Member-Based Organizations</div>
         <p>대한민국의 법정조합과 조합형 조직을 하나의 조직범주로 연구하고, 조합의 건전한 경영과 거버넌스에 관한 이론·자료·표준을 생산하는 대표 학술기관을 지향합니다.</p>
       </div>
       <div>
         <h4>학회</h4>
         <ul>
-          <li><a href="#about">설립취지문</a></li>
+          <li><a href="#about">학회 소개</a></li>
           <li><a href="#greeting">회장 인사말</a></li>
           <li><a href="#org">조직도</a></li>
           <li><a href="#">정관 · 제규정</a></li>
@@ -836,7 +976,7 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
           <li><a href="#pub">발간물</a></li>
           <li><a href="#cert">조합경영지도사</a></li>
           <li><a href="#cert">거버넌스 인증</a></li>
-          <li><a href="#awards">조합경영대상</a></li>
+          <li><a href="#awards">대한민국 조합경영대상</a></li>
         </ul>
       </div>
       <div>
@@ -867,6 +1007,13 @@ footer{background:var(--ink);color:var(--ink-muted);padding:56px 0 34px;font-siz
       this.setAttribute('aria-expanded', String(!expanded));
       masthead.classList.toggle('open', !expanded);
       this.setAttribute('aria-label', expanded? '메뉴 열기' : '메뉴 닫기');
+    });
+    masthead.querySelectorAll('nav.main a').forEach(function(link){
+      link.addEventListener('click',function(){
+        masthead.classList.remove('open');
+        navToggle.setAttribute('aria-expanded','false');
+        navToggle.setAttribute('aria-label','메뉴 열기');
+      });
     });
     window.addEventListener('resize',function(){
       if(window.innerWidth>960){masthead.classList.remove('open');navToggle.setAttribute('aria-expanded','false');navToggle.setAttribute('aria-label','메뉴 열기')}
