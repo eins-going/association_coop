@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900"><g transform="translate(162.5 0)">
+<rect width="575" height="900" fill="#eef1f8"/><rect width="575" height="900" fill="url(#g)"/><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14255e"/><stop offset="1" stop-color="#5b45a5"/></linearGradient></defs>
+<g opacity=".25" stroke="#dce4ff" fill="none"><path d="M40 145H535M40 230H535M40 315H535M40 400H535M40 485H535M40 570H535"/><path d="M85 95V650M180 95V650M275 95V650M370 95V650M465 95V650"/></g>
+<g fill="#e8c66e"><circle cx="85" cy="400" r="9"/><circle cx="180" cy="315" r="9"/><circle cx="275" cy="365" r="9"/><circle cx="370" cy="230" r="9"/><circle cx="465" cy="145" r="9"/></g><path d="M85 400L180 315L275 365L370 230L465 145" fill="none" stroke="#e8c66e" stroke-width="4"/>
+<rect x="38" y="36" width="180" height="34" rx="17" fill="#fff" opacity=".14"/><text x="58" y="59" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="13" font-weight="700" fill="#fff">KSMO ONLINE WEBINAR</text>
+<text x="42" y="144" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="15" font-weight="700" fill="#d8c9ff">연구방법론 온라인 세미나</text>
+<text x="42" y="205" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="39" font-weight="800" fill="#fff"><tspan x="42">조합경영</tspan><tspan x="42" dy="56">연구방법론</tspan></text>
+<rect x="42" y="470" width="491" height="214" fill="#fff" opacity=".94"/>
+<text x="68" y="516" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="12" font-weight="700" fill="#6554a3">PROGRAM</text><text x="68" y="557" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="18" font-weight="700" fill="#20283b">비교사례 연구의 설계</text><text x="68" y="594" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="18" font-weight="700" fill="#20283b">조합 성과 측정과 데이터 해석</text>
+<line x1="68" y1="622" x2="507" y2="622" stroke="#d7dbe6"/><text x="68" y="655" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="13" fill="#596172">2026년 일정 미정 · 온라인 개최</text>
+<rect x="42" y="728" width="491" height="76" fill="#0f1d4d" opacity=".78"/><text x="68" y="760" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="12" font-weight="700" fill="#b9c6ef">주최</text><text x="68" y="786" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="15" fill="#fff">한국조합경영학회 연구방법론분과</text>
+<text x="42" y="859" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="22" font-weight="800" fill="#fff">KSMO</text><text x="132" y="857" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="11" fill="#cbd5f5">KNOWLEDGE · METHOD · EVIDENCE</text>
+</g></svg>

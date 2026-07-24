@@ -1,16 +1,37 @@
 # 한국조합경영학회 홈페이지
 
-빌드 도구나 프레임워크 없이 순수 HTML/CSS/JS 한 페이지로 구성된 정적 사이트입니다.
+빌드 도구나 프레임워크 없이 순수 HTML/CSS/JS로 구성된 다중 페이지 정적 사이트입니다. 홈은 전체 사업을 소개하는 허브이며, 운영성 콘텐츠는 독립 페이지로 관리합니다.
 
 ## 구조
 
 ```
-coop/
-├── index.html      # 전체 페이지 (CSS/JS 인라인 포함)
-├── favicon.svg      # 파비콘
-├── robots.txt        # 검색엔진 크롤링 허용 + sitemap 위치
-├── sitemap.xml        # 사이트맵 (1페이지)
-└── vercel.json         # 정적 사이트 배포 설정 (clean URL, 캐시 헤더)
+association_coop/
+├── index.html            # 홈 · 전체 사업 개요
+├── about.html            # 학회소개 · 정관 · 임원 · 위원회
+├── events.html           # 학술행사
+├── journal.html          # 학술지 조합경영연구
+├── newsletter.html       # 소식지 조합과 경영
+├── college.html          # 한국조합경영대학교 · KSMO MBA
+├── certification.html    # 교육·자격·인증
+├── awards.html           # 대한민국 조합경영대상
+├── membership.html       # 입회 안내
+├── bylaws.html           # 학회 정관 전문
+├── assets/
+│   ├── css/              # 공통 스타일시트
+│   ├── js/               # 공통 인터랙션
+│   ├── images/
+│   │   ├── brand/        # 로고·파비콘
+│   │   ├── awards/       # 경영대상 이미지
+│   │   ├── college/      # 교육 페이지 이미지
+│   │   ├── events/       # 학술행사 포스터
+│   │   ├── journal/      # 학술지 표지
+│   │   ├── newsletter/   # 소식지 기사 이미지
+│   │   └── people/       # 회장·교수진 사진
+│   └── sources/
+│       └── events/       # 행사 포스터 편집 원본 SVG
+├── robots.txt            # 검색엔진 크롤링 허용 + sitemap 위치
+├── sitemap.xml           # 전체 공개 페이지 사이트맵
+└── vercel.json           # 정적 사이트 배포 설정
 ```
 
 빌드 스텝이 없으므로 `package.json`/`node_modules`가 필요 없습니다.
@@ -37,9 +58,8 @@ vercel --prod # 프로덕션 배포
 ```
 
 ### Vercel 무료 플랜에 최적화된 설정
-- `vercel.json`에 `@vercel/static` 빌드를 명시하여 정적 파일만 배포
-- `cleanUrls`와 `trailingSlash`를 사용해 URL을 단순화
-- `favicon.svg`는 장기 캐시로 설정
+- `vercel.json`의 `cleanUrls`와 `trailingSlash` 설정으로 URL을 단순화
+- 로고·파비콘·공통 CSS/JS에 정적 캐시 헤더 적용
 - 빌드 과정이 없으므로 `package.json`/`node_modules`가 필요 없음
 
 ## 배포 후 할 일

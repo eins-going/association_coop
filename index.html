@@ -10,7 +10,7 @@
 <meta property="og:title" content="한국조합경영학회 — Korean Society for Management Studies of Member-Based Organizations">
 <meta property="og:description" content="대한민국의 법정조합과 조합형 조직을 하나의 조직범주로 연구하는 학술단체.">
 <title>한국조합경영학회 — Korean Society for Management Studies of Member-Based Organizations</title>
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="assets/images/brand/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -213,6 +213,10 @@ section{padding:88px 0}
 .cert-card .price small{display:block;font-family:var(--sans);font-weight:400;font-size:11px;color:var(--ink-soft)}
 .link-more{font-family:var(--sans);font-size:13px;font-weight:700;color:var(--accent-dark)}
 .link-more::after{content:" →"}
+.section-actions{display:flex;justify-content:flex-end;margin-top:30px}
+.section-more{display:inline-flex;align-items:center;gap:10px;width:max-content;padding:11px 18px;border:1px solid var(--line-dark);border-radius:999px;font-size:13px;font-weight:700;background:var(--white)}
+.section-more span{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:var(--ink);color:var(--white);font-size:16px;line-height:1}
+.section-more:hover{border-color:var(--ink)}
 .cert-ethics{margin-top:28px;background:var(--gold-soft);border-left:4px solid var(--gold-dark);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:20px 26px;font-size:13.5px;color:var(--ink-soft);line-height:1.85}
 .cert-ethics b{color:var(--ink)}
 
@@ -485,16 +489,16 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
 <div class="utility">
   <div class="wrap">
     <div><span>사단법인 추진 학술단체</span><span>ISSN 발급 준비</span></div>
-    <div><span><a href="#membership">회원가입</a></span><span><a href="#">로그인</a></span><span><a href="#">ENG</a></span></div>
+    <div><span><a href="membership.html">회원가입</a></span><span>로그인 준비 중</span><span>ENG 준비 중</span></div>
   </div>
 </div>
 
 <!-- 헤더 -->
 <header>
   <div class="wrap masthead">
-    <a class="brand" href="#">
+    <a class="brand" href="index.html">
       <div class="seal-mark" aria-hidden="true">
-        <img src="ksmo-logo.png" alt="">
+        <img src="assets/images/brand/ksmo-logo.png" alt="">
       </div>
       <div class="brand-text">
         <div class="kr">한국조합경영학회</div>
@@ -504,14 +508,14 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
     <button class="nav-toggle" aria-controls="nav-main" aria-expanded="false" aria-label="메뉴 열기">☰</button>
     <nav id="nav-main" class="main" aria-label="주요 메뉴">
       <ul>
-        <li><a href="#about">학회소개</a></li>
-        <li><a href="#greeting">인사말</a></li>
-        <li><a href="#org">조직도</a></li>
-        <li><a href="#events">학술행사</a></li>
-        <li><a href="#pub">발간물</a></li>
-        <li><a href="#cert">자격·인증</a></li>
-        <li><a href="#awards">대한민국 조합경영대상</a></li>
-        <li><a href="#membership" class="join-btn">입회 안내</a></li>
+        <li><a href="about.html">학회소개</a></li>
+        <li><a href="events.html">학술행사</a></li>
+        <li><a href="journal.html">학술지</a></li>
+        <li><a href="newsletter.html">소식지</a></li>
+        <li><a href="college.html">MBA</a></li>
+        <li><a href="certification.html">자격·인증</a></li>
+        <li><a href="awards.html">경영대상</a></li>
+        <li><a href="membership.html" class="join-btn">입회 안내</a></li>
       </ul>
     </nav>
   </div>
@@ -526,8 +530,8 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
     <h1>조합의 고유한 원리를<br><em>조합경영학</em>으로 체계화합니다</h1>
     <p class="thesis">조합의 소유·의사결정·통제·성과 배분 원리를 비교 연구하여 조합경영학의 이론과 실무 기준을 세웁니다.</p>
     <div class="actions">
-      <a class="btn btn-seal" href="#membership">창립회원 가입</a>
-      <a class="btn btn-ghost" href="#org">학회 조직 보기</a>
+      <a class="btn btn-seal" href="membership.html">창립회원 가입</a>
+      <a class="btn btn-ghost" href="about.html#org">학회 조직 보기</a>
     </div>
   </div>
   <div class="hero-stats">
@@ -579,7 +583,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
     </div>
     <div class="greeting">
       <div class="president-card">
-        <img class="president-photo" src="학회장%20김진용.jpg" alt="김진용 한국조합경영학회 초대 회장">
+        <img class="president-photo" src="assets/images/people/president-kim-jinyong.jpg" alt="김진용 한국조합경영학회 초대 회장">
         <div class="signature">
           <b>김진용</b>
           <span>한국조합경영학회 초대 회장 · 경영학 박사</span>
@@ -591,108 +595,6 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
         <p>이를 위해 학술연구의 엄밀성과 현장의 경험을 연결하겠습니다. 조합의 의사결정 구조, 조합원 권리, 집행기관의 책임, 회계와 감사, 위험관리와 성과 배분을 종합적으로 살피고, 각 조합 유형에 적용할 수 있는 기준과 교육 체계를 마련하겠습니다.</p>
         <p>연구자, 전문가, 조합장과 실무자가 함께 지식을 만들고 현장에서 검증할 때 조합경영학은 살아 있는 학문이 될 수 있습니다. 한국조합경영학회가 조합의 투명성과 책임경영, 조합원 가치 향상에 기여하는 공론장이 되도록 최선을 다하겠습니다.</p>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- 조직도 -->
-<section id="org" class="sec-alt">
-  <div class="wrap">
-    <div class="sec-head">
-      <div class="no">조직도</div>
-      <h2>학술과 실무를 잇는 조직 체계</h2>
-      <p>본 학회는 이론 연구를 담당하는 <b>학술연구 부문</b>과 현장 적용을 검토하는 <b>실무경영 부문</b>으로 구성됩니다. 두 부문은 공동위원회를 통해 표준·교육·정책 과제를 함께 추진하며, 자격·인증 심사의 독립성 확보를 운영 원칙으로 삼습니다.</p>
-    </div>
-
-    <div class="org-legend" aria-hidden="true">
-      <span><i class="chip c-top"></i>총괄기구</span>
-      <span><i class="chip c-aca"></i>학술연구 부문</span>
-      <span><i class="chip c-prac"></i>실무경영 부문</span>
-      <span><i class="chip c-ind"></i>독립 운영기구</span>
-    </div>
-
-    <div class="org">
-      <div class="org-node">총 회<small>GENERAL ASSEMBLY · 최고 의결기구</small></div>
-      <div class="vline"></div>
-      <div class="org-node">회장 · 이사회<small>PRESIDENT &amp; BOARD OF DIRECTORS</small></div>
-      <div class="vline"></div>
-      <div class="org-tier2">
-        <div class="org-node sub">감사<small>AUDITORS</small></div>
-        <div class="org-node sub secretariat">사무국<small>SECRETARIAT</small></div>
-        <div class="org-node sub">연구윤리위원회<small>RESEARCH ETHICS</small></div>
-      </div>
-      <div class="hline-wrap"><span class="drop-l"></span><span class="drop-r"></span></div>
-
-      <!-- 이중구조: 두 날개 -->
-      <div class="twin">
-        <div class="wing academic">
-          <div class="wing-head">
-            <div class="tag">ACADEMIC DIVISION</div>
-            <h3>학술연구 부문</h3>
-            <p>부문장: 학술부회장 · 교수 및 박사급 연구자 중심 — 이론 연구를 담당합니다</p>
-          </div>
-          <div class="wing-body">
-            <div class="branch-title">공통이론 분과 (8)</div>
-            <div class="cells">
-              <div class="cell"><b>조합조직론</b><span>조직구조 · 규모 · 전문화</span></div>
-              <div class="cell"><b>조합거버넌스</b><span>총회 · 이사회 · 감사 · 조합장</span></div>
-              <div class="cell"><b>조합법제</b><span>법인격 · 설립 · 의결권 · 해산</span></div>
-              <div class="cell"><b>조합경제학</b><span>거래비용 · 대리문제 · 공동재</span></div>
-              <div class="cell"><b>조합회계·감사</b><span>회계기준 · 내부통제 · 공시</span></div>
-              <div class="cell"><b>조합재무·위험관리</b><span>자본조달 · 분담금 · 공제위험</span></div>
-              <div class="cell"><b>조합성과평가</b><span>조합원 편익 · 지속가능성</span></div>
-              <div class="cell"><b>조합윤리·분쟁</b><span>이해상충 · 조합원 보호</span></div>
-            </div>
-            <div class="branch-title">학술기구</div>
-            <div class="cells">
-              <div class="cell"><b>학술위원회</b><span>학술대회 · 연구과제 총괄</span></div>
-              <div class="cell"><b>편집위원회</b><span>『조합경영연구』 발행 · 심사</span></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="wing practice">
-          <div class="wing-head">
-            <div class="tag">PRACTITIONER DIVISION</div>
-            <h3>실무경영 부문</h3>
-            <p>부문장: 실무부회장 · 현직 조합장과 임원, 전문직 실무자 중심 — 현장 적용을 검토합니다</p>
-          </div>
-          <div class="wing-body">
-            <div class="branch-title">유형별 실무분과 (7)</div>
-            <div class="cells">
-              <div class="cell"><b>협동조합경영</b><span>기본법 협동조합 · 농협 · 수협 · 신협</span></div>
-              <div class="cell"><b>노동조합경영</b><span>일반 · 교원 · 공무원 노조</span></div>
-              <div class="cell"><b>주택·정비조합경영</b><span>지역주택 · 재개발 · 재건축</span></div>
-              <div class="cell"><b>투자조합경영</b><span>벤처 · 개인 · 신기술 투자조합</span></div>
-              <div class="cell"><b>공제조합경영</b><span>건설 · 교통 · 소비자피해 공제</span></div>
-              <div class="cell"><b>연구·산업조합경영</b><span>산업기술연구 · 해운 · 직능조합</span></div>
-              <div class="cell"><b>계약조합경영</b><span>민법상 조합 · 익명 · 합자조합</span></div>
-            </div>
-            <div class="branch-title">실무기구</div>
-            <div class="cells">
-              <div class="cell"><b>조합장협의회</b><span>현장 의제 발굴 · 사례 제공</span></div>
-              <div class="cell"><b>경영진단지원단</b><span>조합 시범진단 · 컨설팅</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 공동위원회 -->
-      <div class="bridge"><span>공동위원회 — 두 부문이 함께 만드는 표준과 정책</span></div>
-      <div class="joint">
-        <div class="cell"><b>표준위원회</b><span>조합경영표준 · 표준정관 개발</span></div>
-        <div class="cell"><b>교육위원회</b><span>조합장 전문교육 · 연수과정</span></div>
-        <div class="cell"><b>정책위원회</b><span>정책세미나 · 대정부 제안</span></div>
-        <div class="cell"><b>홍보출판위원회</b><span>소식지 · 연구총서 · 웹진</span></div>
-      </div>
-
-      <!-- 독립기구 -->
-      <div class="ind-row">
-        <div class="ind"><b>자격검정원</b><span>조합경영지도사 교육·검정</span></div>
-        <div class="ind"><b>인증원</b><span>조합거버넌스·경영품질 인증</span></div>
-        <div class="ind"><b>독립심의위원회</b><span>자격·인증 이의신청 및 윤리심사</span></div>
-      </div>
-      <p class="ind-note">자격검정원과 인증원은 <em>심사의 독립성과 이해상충 방지</em>를 운영 원칙으로 삼습니다. 세부 심사·이의 절차와 독립심의위원회 구성 기준은 관련 규정에 명시하여 공개할 예정입니다.</p>
     </div>
   </div>
 </section>
@@ -716,40 +618,41 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
         <div class="date">2026. 09. 12 (토)<small>서울 · 장소 추후 안내</small></div>
         <div class="kind forum">FORUM</div>
         <div class="title"><b>창립 학술대회 — 조합경영학의 연구대상과 방법론</b><span>기조발표: 무엇을 조합으로 볼 것인가 · 법정조합 총람 공개 예정</span></div>
-        <a class="cta" href="#">사전등록 →</a>
+        <a class="cta" href="events.html">사전등록 안내 →</a>
       </div>
       <div class="event" data-kind="webinar">
         <div class="date">2026. 08. 21 (금)<small>온라인 · 접속 방법 추후 안내</small></div>
         <div class="kind webinar">WEBINAR</div>
         <div class="title"><b>지역주택조합, 조합원은 무엇을 알 권리가 있는가</b><span>주택·정비조합경영분과 × 조합법제분과 공동 · 질의응답 60분</span></div>
-        <a class="cta" href="#">참가 신청 →</a>
+        <a class="cta" href="events.html">참가 안내 →</a>
       </div>
       <div class="event" data-kind="seminar">
         <div class="date">2026. 08. 28 (금)<small>서울 · 장소 추후 안내</small></div>
         <div class="kind seminar">SEMINAR</div>
         <div class="title"><b>정책세미나 — 조합 회계공시 제도의 개선 방향</b><span>조합회계·감사분과 주관 · 감독기관 및 국회 관계자 초청 토론</span></div>
-        <a class="cta" href="#">방청 신청 →</a>
+        <a class="cta" href="events.html">방청 안내 →</a>
       </div>
       <div class="event" data-kind="forum">
         <div class="date">2026. 10. 16 (금)<small>서울 · 장소 추후 안내</small></div>
         <div class="kind forum">FORUM</div>
         <div class="title"><b>제1회 월례 조합경영포럼 — 벤처투자조합 GP의 책임구조</b><span>투자조합경영분과 · 조합장협의회 사례발표 병행</span></div>
-        <a class="cta" href="#">사전등록 →</a>
+        <a class="cta" href="events.html">사전등록 안내 →</a>
       </div>
       <div class="event" data-kind="webinar">
         <div class="date">2026. 11. 06 (금)<small>온라인 · 접속 방법 추후 안내</small></div>
         <div class="kind webinar">WEBINAR</div>
         <div class="title"><b>협동조합 이사회는 무엇을 감독해야 하는가</b><span>조합거버넌스분과 주관 · 향후 교육과정 연계 검토</span></div>
-        <a class="cta" href="#">참가 신청 →</a>
+        <a class="cta" href="events.html">참가 안내 →</a>
       </div>
       <div class="event" data-kind="seminar">
         <div class="date">2026. 12. 04 (금)<small>서울 · 장소 추후 안내</small></div>
         <div class="kind seminar">SEMINAR</div>
         <div class="title"><b>공제조합의 지급여력과 위험관리 세미나</b><span>조합재무·위험관리분과 × 공제조합경영분과 공동</span></div>
-        <a class="cta" href="#">방청 신청 →</a>
+        <a class="cta" href="events.html">방청 안내 →</a>
       </div>
     </div>
     <p class="event-note"><b>웨비나 아카이브 —</b> 학술행사 영상과 발표 자료를 회원이 다시 볼 수 있는 아카이브를 준비하고 있습니다.</p>
+    <div class="section-actions"><a class="section-more" href="events.html"><span>+</span> 학술행사 자세히 보기</a></div>
   </div>
 </section>
 
@@ -759,12 +662,12 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
     <div class="sec-head">
       <div class="no">발간물</div>
       <h2>학술지와 소식지</h2>
-      <p>학술지 『조합경영연구』는 향후 KCI 등재를 목표로 편집·심사·연구윤리 체계를 준비하고 있으며, 소식지 『조합과 경영』은 회원과 현장을 잇는 격월간 매체로 발간할 예정입니다.</p>
+      <p>학술지 조합경영연구는 향후 KCI 등재를 목표로 편집·심사·연구윤리 체계를 준비하고 있으며, 소식지 조합과 경영은 회원과 현장을 잇는 격월간 매체로 발간할 예정입니다.</p>
     </div>
     <div class="pub-grid">
       <div class="journal">
         <div class="journal-info">
-          <h3>『조합경영연구』</h3>
+          <h3>조합경영연구</h3>
           <div class="en">JOURNAL OF MEMBER-BASED ORGANIZATION MANAGEMENT STUDIES</div>
           <p>조합의 조직·거버넌스·법제·회계·재무·성과에 관한 이론 및 실증 논문, 판례·사례 연구와 정책 논문을 게재할 본 학회의 공식 학술지입니다.</p>
           <div class="journal-meta">
@@ -773,11 +676,11 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
             <div><b>편집 원칙</b>편집 독립성 · 소속 기관 다양성 확보</div>
             <div><b>연구윤리</b>연구윤리 규정 · 이해상충 공개</div>
           </div>
-          <a class="link-more" href="#">논문 투고 규정 · 원고 모집</a>
+          <a class="section-more" href="journal.html"><span>+</span> 학술지 자세히 보기</a>
         </div>
       </div>
       <div class="newsletter">
-        <h3>소식지 『조합과 경영』</h3>
+        <h3>소식지 조합과 경영</h3>
         <div class="nl-tag">BIMONTHLY NEWSLETTER</div>
         <p>분과 연구 동향, 조합 현장 인터뷰, 판례·제도 브리핑과 학술행사 일정을 담은 격월간 소식지를 준비하고 있습니다.</p>
         <ul>
@@ -785,11 +688,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
           <li>기획 주제 — 조합장 인터뷰: 현장에서 본 거버넌스 <span>발간 준비</span></li>
           <li>창간호 기획 — 법정조합의 범위와 분류 <span>발간 준비</span></li>
         </ul>
-        <form class="nl-form" onsubmit="event.preventDefault();this.querySelector('button').textContent='신청 완료';">
-          <label for="nl-email" style="position:absolute;left:-9999px">이메일 주소</label>
-          <input id="nl-email" type="email" placeholder="이메일 주소" required>
-          <button type="submit">구독 신청</button>
-        </form>
+        <a class="section-more" href="newsletter.html"><span>+</span> 소식지 자세히 보기</a>
       </div>
     </div>
   </div>
@@ -822,7 +721,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
           </ul>
           <div class="foot">
             <div class="price">교육 45시간 과정안<small>일정·비용은 확정 후 공지</small></div>
-            <a class="link-more" href="#">도입 계획 안내</a>
+            <a class="link-more" href="certification.html">도입 계획 안내</a>
           </div>
         </div>
       </div>
@@ -844,7 +743,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
           </ul>
           <div class="foot">
             <div class="price">교육과정 설계 중<small>일정·정원은 확정 후 공지</small></div>
-            <a class="link-more" href="#">과정 준비 안내</a>
+            <a class="link-more" href="certification.html">과정 준비 안내</a>
           </div>
         </div>
       </div>
@@ -866,7 +765,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
           </ul>
           <div class="foot">
             <div class="price">인증 기준 개발 중<small>심사 절차·비용은 추후 공지</small></div>
-            <a class="link-more" href="#">개발 계획 안내</a>
+            <a class="link-more" href="certification.html">개발 계획 안내</a>
           </div>
         </div>
       </div>
@@ -888,12 +787,13 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
           </ul>
           <div class="foot">
             <div class="price">시범사업 준비 중<small>도입 일정은 확정 후 공지</small></div>
-            <a class="link-more" href="#">시범사업 안내</a>
+            <a class="link-more" href="certification.html">시범사업 안내</a>
           </div>
         </div>
       </div>
     </div>
     <div class="cert-ethics"><b>추진 원칙 —</b> 자격·인증 사업은 「연구대상 확립 → 공통이론 개발 → 학술성과 축적 → 교육과정 개발 → 평가 기준 개발 → 시범 운영」의 단계에 따라 준비합니다. 심사 독립성과 이해상충 방지 원칙을 관련 규정에 반영하고, 확정된 기준은 홈페이지에 공개할 예정입니다.</div>
+    <div class="section-actions"><a class="section-more" href="certification.html"><span>+</span> 자격·인증 자세히 보기</a></div>
   </div>
 </section>
 
@@ -910,7 +810,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
         <div class="year">2026 KOREA MEMBER-BASED ORGANIZATION MANAGEMENT AWARDS</div>
         <h3>2026 대한민국 조합경영대상</h3>
         <p>한 해 동안 모범적인 조합경영 성과를 보여준 조합과 조합장을 선정하고, 우수 사례를 학술대회와 발간물을 통해 공유할 계획입니다.</p>
-        <img class="award-emblem" src="award-laurel.png" alt="금색 월계수와 열린 책으로 표현한 대한민국 조합경영대상 상징">
+        <img class="award-emblem" src="assets/images/awards/award-laurel.png" alt="금색 월계수와 열린 책으로 표현한 대한민국 조합경영대상 상징">
         <div class="status">공모·심사 일정 · 확정 후 공개</div>
       </div>
       <div class="award-list" aria-label="대한민국 조합경영대상 시상 부문">
@@ -933,6 +833,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
       </div>
     </div>
     <p class="award-note">심사 부문과 기준은 조합 유형별 특성을 반영해 마련하고 사전에 공개할 예정이며, 최종 수상자는 독립적인 심의 절차를 거쳐 선정할 계획입니다.</p>
+    <div class="section-actions"><a class="section-more" href="awards.html"><span>+</span> 대한민국 조합경영대상 자세히 보기</a></div>
   </div>
 </section>
 
@@ -949,7 +850,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
         <li>조합 관련 기관·법인</li>
       </ul>
     </div>
-    <a class="btn" href="#">입회 원서 작성</a>
+    <a class="btn" href="membership.html">입회 안내 보기</a>
   </div>
 </section>
 
@@ -961,7 +862,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
     <div class="foot-grid">
       <div class="foot-brand">
         <div class="foot-brand-head">
-          <img class="foot-brand-logo" src="ksmo-logo.png" alt="" aria-hidden="true">
+          <img class="foot-brand-logo" src="assets/images/brand/ksmo-logo.png" alt="" aria-hidden="true">
           <div class="foot-brand-names">
             <div class="kr">한국조합경영학회</div>
             <div class="en">Korean Society for Management Studies of Member-Based Organizations</div>
@@ -972,30 +873,30 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
       <div>
         <h4>학회</h4>
         <ul>
-          <li><a href="#about">학회 소개</a></li>
-          <li><a href="#greeting">회장 인사말</a></li>
-          <li><a href="#org">조직도</a></li>
-          <li><a href="#">정관 · 제규정</a></li>
-          <li><a href="#">연구윤리규정</a></li>
+          <li><a href="index.html#about">학회 소개</a></li>
+          <li><a href="index.html#greeting">회장 인사말</a></li>
+          <li><a href="about.html#org">조직도</a></li>
+          <li><span>정관 · 제규정 (준비 중)</span></li>
+          <li><span>연구윤리규정 (준비 중)</span></li>
         </ul>
       </div>
       <div>
         <h4>사업</h4>
         <ul>
-          <li><a href="#events">학술행사</a></li>
-          <li><a href="#pub">발간물</a></li>
-          <li><a href="#cert">조합경영지도사</a></li>
-          <li><a href="#cert">거버넌스 인증</a></li>
-          <li><a href="#awards">대한민국 조합경영대상</a></li>
+          <li><a href="events.html">학술행사</a></li>
+          <li><a href="journal.html">학술지</a></li>
+          <li><a href="newsletter.html">소식지</a></li>
+          <li><a href="certification.html">자격·인증</a></li>
+          <li><a href="awards.html">대한민국 조합경영대상</a></li>
         </ul>
       </div>
       <div>
         <h4>자료</h4>
         <ul>
-          <li><a href="#">법정조합 총람</a></li>
-          <li><a href="#">한국 조합분류체계</a></li>
-          <li><a href="#">조합경영 8대 원칙</a></li>
-          <li><a href="#">표준정관 자료실</a></li>
+          <li><span>법정조합 총람 (준비 중)</span></li>
+          <li><span>한국 조합분류체계 (준비 중)</span></li>
+          <li><span>조합경영 8대 원칙 (준비 중)</span></li>
+          <li><span>표준정관 자료실 (준비 중)</span></li>
         </ul>
       </div>
     </div>

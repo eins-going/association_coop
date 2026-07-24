@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900"><g transform="translate(162.5 0)">
+<rect width="575" height="900" fill="#f4f1e9"/><rect x="0" y="0" width="575" height="22" fill="#16337d"/>
+<path d="M315 22H575V420L410 315Z" fill="#173b91"/><circle cx="493" cy="165" r="118" fill="#d5a947" opacity=".92"/><circle cx="493" cy="165" r="76" fill="#173b91"/>
+<g fill="none" stroke="#16337d" opacity=".25"><circle cx="425" cy="380" r="120"/><circle cx="425" cy="380" r="78"/><path d="M305 380H545M425 260V500"/></g>
+<text x="42" y="78" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="18" font-weight="700" fill="#16337d">KSMO · FOUNDING CONFERENCE</text>
+<text x="42" y="132" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="15" font-weight="700" fill="#9c751d">한국조합경영학회 창립 학술대회</text>
+<text x="42" y="205" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="42" font-weight="800" fill="#111827"><tspan x="42">조합경영학의</tspan><tspan x="42" dy="58">연구 범위와</tspan><tspan x="42" dy="58">학문적 과제</tspan></text>
+<rect x="42" y="410" width="78" height="5" fill="#d5a947"/><text x="42" y="458" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="17" font-weight="700" fill="#16337d">서로 다른 조합을 하나의 조직범주로</text>
+<text x="42" y="490" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="14" fill="#505867">거버넌스 · 회계 · 감사 · 위험관리 · 성과</text>
+<rect x="42" y="568" width="491" height="188" rx="2" fill="#fff" opacity=".93"/>
+<text x="68" y="612" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="12" font-weight="700" fill="#8b93a2">DATE</text><text x="164" y="612" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="17" font-weight="700" fill="#182234">2026년 하반기 예정</text>
+<line x1="68" y1="632" x2="507" y2="632" stroke="#d9dde4"/><text x="68" y="670" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="12" font-weight="700" fill="#8b93a2">VENUE</text><text x="164" y="670" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="16" fill="#182234">장소 확정 후 안내</text>
+<line x1="68" y1="690" x2="507" y2="690" stroke="#d9dde4"/><text x="68" y="728" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="12" font-weight="700" fill="#8b93a2">HOST</text><text x="164" y="728" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="16" fill="#182234">한국조합경영학회</text>
+<rect x="0" y="812" width="575" height="88" fill="#11285f"/><text x="42" y="850" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="22" font-weight="800" fill="#fff">KSMO</text><text x="42" y="876" font-family="Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="12" fill="#c7d2ee">Korean Society for Management Studies of Member-Based Organizations</text>
+</g></svg>
