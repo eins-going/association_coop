@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>농협의 변천과 조합원의 권리에 대한 고찰</title>
+<style>
+  :root {
+    --ink: #111318; --muted: #626773; --line: #e2e5eb; --accent: #1428a0; --bg: #fbfaf7;
+    --sans: 'SamsungOneKorean','SamsungOne','Pretendard Variable','Pretendard','Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',Arial,sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.75; font-size: 17px; }
+  article { max-width: 760px; margin: 0 auto; padding: 56px 24px 96px; }
+  h1.title { text-align: center; font-size: 1.9rem; line-height: 1.4; margin: 0 0 6px; font-weight: 700; }
+  .subtitle { font-size: 1.25rem; font-weight: 500; color: var(--ink); }
+  .authors { text-align: center; font-size: 1rem; margin: 0 0 4px; }
+  .affiliations { text-align: center; font-size: .88rem; color: var(--muted); margin: 0 0 22px; }
+  .meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px;
+    font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line); padding: 10px 0; margin-bottom: 34px; }
+  .oa-badge { display: inline-block; background: var(--accent); color: #fff;
+    padding: 1px 9px; border-radius: 3px; font-size: .76rem; letter-spacing: .04em; }
+  .abstract { background: #f4f6f9; padding: 20px 24px; margin-bottom: 14px; font-size: .95rem; }
+  .abstract h2 { margin: 0 0 8px; font-size: 1rem; letter-spacing: .08em; border: none; padding: 0; }
+  .keywords { font-size: .9rem; margin: 0 0 40px; }
+  .keywords strong { color: var(--accent); }
+  section { margin-bottom: 36px; }
+  h2 { font-size: 1.3rem; border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 44px 0 16px; }
+  h3 { font-size: 1.08rem; margin: 28px 0 10px; }
+  p { margin: 0 0 16px; text-align: justify; word-break: normal; overflow-wrap: anywhere; hyphens: auto; }
+  a { color: var(--accent); }
+  figure { margin: 28px 0; text-align: center; }
+  figcaption { font-family: var(--sans); font-size: .92rem; color: var(--ink); margin-top: 10px; text-align: center; }
+  .fignote { font-family: var(--sans); font-size: .85rem; color: var(--muted); }
+  table { border-collapse: collapse; width: 100%; margin: 24px 0; font-size: .87rem; font-family: var(--sans); }
+  caption { caption-side: top; text-align: left; font-size: .88rem; font-family: var(--sans); color: var(--muted); padding-bottom: 6px; }
+  th, td { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 7px 9px; text-align: left; vertical-align: top; }
+  thead th { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); }
+  tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+  .references ol { padding-left: 0; list-style: none; }
+  .references li { padding-left: 2em; text-indent: -2em; margin-bottom: 12px; font-size: .92rem; }
+  .statement { font-size: .88rem; color: var(--muted); }
+  .en-title { text-align: center; font-size: 1.2rem; font-weight: 700; line-height: 1.45; margin: 0 0 6px; }
+  .en-authors { text-align: center; font-size: .95rem; color: var(--muted); margin: 0 0 18px; }
+  .langbar { max-width: 760px; margin: 0 auto; padding: 18px 24px 0; text-align: right; }
+  .langbar button { font-family: var(--sans); font-size: .85rem; background: #fff; color: var(--muted);
+    border: 1px solid var(--line); padding: 5px 14px; cursor: pointer; }
+  .langbar button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  @media screen and (max-width: 640px) {
+    article { padding-left: 18px; padding-right: 18px; }
+    p { text-align: start; word-break: keep-all; overflow-wrap: break-word; hyphens: manual; }
+  }
+  @media print { body { background: #fff; font-size: 11pt; } article { max-width: 100%; padding: 0; }
+    a { color: inherit; text-decoration: none; } .langbar { display: none; } }
+</style>
+</head>
+<body>
+<div class="langbar">
+  <button id="btn-ko" class="active" onclick="setLang('ko')">한국어</button>
+  <button id="btn-en" onclick="setLang('en')">English</button>
+</div>
+<article id="art-ko">
+  <h1 class="title">농협의 변천과 조합원의 권리에 대한 고찰</h1>
+  <p class="authors">김진용</p>
+  <p class="affiliations">[소속기관]</p>
+  <div class="meta">
+    <span class="oa-badge">OPEN ACCESS</span>
+    <span>Received: [접수일]</span>
+    <span>Accepted: [게재확정일]</span>
+    <span>Published online: [게재일]</span>
+    <span>License: CC BY 4.0</span>
+  </div>
+
+  <div class="abstract">
+    <h2>초록</h2>
+    <p>본 연구는 1961년 종합농협 출범 이후 농업협동조합의 제도 변천을 조합원 권리의 확장과 수축이라는 단일한 축으로 재구성하고, 각 시기의 제도 개혁이 조합원 권리의 실질화에 어떻게 작용하였는지를 고찰하였다. 조합원 권리를 운영참여권, 경제적 권리, 정보·통제권의 세 범주로 유형화하고, 농협의 변천을 국가가 임원 선임과 사업을 후견하던 관제화기(1961–1987), 조합장·중앙회장 직선제가 도입된 형식적 민주화기(1988–2010), 신용·경제사업 분리와 선거 관리의 외부 위탁이 이루어진 구조재편기(2011–현재)로 구분하여 분석하였다. 분석 결과, 농협의 변천은 조합원 권리의 형식적 확장과 실질적 제약이 교차해 온 과정으로 나타났다. 관제화기에는 권리의 형식 자체가 유보되었고, 형식적 민주화기에는 선거권이 회복되었으나 금권 선거와 경영자 지배가 권리 행사를 왜곡하였으며, 구조재편기의 개혁은 권리의 실질화보다 권리 행사 조건의 재배치에 가까웠다. 특히 지주회사 체제로의 전환은 조합원과 사업 조직 사이의 대리 사슬을 연장함으로써 통제권의 실질적 행사를 더욱 어렵게 하는 역설을 낳았다. 본 연구는 이러한 분석에 기초하여 향후 농협 개혁의 준거를 권리의 형식적 보장에서 권리 행사 조건의 실질화로 전환할 것을 제안하였다.</p>
+  </div>
+  <p class="keywords"><strong>주제어:</strong> 농업협동조합; 조합원 권리; 조합원 주권; 제도 변천; 신용·경제사업 분리; 협동조합 지배구조</p>
+
+  <section id="s1">
+    <h2>1. 서론</h2>
+    <h3>1.1. 문제의 제기</h3>
+    <p>농업협동조합(이하 농협)은 한국에서 가장 오래되고 가장 큰 협동조합 조직이다. 1961년 구 농업협동조합과 농업은행의 통합으로 종합농협 체제가 출범한 이래, 농협은 반세기가 넘도록 농업 금융과 유통, 농정 집행의 중추를 담당해 왔다. 그 규모와 기능의 무게에 비례하여 농협의 제도는 끊임없는 개혁 논의의 대상이 되어 왔다. 조합장 선출 방식은 임명제에서 직선제로, 다시 선거 관리의 외부 위탁으로 바뀌었고, 중앙회장 선출 방식은 임명제, 직선제, 간선제를 오갔으며, 2011년 농협법 개정으로 중앙회의 신용사업과 경제사업이 분리되어 지주회사 체제가 들어섰다. 농협의 역사는 곧 제도 개혁의 역사라 하여도 지나치지 않다.</p>
+    <p>그런데 이 개혁의 연쇄를 관통하는 질문, 즉 "일련의 제도 변천이 조합원의 권리를 실질적으로 확장하였는가"라는 질문은 의외로 정면으로 다루어지지 않았다. 협동조합의 존재 이유는 조합원이 소유하고 통제하며 그 편익을 누린다는 데 있으며(International Co-operative Alliance [ICA], 1995), 농협 제도의 정당성 역시 궁극적으로 조합원 권리의 실현 정도로 평가되어야 한다. 그러나 농협 개혁 논의는 대체로 사업의 효율성, 경영의 건전성, 지배구조의 투명성이라는 조직 중심의 준거로 진행되어 왔고, 개혁이 조합원 개개인의 권리 지형에 남긴 효과는 부차적 논점에 머물렀다. 협동조합의 원칙이 조합의 실천에 반영되지 못하면 협동조합의 정체성 자체가 훼손된다는 지적(최진배, 권오혁, 2017)에 비추어 보면, 이는 농협 연구의 중요한 공백이다.</p>
+    <p>본 연구는 이 공백을 겨냥하여, 농협의 제도 변천사를 조합원 권리의 확장과 수축이라는 단일한 축으로 재구성한다. 본 연구가 옹호하고자 하는 논지는 다음과 같다. 농협의 변천은 조합원 권리의 형식적 확장과 실질적 제약이 교차해 온 과정이었으며, 각 시기의 개혁은 권리의 실질화라기보다 권리 행사 조건의 재배치에 가까웠다. 임명제의 폐지는 선거권이라는 형식을 회복시켰으나 금권 선거라는 새로운 왜곡을 낳았고, 선거 관리의 국가 위탁은 왜곡을 완화하였으나 조합 자치의 일부를 국가에 이양하였으며, 지주회사 체제는 사업의 책임성을 높이려 하였으나 조합원과 사업 조직 사이의 거리를 늘렸다. 요컨대 권리의 형식은 확장되어 왔으되, 권리를 실질적으로 행사할 수 있는 조건은 매 시기 다른 방식으로 제약되어 온 것이다.</p>
+    <p>이 질문은 농협 내부의 문제를 넘어 시의적 의미를 갖는다. 2012년 협동조합기본법 시행 이후 수천 개의 신생 협동조합이 설립되었고, 이들 역시 성장 과정에서 참여의 희석과 경영의 전문화라는 동일한 과제에 직면하고 있다. 60여 년에 걸쳐 권리의 형식과 실질 사이를 오간 농협의 경험은, 신생 협동조합들이 걸어갈 수 있는 경로의 장기 실험 기록에 해당한다. 농협의 변천을 조합원 권리의 관점에서 정리하는 작업은 따라서 한국 협동조합 부문 전체의 미래를 위한 참조점을 만드는 작업이기도 하다.</p>
+    <h3>1.2. 연구 질문과 논문의 구성</h3>
+    <p>이에 본 연구는 세 가지 질문을 설정한다. 첫째, 조합원 권리는 어떤 요소들로 구성되며, 그 실현 여부는 무엇으로 판별할 수 있는가. 둘째, 농협의 제도 변천 각 시기에 조합원 권리의 형식과 실질은 각각 어떻게 변화하였는가. 셋째, 이러한 변천의 궤적은 향후 농협 개혁의 방향에 어떤 함의를 주는가.</p>
+    <p>논문의 구성은 다음과 같다. 제2장에서는 조합원 권리의 개념을 유형화하고 분석에 동원할 이론적 자원과 선행연구를 검토한다. 제3장에서는 시기 구분의 기준과 분석 방법을 밝힌다. 제4장에서는 관제화기, 형식적 민주화기, 구조재편기의 세 시기로 나누어 제도 변천과 권리 지형의 변화를 분석한다. 제5장에서는 권리 범주별로 형식과 실질의 간극을 종합하고 예상되는 반론에 응답한다. 제6장은 결론과 함의, 한계를 제시한다.</p>
+  </section>
+
+  <section id="s2">
+    <h2>2. 이론적 배경과 선행연구</h2>
+    <h3>2.1. 조합원 권리의 개념과 세 범주</h3>
+    <p>협동조합에서 조합원의 지위는 이용자, 소유자, 통제자라는 삼중의 지위이며, 조합원 권리는 이 지위들로부터 도출된다. ICA(1995)의 협동조합 정체성 선언은 민주적 관리 원칙을 통해 조합원의 의사결정 참여와 임원의 책임을, 경제적 참여 원칙을 통해 출자와 잉여 배분에 대한 권리를, 교육·정보 원칙을 통해 알 권리를 각각 정식화하고 있다. 본 연구는 이를 토대로 조합원 권리를 세 범주로 유형화한다. 첫째, 운영참여권이다. 총회 의결권, 임원 선거권과 피선거권, 임원 해임 청구권 등 조합의 의사 형성에 참여할 권리가 여기에 속한다. 둘째, 경제적 권리이다. 사업 이용권, 이용실적에 따른 배당청구권, 출자금 반환청구권 등 조합의 경제적 편익에 대한 권리이다. 셋째, 정보·통제권이다. 회계 장부와 서류의 열람권, 검사 청구권 등 조합 운영을 감시하고 책임을 추궁하기 위한 권리이다. 현행 농협법 역시 이 세 범주에 대응하는 권리들을 조합원에게 부여하고 있다(홍행남, 2012).</p>
+    <p>이 세 범주의 권리는 협동조합 소유권의 특수한 구조 위에서 작동한다. 협동조합의 출자지분은 시장에서 거래되지 않고 조합원 지위와 결합되어 있어, 지분 매집을 통한 지배권 취득이 원천적으로 봉쇄된다. 잉여의 일부는 법정 적립금으로 유보되어 조합의 공동재산을 형성하고, 배당은 출자액이 아니라 이용실적을 우선 기준으로 삼는다. 이러한 구조는 자본이 아니라 사람이 조직을 지배하도록 설계된 것이지만, 동시에 조합원 개인의 권리 행사에 특유한 취약성을 낳는다. 지분을 팔고 떠나는 퇴출(exit)의 압력이 경영진을 규율하는 주식회사와 달리, 협동조합에서 조합원이 조직에 영향을 미치는 경로는 발언(voice), 즉 참여와 통제의 권리 행사뿐이다. 참여가 침묵하면 협동조합에는 경영을 규율할 기제가 남지 않는다. 조합원 권리의 실질화가 협동조합에서 단순한 규범적 요청이 아니라 조직 규율의 기능적 조건인 이유가 여기에 있다.</p>
+    <p>중요한 것은 각 권리가 형식적 차원과 실질적 차원을 갖는다는 점이다. 형식적 차원은 법률과 정관에 권리가 규정되어 있는가의 문제이고, 실질적 차원은 그 권리가 실제로 행사되어 조합의 의사와 운영을 좌우하는가의 문제이다. 선거권이 있어도 후보가 사실상 단수이거나 금품이 표를 대체한다면, 열람권이 있어도 정보 비대칭이 해소되지 않는다면, 권리는 형식으로만 존재한다. 본 연구의 분석 단위는 바로 이 형식과 실질의 간극이다.</p>
+    <h3>2.2. 이론적 자원: 소유·통제의 분리와 퇴행 명제</h3>
+    <p>형식과 실질의 간극을 다루는 이론적 자원은 두 갈래에서 온다. 첫째는 기업 지배구조 연구의 전통이다. Berle와 Means(1932)는 소유의 분산이 소유와 통제의 분리를 낳아 경영자가 실질적 지배자가 됨을 보였고, Jensen과 Meckling(1976)은 이를 대리인 비용의 문제로 일반화하였으며, Fama와 Jensen(1983)은 잔여청구권자가 의사결정 통제를 상실할 때의 조직 문제를 분석하였다. Hansmann(1996)은 이 전통을 소유 형태 일반으로 확장하여, 소유를 형식적 통제권과 잔여수익권의 결합으로 정의하고 집단적 의사결정 비용과 경영진 감시 비용을 협동조합 소유구조의 핵심 변수로 제시하였다. 이 틀에서 조합원 권리의 실질화 문제는 명목상 소유자인 조합원이 실질적 통제권을 보유하는가의 문제로 번역된다.</p>
+    <p>둘째는 협동조합 퇴행 명제와 그 비판이다. Webb과 Webb(1921)은 생산자 협동조합이 시장 경쟁 속에서 자본가적 결사체로 변질된다고 보았고, Michels(1962)는 대규모 조직 일반에서 상근 지도부로의 권력 집중이 불가피하다는 과두제의 철칙을 정식화하였다. 반면 Cornforth(1995)는 퇴행이 조직 설계와 관리의 선택에 따라 저지·역전될 수 있는 경합적 과정임을 실증하였고, Cornforth(2004)는 협동조합 지배구조가 대표성과 전문성이라는 상충 요구를 동시에 감당해야 하는 역설의 구조임을 보였다. Spear(2004)는 민주적 회원 조직에서 견제 장치가 없는 한 경영진의 고착화가 조직 형태에 내재한 위험임을 경고하였다. 이들 논의는 조합원 권리의 실질이 시간 속에서 잠식되기도 회복되기도 하는 가변적 상태임을, 그리고 그 향방이 제도 설계에 달려 있음을 시사한다.</p>
+    <p>두 이론적 자원을 결합하면 본 연구의 분석 렌즈가 도출된다. 소유·통제 분리론은 특정 시점의 정태적 진단 도구를 제공한다. 임의의 시점에서 형식적 통제권의 소재와 실질적 통제권의 소재를 비교하면 권리의 형식·실질 간극을 판별할 수 있다. 퇴행·재생론은 동태적 해석 도구를 제공한다. 간극이 시간 속에서 확대되는지 축소되는지, 그 변동을 추동하는 힘이 무엇인지를 묻게 한다. 농협처럼 반세기 이상의 변천을 가진 조직의 분석에는 두 도구의 결합이 필수적이다. 정태적 진단만으로는 각 시기의 간극이 어떤 경로로 형성되었는지 놓치게 되고, 동태적 서사만으로는 시기별 간극의 구조를 특정할 수 없기 때문이다.</p>
+    <h3>2.3. 선행연구 검토와 본 연구의 위치</h3>
+    <p>농협에 관한 선행연구는 세 흐름으로 정리된다. 첫째, 농협법과 협동조합 원칙의 정합성을 검토한 법제 연구이다. 장종익(2003)은 농협법이 자율과 독립, 민주적 관리 등 ICA 원칙에 비추어 갖는 문제점을 체계적으로 검토하고 개선 방향을 제시하였으며, 홍행남(2012)의 법 해설은 조합원 권리 규정의 현황을 정리하는 기초 자료를 제공한다. 둘째, 사업구조와 지배구조 개혁 연구이다. 김두년(2011)은 중앙회 신용·경제사업 분리의 법적 쟁점과 상호금융의 발전 방향을 분석하였고, 최진배와 권오혁(2017)은 협동조합 지배구조의 이론적 쟁점을 정리하며 한국 금융협동조합의 정체성 문제를 제기하였다. 셋째, 협동조합 일반 이론과 발전 경로 연구이다. 장종익(2014)과 임영선(2014)은 협동조합의 이론과 한국적 현실을 체계화하였고, 이종현(2014)은 로치데일과 몬드라곤의 비교를 통해 발전의 초기 조건이 이후 경로를 규정함을 보였으며, 심인숙(2014)은 협동조합 기관 구조의 회사법적 분석을 통해 이사장 권한 집중과 견제 미비를 지적하였다.</p>
+    <p>이들 연구는 각각 특정 시점의 법제, 특정 개혁의 쟁점, 일반 이론을 규명하였으나, 농협 60여 년의 변천 전체를 조합원 권리라는 단일한 축으로 통시적으로 재구성한 연구는 찾기 어렵다. 개혁사 서술은 조직과 사업의 변화를 중심으로 이루어졌고, 권리 논의는 특정 시점의 법 해석에 머물렀다. 본 연구는 양자를 결합하여, 권리의 세 범주와 형식·실질의 구분을 분석틀로 삼아 변천사를 다시 읽는다는 점에서 선행연구와 구별된다.</p>
+  </section>
+
+  <section id="s3">
+    <h2>3. 연구 대상과 방법</h2>
+    <h3>3.1. 연구 대상과 시기 구분</h3>
+    <p>연구 대상은 1961년 종합농협 출범 이후 현재까지 농협의 제도 변천이며, 분석의 초점은 근거 법률과 제도가 설계한 조합원 권리의 구조에 둔다. 시기 구분의 기준은 운영참여권의 핵심인 임원 선출 제도와, 통제권의 구조를 규정하는 조직 체제의 변동이다. 이 기준에 따라 세 시기를 구분한다. 제1기 관제화기(1961–1987)는 조합장과 중앙회장이 사실상 임명되고 국가가 조합 운영을 후견하던 시기이다. 제2기 형식적 민주화기(1988–2010)는 민주화 이후 조합장 직선제가 도입되고 중앙회장 선출 방식이 변동하던 시기이다. 제3기 구조재편기(2011–현재)는 농협법 개정으로 중앙회의 신용·경제사업이 분리되어 지주회사 체제가 성립하고, 조합장 선거의 관리가 국가기관에 위탁되어 전국 동시선거로 통합된 시기이다.</p>
+    <p>이 시기 구분은 임원 선출과 조직 체제라는 두 제도를 기준으로 삼았다는 점에서 정당화된다. 임원 선출 제도는 운영참여권의 존부와 행사 방식을 직접 규정하는 제도로서 권리 지형의 가장 민감한 지표이며, 조직 체제는 조합원과 사업 사이의 대리 사슬의 길이를 결정함으로써 통제권의 실질적 행사 가능성을 규정한다. 1988년과 2011년은 이 두 기준 모두에서 불연속이 발생한 해이다. 물론 시기 내부에도 점진적 변화가 있었고 시기를 가로지르는 연속성도 존재하므로, 세 시기는 칸막이가 아니라 지배적 경향의 구분으로 이해되어야 한다.</p>
+    <h3>3.2. 분석틀과 방법</h3>
+    <p>분석 방법은 문헌 연구와 법제 분석에 기초한 이론적 고찰이다. 각 시기에 대해 두 단계의 분석을 수행한다. 첫째, 해당 시기의 주요 제도 변동을 확인하고 그것이 조합원 권리의 세 범주(운영참여권, 경제적 권리, 정보·통제권) 각각의 형식적 차원에 가져온 변화를 정리한다. 둘째, 선행연구가 보고한 운영 실태에 비추어 각 권리의 실질적 행사 조건이 어떻게 변화하였는지를 해석한다. 판별의 준거는 Hansmann(1996)의 구분에 따른 실질적 통제권의 귀속, 즉 조합원 총의가 임원 선출과 주요 의사결정을 실제로 좌우하는가이다. 이상의 분석 절차를 도식화하면 〈그림 1〉과 같다.</p>
+    <figure>
+      <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto" role="img" aria-label="분석틀">
+        <defs><marker id="ar1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1428a0"/></marker></defs>
+        <style>
+          .b1{fill:#fff;stroke:#1428a0;stroke-width:1.4}
+          .g1{fill:#f4f6f9;stroke:#e2e5eb;stroke-width:1.2}
+          .t1{font-family:var(--sans);font-size:15px;fill:#111318}
+          .h1{font-family:var(--sans);font-size:14px;fill:#1428a0;letter-spacing:.06em}
+          .l1{stroke:#1428a0;stroke-width:1.4;marker-end:url(#ar1)}
+        </style>
+        <rect x="50" y="16" width="600" height="62" class="g1"/>
+        <text x="350" y="40" text-anchor="middle" class="h1">분석 대상</text>
+        <text x="350" y="64" text-anchor="middle" class="t1">농협 제도 변천 3시기: 관제화기 · 형식적 민주화기 · 구조재편기</text>
+        <line x1="350" y1="78" x2="350" y2="104" class="l1"/>
+        <rect x="30" y="106" width="640" height="90" class="b1"/>
+        <text x="350" y="130" text-anchor="middle" class="h1">조합원 권리의 세 범주</text>
+        <text x="140" y="158" text-anchor="middle" class="t1">① 운영참여권</text>
+        <text x="140" y="180" text-anchor="middle" class="t1">(의결·선거·해임청구)</text>
+        <text x="350" y="158" text-anchor="middle" class="t1">② 경제적 권리</text>
+        <text x="350" y="180" text-anchor="middle" class="t1">(이용·배당·출자반환)</text>
+        <text x="560" y="158" text-anchor="middle" class="t1">③ 정보·통제권</text>
+        <text x="560" y="180" text-anchor="middle" class="t1">(열람·검사청구)</text>
+        <line x1="350" y1="196" x2="350" y2="222" class="l1"/>
+        <rect x="110" y="224" width="480" height="58" class="b1"/>
+        <text x="350" y="248" text-anchor="middle" class="h1">분석 차원</text>
+        <text x="350" y="272" text-anchor="middle" class="t1">형식(법·정관상 보장) vs 실질(행사 조건과 통제권의 귀속)</text>
+        <line x1="350" y1="282" x2="350" y2="308" class="l1"/>
+        <rect x="80" y="310" width="540" height="106" class="g1"/>
+        <text x="350" y="336" text-anchor="middle" class="h1">판별 준거와 해석</text>
+        <text x="350" y="360" text-anchor="middle" class="t1">실질적 통제권의 귀속 (Hansmann, 1996)</text>
+        <text x="350" y="384" text-anchor="middle" class="t1">퇴행·재생의 동학 (Michels, 1962; Cornforth, 1995)</text>
+        <text x="350" y="408" text-anchor="middle" class="t1">→ 시기별 권리 지형의 재구성</text>
+      </svg>
+      <figcaption>&lt;그림 1&gt; 본 연구의 분석틀</figcaption>
+    </figure>
+  </section>
+
+  <section id="s4">
+    <h2>4. 농협의 변천과 조합원 권리의 지형</h2>
+    <h3>4.1. 관제화기(1961–1987): 권리 형식의 유보</h3>
+    <p>1961년 군사정부는 구 농업협동조합과 농업은행을 통합하여 신용사업과 경제사업을 겸영하는 종합농협을 출범시켰다. 이 재편은 조합원의 자발적 결의가 아니라 국가의 입법 조치로 이루어졌으며, 기존 협동조합 관련 법제가 정지·재편되는 과정에서 조합 조직은 통폐합되고 관제화되었다. 조합의 최고 임원인 조합장과 중앙회장은 사실상 임명제로 충원되었고, 조합의 사업은 식량 증산과 농정 집행이라는 국가 목표에 종속되었다. 협동조합의 자발적 결사가 제도 형성에 선행하였던 로치데일형 경로(이종현, 2014)와 정반대로, 농협에서는 제도가 결사에 선행하였고 조합원은 조직의 주인이기 이전에 정책의 수혜자이자 동원 대상이었다.</p>
+    <p>이 시기 조합원 권리의 지형은 세 범주 모두에서 형식의 유보로 요약된다. 운영참여권의 핵심인 임원 선거권은 임명제에 의해 봉쇄되었고, 총회는 존재하였으나 국가가 정한 사업의 추인 기구에 가까웠다. 경제적 권리는 국가가 설계한 사업 구조 안에서의 이용권으로 축소되었으며, 배당은 조합 경영보다 정책 자금의 흐름에 좌우되었다. 정보·통제권은 국가의 감독이 조합원의 감시를 대체하는 구조 속에서 실질적 의미를 갖기 어려웠다. 관제화기의 사업 구조는 이러한 권리 유보를 재생산하는 물적 기반이었다. 종합농협은 정책금융의 창구, 비료와 농자재의 공급, 정부 수매의 대행 등 국가 농정의 집행 업무를 수행하였고, 조합의 수지는 조합원의 이용과 참여보다 정책 사업의 배정에 좌우되었다. 조합원의 입장에서 농협은 자신들이 만든 결사가 아니라 국가가 설치한 창구였으며, 조합 이용은 권리의 행사가 아니라 행정 절차의 이행에 가까웠다. 이 시기에 형성된 조합원의 수동적 지위, 즉 주인이 아니라 고객이자 민원인으로서의 자기 이해는 이후 시기의 참여 저조를 설명하는 심층 요인으로 남았다. 제도가 결사에 선행하면 결사의 습속 또한 제도에 의해 주조되는 것이다.</p>
+    <p>요컨대 관제화기의 농협은 조합원 주권이라는 협동조합의 규범적 핵심(ICA, 1995)이 형식 차원에서부터 유보된 상태였으며, 자율과 독립 원칙에 비추어 본 농협법의 근본 문제(장종익, 2003)는 이 시기에 구조화되었다.</p>
+    <h3>4.2. 형식적 민주화기(1988–2010): 권리 형식의 회복과 실질의 왜곡</h3>
+    <p>1987년 민주화는 농협에도 미쳤다. 1988년부터 조합원 직선에 의한 조합장 선출이 도입되었고, 중앙회장 역시 임명제에서 선출제로 전환되었다. 운영참여권의 형식이 사반세기 만에 회복된 것이다. 그러나 형식의 회복은 곧바로 실질의 왜곡과 동행하였다. 조합장 선거에서는 금품 제공과 향응 등 부정 행위가 반복되었고, 이른바 돈 선거의 폐해는 선거권의 회복이 총의의 형성으로 이어지는 것을 가로막았다. 선거 부정이 누적되자 2005년 산림조합을 시작으로 조합장 선거 사무가 선거관리위원회에 위탁되기 시작하였고, 이는 농협으로 확대되었다. 조합 내부의 민주적 절차가 국가 관리의 대상이 된 것인데, 이는 회복된 권리의 실질화 실패를 국가 개입으로 보정하는 역설적 구조였다.</p>
+    <p>중앙회장 선출 제도의 변동은 이 시기의 성격을 압축한다. 직선제로 전환된 중앙회장 선거는 과도한 비용과 혼탁 양상이 논란이 되면서 2000년대 후반의 법 개정을 거쳐 대의원 간선제로 축소되었다. 조합원–조합장–중앙회장로 이어지는 대리 사슬에서 최상위 선출의 기반이 좁아진 것으로, 운영참여권의 형식이 확장과 수축을 반복하였음을 보여 준다. 한편 이 시기 조합의 규모 확대와 신용사업의 성장은 경영의 전문화를 요구하였고, 상근 경영진으로의 정보와 자원의 집중은 심화되었다. 이사장 권한 집중과 견제 장치의 미비라는 협동조합 기관 구조의 일반적 취약점(심인숙, 2014)이 농협에서 본격적으로 현재화된 것도 이 시기이다. 이는 Michels(1962)가 말한 과두제화의 조직적 조건이 선거제 도입에도 불구하고, 아니 오히려 선거를 매개로 작동할 수 있음을 보여 준다. 선거는 현직의 조직 장악력을 재신임하는 절차로 변질될 수 있기 때문이다.</p>
+    <p>이 시기 조합원 구성의 변화도 권리 행사의 조건에 영향을 미쳤다. 농가 구조에서 소수의 전업농과 다수의 영세·고령농이 공존하는 이질화가 진행되면서, 조합이 어떤 사업에 중점을 두어야 하는가를 둘러싼 조합원 간 이해의 편차가 커졌다. Hansmann(1996)이 지적한 대로 조합원 이질성의 증가는 집단적 의사결정의 비용을 높이고 의사결정 기제를 이해 조정의 장으로 바꾸어 놓는다. 총의의 형성이 어려워질수록 결정은 경영진의 재량으로 넘어가고, 참여의 효능감을 잃은 조합원은 더욱 참여에서 물러나는 순환이 형성된다. 형식적 민주화기의 참여 왜곡은 금권과 경영자 지배라는 조직 내부 요인만이 아니라, 조합원 기반 자체의 구조 변동에 의해서도 심화되었던 것이다.</p>
+    <p>총회 제도의 운영 또한 형식과 실질의 간극을 보여 준다. 조합원 수의 증가와 함께 다수 조합에서 총회를 갈음하는 대의원회가 운영되었는데, 대의원제는 의사결정의 효율을 높이는 대신 일반 조합원의 직접 참여를 상시적 제도에서 배제하는 효과를 낳았다. 조합원의 총의는 대의원 선출이라는 한 단계를 더 거쳐서만 조합의 의사에 도달하게 되었고, 총회는 연 1회의 의례적 절차로 형해화되는 경향을 보였다. 한편 단위조합과 중앙회의 관계에서도 대리의 사슬은 길었다. 중앙회는 회원조합에 대한 지도와 감사의 권한을 보유하고 신용사업을 중앙 단위에서 수행하였으므로, 단위조합의 의사결정은 중앙회의 방침에 의해 상향적으로 제약되었다. 조합원이 선출한 조합장이 중앙회 앞에서는 지도와 감사의 대상이 되는 구조에서, 조합원 주권은 단위조합의 울타리를 넘는 순간 희석되었다.</p>
+    <p>경제적 권리와 정보·통제권의 차원에서도 형식과 실질의 간극은 지속되었다. 이용배당과 출자배당의 형식은 정비되었으나, 잉여의 규모와 배분은 조합원이 아니라 경영진과 중앙회의 사업 판단에 좌우되었다. 열람권과 검사청구권이 법에 규정되어 있었으나, 신용사업의 전문성과 회계의 복잡성 앞에서 개별 조합원의 감시 역량은 구조적으로 열위에 있었다(최진배, 권오혁, 2017). 요컨대 형식적 민주화기는 권리의 형식을 회복시켰으되, 금권 선거, 경영자 지배, 정보 비대칭이라는 세 겹의 왜곡이 실질의 회복을 가로막은 시기였다.</p>
+    <h3>4.3. 구조재편기(2011–현재): 권리 행사 조건의 재배치</h3>
+    <p>제3기의 문을 연 것은 2011년 농협법 개정이다. 1990년대 중반부터 제기되어 온 중앙회 신용사업과 경제사업의 분리 논의는 이 개정으로 결실을 맺어, 2012년 중앙회의 사업이 경제지주회사와 금융지주회사로 분리되는 사업구조 개편이 단행되었다(김두년, 2011). 개편의 명분은 사업 부문별 투명성과 책임성의 제고, 그리고 경제사업의 활성화였다. 중앙회는 회원 조합에 대한 교육·지원 기능에 집중하고, 사업은 지주회사와 그 자회사가 수행하는 체제가 성립하였다.</p>
+    <p>선거 제도에서도 재편이 이루어졌다. 위탁선거에 관한 법제가 정비되면서 2015년 제1회 전국동시조합장선거가 실시되어, 전국의 조합장 선거가 국가기관의 관리 아래 같은 날 치러지게 되었다. 중앙회장 선출 방식 역시 간선제의 대표성 논란을 거치며 조합장 전원이 참여하는 선출 방식으로 재확대되었다. 표면적으로 이 시기는 선거의 공정성과 사업의 책임성이 모두 제고된 시기로 보인다.</p>
+    <p>그러나 조합원 권리의 관점에서 재편의 효과는 양가적이다. 첫째, 지주회사 체제는 조합원과 사업 조직 사이의 대리 사슬을 연장하였다. 종전에는 조합원–단위조합–중앙회의 2단 대리였던 것이, 이제 조합원–단위조합–중앙회–지주회사–자회사로 이어지는 다단 구조가 되었다. 지주회사와 자회사는 상법상 주식회사로서 그 지배구조는 회사법의 논리를 따르며, 조합원의 통제권은 중앙회가 보유한 지분을 매개로만, 즉 이중 삼중으로 굴절되어 작동한다. Hansmann(1996)의 용어로 말하면, 잔여수익과 실질적 통제권이 귀속되는 조직(지주회사·자회사)과 형식적 통제권의 원천(조합원) 사이의 거리가 제도적으로 확대된 것이다. 사업의 책임성은 시장과 감독당국에 대한 책임성으로 재편되었고, 조합원에 대한 책임성이 그만큼 강화되었다고 보기는 어렵다.</p>
+    <p>경제적 권리의 차원에서도 지주회사 체제의 효과는 간접화로 요약된다. 조합원의 사업 이용은 여전히 단위조합을 통해 이루어지지만, 그 배후의 사업 체계, 즉 유통과 금융의 수익 구조는 지주회사와 자회사 단위에서 결정된다. 자회사의 배당은 지주회사로, 지주회사의 배당은 중앙회로, 중앙회의 지원은 회원조합으로 흐르는 다단의 경로를 거쳐서야 조합원의 편익에 도달하며, 각 단계의 배분 결정은 조합원의 관여 범위 밖에 있다. 이용실적에 따른 배당이라는 협동조합적 원칙은 단위조합 수준에서는 유지되지만, 그룹 전체의 잉여 배분에서 조합원의 경제적 권리는 원리라기보다 잔여가 된다. 사업의 규모화가 조합원 편익의 총량을 늘렸는가와는 별개로, 편익의 배분에 대한 조합원의 발언권은 체제 전환과 함께 구조적으로 후퇴한 것이다.</p>
+    <p>둘째, 선거 관리의 전면적 국가 위탁과 동시선거화는 금권 선거의 억제라는 실질적 성과를 거두었으나, 동시에 조합 선거를 조합 공동체의 자치 과정이 아니라 국가가 관리하는 행정 절차로 재정의하였다. 위탁선거 체제의 엄격한 운동 제한은 현직에게 유리한 경쟁 조건을 만든다는 비판과 함께, 선거의 공정성과 자치의 원리 사이의 긴장을 남겼다. 위탁선거 체제의 구체적 규율을 보면 이 긴장은 더 분명해진다. 위탁선거의 법제는 부정 방지를 위해 선거운동의 주체, 기간, 방법을 엄격히 제한하는데, 이러한 제한은 조직과 인지도에서 앞서는 현직 조합장에게 상대적으로 유리한 경쟁 조건을 만든다는 비판을 받아 왔다. 도전자가 자신을 알릴 통로가 좁을수록 선거는 현직 재신임의 절차에 가까워지고, 조합원의 선택은 실질적 대안 없는 선택이 된다. 부정의 억제와 경쟁의 촉진은 선거 제도의 두 목표이지만, 위탁선거 체제는 전자에 최적화되는 과정에서 후자를 희생시킨 측면이 있다. 운영참여권의 관점에서 보면, 표를 던질 권리는 보호되었으되 의미 있는 선택지를 가질 권리는 충분히 보호되지 못한 것이다.</p>
+    <p>자율과 독립의 원칙(ICA, 1995)에 비추어 보면, 이 시기의 개혁은 권리 행사의 왜곡을 줄이는 대가로 권리 행사의 장 자체를 국가의 관리 아래 두는 교환이었다.</p>
+    <p>구조재편기를 종합하면, 이 시기의 개혁은 제2기가 남긴 두 왜곡, 즉 금권 선거와 사업의 불투명성에 대한 응답으로서는 성공적이었으나, 그 응답의 방식이 조합원 권리의 실질화가 아니라 국가 관리의 확대와 조직 구조의 회사법화였다는 점에서 새로운 간극을 만들었다. 중앙회장 선출 방식이 조합장 전원의 참여로 재확대된 것은 간선제의 대표성 결손을 보정한 조치이지만, 일반 조합원의 관점에서 중앙회장은 여전히 두 단계의 대리를 거친 간접 선출의 대상이며, 지주회사와 자회사의 경영진에 이르면 선출의 연결선 자체가 회사법적 선임 절차로 대체된다. 요컨대 제3기의 농협에서 조합원 권리의 형식적 목록은 어느 시기보다 완비되어 있으나, 그 권리가 닿을 수 있는 조직의 범위는 어느 시기보다 좁아져 있다. 권리의 완성과 권리 사정거리의 축소가 동시에 진행된 것, 이것이 구조재편기의 역설이다.</p>
+    <p>이상의 변천을 시기별로 정리하면 〈그림 2〉 및 〈표 1〉과 같다.</p>
+    <figure>
+      <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto" role="img" aria-label="변천도">
+        <defs><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1428a0"/></marker></defs>
+        <style>
+          .b2{fill:#fff;stroke:#1428a0;stroke-width:1.4}
+          .g2{fill:#f4f6f9;stroke:#e2e5eb;stroke-width:1.2}
+          .t2{font-family:var(--sans);font-size:14px;fill:#111318}
+          .s2{font-family:var(--sans);font-size:13px;fill:#626773}
+          .h2s{font-family:var(--sans);font-size:14px;fill:#1428a0;letter-spacing:.04em}
+          .ax2{stroke:#1428a0;stroke-width:1.6;marker-end:url(#ar2)}
+          .tk{stroke:#1428a0;stroke-width:1.4}
+        </style>
+        <line x1="50" y1="60" x2="660" y2="60" class="ax2"/>
+        <line x1="70" y1="52" x2="70" y2="68" class="tk"/>
+        <text x="70" y="42" text-anchor="middle" class="s2">1961</text>
+        <line x1="270" y1="52" x2="270" y2="68" class="tk"/>
+        <text x="270" y="42" text-anchor="middle" class="s2">1988</text>
+        <line x1="470" y1="52" x2="470" y2="68" class="tk"/>
+        <text x="470" y="42" text-anchor="middle" class="s2">2011</text>
+        <rect x="60" y="84" width="190" height="120" class="g2"/>
+        <text x="155" y="110" text-anchor="middle" class="h2s">제1기 관제화기</text>
+        <text x="155" y="136" text-anchor="middle" class="s2">종합농협 출범(1961)</text>
+        <text x="155" y="158" text-anchor="middle" class="s2">조합장·중앙회장 임명제</text>
+        <text x="155" y="180" text-anchor="middle" class="s2">국가 후견·정책 종속</text>
+        <rect x="260" y="84" width="190" height="120" class="g2"/>
+        <text x="355" y="110" text-anchor="middle" class="h2s">제2기 형식적 민주화기</text>
+        <text x="355" y="136" text-anchor="middle" class="s2">조합장 직선제(1988)</text>
+        <text x="355" y="158" text-anchor="middle" class="s2">중앙회장 직선→간선</text>
+        <text x="355" y="180" text-anchor="middle" class="s2">금권 선거·선관위 위탁 개시</text>
+        <rect x="460" y="84" width="190" height="120" class="g2"/>
+        <text x="555" y="110" text-anchor="middle" class="h2s">제3기 구조재편기</text>
+        <text x="555" y="136" text-anchor="middle" class="s2">신용·경제사업 분리(2012)</text>
+        <text x="555" y="158" text-anchor="middle" class="s2">전국동시조합장선거(2015)</text>
+        <text x="555" y="180" text-anchor="middle" class="s2">중앙회장 선출 방식 재확대</text>
+        <rect x="60" y="236" width="190" height="120" class="b2"/>
+        <text x="155" y="262" text-anchor="middle" class="t2">권리 지형</text>
+        <text x="155" y="288" text-anchor="middle" class="s2">형식의 유보</text>
+        <text x="155" y="310" text-anchor="middle" class="s2">선거권 봉쇄,</text>
+        <text x="155" y="332" text-anchor="middle" class="s2">총회의 추인기구화</text>
+        <rect x="260" y="236" width="190" height="120" class="b2"/>
+        <text x="355" y="262" text-anchor="middle" class="t2">권리 지형</text>
+        <text x="355" y="288" text-anchor="middle" class="s2">형식 회복 · 실질 왜곡</text>
+        <text x="355" y="310" text-anchor="middle" class="s2">금권 선거, 경영자 지배,</text>
+        <text x="355" y="332" text-anchor="middle" class="s2">정보 비대칭</text>
+        <rect x="460" y="236" width="190" height="120" class="b2"/>
+        <text x="555" y="262" text-anchor="middle" class="t2">권리 지형</text>
+        <text x="555" y="288" text-anchor="middle" class="s2">행사 조건의 재배치</text>
+        <text x="555" y="310" text-anchor="middle" class="s2">대리 사슬 연장,</text>
+        <text x="555" y="332" text-anchor="middle" class="s2">선거의 국가 관리화</text>
+      </svg>
+      <figcaption>&lt;그림 2&gt; 농협의 시기별 변천과 조합원 권리 지형<br><span class="fignote">주: 연도는 시기 구분의 기점이 된 주요 제도 변동을 나타낸다.</span></figcaption>
+    </figure>
+    <table>
+      <caption>&lt;표 1&gt; 시기별 제도 변동과 조합원 권리의 형식·실질</caption>
+      <thead>
+        <tr><th>구분</th><th>제1기 관제화기<br>(1961–1987)</th><th>제2기 형식적 민주화기<br>(1988–2010)</th><th>제3기 구조재편기<br>(2011–현재)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>주요 제도 변동</td><td>종합농협 출범, 임원 임명제</td><td>조합장 직선제, 중앙회장 직선→간선, 선관위 위탁 개시</td><td>신용·경제사업 분리, 전국동시선거, 중앙회장 선출 재확대</td></tr>
+        <tr><td>운영참여권</td><td>형식 유보(선거권 봉쇄)</td><td>형식 회복, 금권 선거로 실질 왜곡</td><td>공정성 제고, 자치의 국가 관리화</td></tr>
+        <tr><td>경제적 권리</td><td>정책 사업 내 이용권으로 축소</td><td>배당 형식 정비, 배분은 경영 판단에 종속</td><td>사업 편익의 지주회사 매개화</td></tr>
+        <tr><td>정보·통제권</td><td>국가 감독이 조합원 감시 대체</td><td>열람권 존재, 정보 비대칭 지속</td><td>대리 사슬 연장으로 통제 거리 확대</td></tr>
+        <tr><td>실질적 통제권의 중심</td><td>국가</td><td>국가 + 상근 경영진</td><td>경영진 · 지주회사 체제</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="s5">
+    <h2>5. 고찰</h2>
+    <h3>5.1. 형식의 확장, 실질의 재제약</h3>
+    <p>제4장의 분석은 서론에서 제시한 논지를 뒷받침한다. 60여 년의 변천에서 조합원 권리의 형식은 분명히 확장되어 왔다. 봉쇄되었던 선거권이 회복되었고, 선거의 공정성이 제고되었으며, 사업 부문의 회계적 책임성이 정비되었다. 그러나 각 시기의 실질을 들여다보면, 권리 행사를 제약하는 조건이 소멸한 것이 아니라 형태를 바꾸어 재배치되어 왔음이 드러난다. 제1기의 제약이 국가의 직접 후견이었다면, 제2기의 제약은 금권과 경영자 지배라는 조합 내부의 왜곡이었고, 제3기의 제약은 지주회사 체제가 만든 구조적 거리와 선거의 행정 절차화이다. 권리의 형식과 실질의 간극은 좁혀졌다기보다, 간극을 만드는 기제가 국가의 직접 개입에서 조직 내부의 권력 비대칭으로, 다시 제도 설계가 만든 구조적 거리로 이동해 온 것이다.</p>
+    <p>이 궤적은 퇴행 명제의 고전적 서사와 구별된다. Webb과 Webb(1921)이 그린 퇴행은 민주적 원형에서 출발한 조합이 시장 압력 속에서 변질되는 과정이지만, 농협은 애초에 민주적 원형에서 출발하지 않았다. 농협의 변천은 유보된 권리가 단계적으로 형식을 회복하되 실질의 회복은 매번 지연되는 과정, 말하자면 퇴행의 역상(逆像)으로서의 지연된 실질화 과정이다. 동시에 이 과정에는 Michels(1962)적 과두제화가 중첩되어 있다. 조직 규모와 사업 전문성의 성장은 어느 시기에나 상근 지도부로의 집중을 낳았고, 선거제의 도입은 이 집중을 해소하기보다 재신임하는 절차가 되기 쉬웠다. 다만 Cornforth(1995)가 강조하였듯이 이 동학이 운명은 아니다. 선관위 위탁이 금권 선거를 실제로 억제하였다는 사실은, 제도 설계가 실질의 방향을 바꿀 수 있음을 보여 주는 사례이기도 하다. 문제는 어떤 설계가 권리의 실질화에 기여하고 어떤 설계가 행사 조건의 재배치에 그치는가를 구별하는 일이다.</p>
+    <p>〈표 1〉의 마지막 행이 보여 주는 실질적 통제권 중심의 이동, 즉 국가에서 국가와 경영진의 병존으로, 다시 경영진과 지주회사 체제로의 이동은 이 구별의 준거를 제공한다. 어떤 개혁이 권리의 실질화에 기여했는가는, 그 개혁이 실질적 통제권을 조합원 쪽으로 이동시켰는가로 판정할 수 있다. 이 준거에 비추면 조합장 직선제 도입은 통제권을 조합원 쪽으로 이동시킨 개혁이었고, 선거의 국가 위탁은 통제권의 소재를 바꾸지 않은 채 행사의 왜곡만을 손질한 개혁이었으며, 지주회사 체제는 통제권을 조합원에게서 오히려 멀어지게 한 개혁이었다. 같은 개혁사 안에 세 방향의 이동이 공존한다는 사실은, 농협 개혁을 진보나 퇴보의 단선적 서사로 읽는 통념이 성립하지 않음을 보여 준다.</p>
+    <h3>5.2. 권리 범주별 종합</h3>
+    <p>권리 범주별로 형식과 실질의 현재 지형을 종합하면 〈표 2〉와 같다.</p>
+    <table>
+      <caption>&lt;표 2&gt; 조합원 권리 범주별 형식과 실질의 현재 지형</caption>
+      <thead>
+        <tr><th>권리 범주</th><th>형식적 보장</th><th>실질적 제약</th><th>제약의 주된 기제</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>운영참여권</td><td>1인 1표, 조합장 직선, 해임청구권</td><td>후보 경쟁 제한, 현직 우위, 총회의 형해화</td><td>위탁선거의 운동 제한, 대의원제, 경영자 지배</td></tr>
+        <tr><td>경제적 권리</td><td>이용배당 우선, 출자반환청구권</td><td>배분 결정의 경영 종속, 편익의 간접화</td><td>지주회사 체제, 사업 판단의 전문화</td></tr>
+        <tr><td>정보·통제권</td><td>열람권, 검사청구권</td><td>감시 역량의 구조적 열위</td><td>정보 비대칭, 다단 대리 사슬</td></tr>
+      </tbody>
+    </table>
+    <p>〈표 2〉가 보여 주는 공통 구조는 세 범주 모두에서 형식적 보장은 완비에 가까워졌으나 실질적 제약의 기제가 권리별로 상이하게 작동한다는 점이다. 이는 개혁의 처방 역시 권리 범주별로 달라야 함을 뜻한다. 운영참여권의 실질화는 후보 경쟁을 실질화하는 선거 제도의 재설계를, 경제적 권리의 실질화는 잉여 배분에 대한 조합원 관여의 제도화를, 정보·통제권의 실질화는 조합원이 소화할 수 있는 형태의 정보 공개와 전문적 감시의 대행 기구를 각각 요구한다. 이러한 권리 중심의 처방은, 소규모 동질 공동체에서 명확한 경계와 상호 감시가 자치를 지속 가능하게 한다는 공유자원 연구의 통찰(Ostrom, 1990)과도 연결된다. 조합원 권리의 실질화는 결국 조합원이 서로를 그리고 조직을 감시할 수 있는 규모와 정보의 조건을 회복하는 문제이기 때문이다.</p>
+    <p>세 범주의 권리는 상호 독립적이지 않고 순환적으로 연결되어 있다는 점도 강조되어야 한다. 정보·통제권이 실질화되어야 조합원이 판단 근거를 갖고 운영참여권을 의미 있게 행사할 수 있으며, 운영참여권이 실질화되어야 잉여 배분에 관한 경제적 권리가 경영의 시혜가 아니라 조합원의 결정이 되고, 경제적 권리가 체감되어야 조합원이 정보를 구하고 참여할 유인이 생긴다. 역으로 한 범주의 공동화는 다른 범주의 공동화를 부른다. 정보 없는 참여는 형식적 거수가 되고, 결정권 없는 정보는 열람으로 끝나며, 편익 없는 조합에 조합원은 관심을 갖지 않는다. 농협의 세 시기가 보여 준 것은 바로 이 악순환의 세 국면이었다. 따라서 개혁의 설계는 세 범주를 개별 과제로 나열하는 것을 넘어, 어느 범주에서 순환의 물꼬를 틀 것인가라는 전략적 판단을 포함해야 한다.</p>
+    <h3>5.3. 예상되는 반론과 응답</h3>
+    <p>본 연구의 해석에는 세 가지 반론이 예상된다. 첫째, 구조재편기의 개혁을 권리 행사 조건의 재배치로 평가하는 것은 개혁의 성과를 과소평가한다는 반론이다. 실제로 동시선거 체제는 선거 부정을 가시적으로 줄였고, 사업 분리는 회계 투명성을 높였다. 본 연구는 이 성과를 부인하지 않는다. 주장하는 바는 성과의 성격에 관한 것이다. 두 개혁 모두 권리 행사의 왜곡을 줄이는 데에는 기여하였으나, 조합원이 조직의 의사와 잉여를 실제로 좌우할 수 있는 역량과 경로를 확장하는 데에는 이르지 못하였다. 왜곡의 축소와 실질화는 다른 문제이며, 전자가 후자를 자동으로 낳지 않는다는 것이 본 연구의 요점이다.</p>
+    <p>둘째, 권리 중심의 서사가 효율성의 요구를 무시한다는 반론이 가능하다. 농협은 거대한 사업 조직이며, 신속하고 전문적인 의사결정 없이는 시장에서 존속할 수 없다는 것이다. 본 연구는 효율성의 요구 자체를 부정하지 않는다. 다만 협동조합에서 효율성과 조합원 통제는 대체 관계가 아니라 조건 관계에 있음을 지적한다. 2.1절에서 논의하였듯이 퇴출 기제가 없는 협동조합에서 경영을 규율하는 궁극의 기제는 조합원의 발언이며, 발언이 침묵한 조직의 효율은 감독기관의 사후 적발에 의존하는 취약한 효율이다. 조합원 통제의 실질화는 효율성의 비용이 아니라, 협동조합이라는 조직 형태가 효율적일 수 있기 위한 전제인 것이다(Cornforth, 2004; Spear, 2004). 셋째, 실증 자료 없이 법제 분석과 선행연구만으로 실질을 판정할 수 없다는 반론이다. 이는 부분적으로 타당하며 본 연구의 한계로 수용한다. 다만 본 연구의 판정은 확정적 결론이 아니라 제도 분석이 식별한 경향이며, 선행연구가 보고한 실태(장종익, 2003; 김두년, 2011; 심인숙, 2014; 최진배, 권오혁, 2017)와 방향이 일치한다. 조합장 선거의 경선률, 총회 참석률, 열람권 행사 빈도 등의 지표로 이 경향을 검증하는 것은 후속 연구의 과제로 남는다.</p>
+    <h3>5.4. 재배치가 반복되는 이유: 개혁의 국가 의존이라는 역설</h3>
+    <p>남는 질문은 왜 매 시기의 개혁이 권리의 실질화가 아니라 행사 조건의 재배치로 귀결되었는가이다. 본 연구는 그 구조적 원인을 개혁 주체의 문제에서 찾는다. 농협의 주요 제도 변동은 예외 없이 국가의 입법으로 이루어졌다. 관제화도, 직선제 도입도, 선거의 위탁도, 사업구조 개편도 모두 농협법의 개정이라는 형식을 취했으며, 개혁의 의제 설정과 설계는 정부와 국회의 몫이었다. 조합원은 개혁의 주체가 아니라 개혁의 수신자였다. 그런데 협동조합 원칙에서 조합의 제도는 궁극적으로 조합원 자치의 표현이어야 하며, 외부와의 관계에서도 민주적 관리가 훼손되지 않아야 한다(ICA, 1995; 장종익, 2003). 국가가 설계한 개혁은 국가가 중시하는 가치, 즉 부정의 방지, 회계의 투명성, 사업의 건전성을 우선하게 마련이고, 조합원의 실질적 통제라는 가치는 그 설계에서 부차화되기 쉽다. 개혁이 거듭될수록 제도는 정교해졌으나 조합원이 제도의 주인이 되는 경험은 축적되지 않았다는 역설은 여기서 나온다.</p>
+    <p>이 역설은 협동조합 지배구조의 일반 이론과도 공명한다. Cornforth(2004)가 보인 대표성과 전문성의 역설은, 외부가 설계한 전문적 해법이 내부의 대표성 문제를 해결해 주지 못함을 함의한다. Spear(2004)가 경고한 경영진 고착화의 위험 역시 외부 감독의 강화만으로는 해소되지 않으며, 조합원의 대항력 형성을 요구한다. 결국 권리의 실질화는 국가가 조합원에게 시혜적으로 부여할 수 있는 것이 아니라, 조합원이 행사 가능한 조건 속에서 스스로 축적해야 하는 것이며, 국가의 역할은 그 조건의 정비에 한정되어야 한다. 이 관점은 다음 절의 개념적 종합으로 이어진다.</p>
+    <h3>5.5. 권리 실질화의 조건: 개념적 종합</h3>
+    <p>이상의 논의를 종합하면, 조합원 권리의 실질화는 형식적 보장, 행사 조건, 통제권 귀속이라는 세 층위가 정렬될 때 달성된다. 형식적 보장은 필요조건일 뿐이며, 행사 조건(경쟁적 선거, 소화 가능한 정보, 관여의 경로)이 갖추어져야 하고, 궁극적으로 실질적 통제권이 조합원 총의에 귀속되어야 한다. 농협의 변천은 첫째 층위의 완비 과정이었으나 둘째·셋째 층위는 시기마다 다른 기제에 의해 미완으로 남았다. 〈그림 3〉은 이 개념적 구조를 도식화한 것이다.</p>
+    <figure>
+      <svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto" role="img" aria-label="권리 실질화 구조">
+        <defs><marker id="ar3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1428a0"/></marker></defs>
+        <style>
+          .b3{fill:#f4f6f9;stroke:#e2e5eb;stroke-width:1.2}
+          .t3{font-family:var(--sans);font-size:15px;fill:#111318}
+          .s3{font-family:var(--sans);font-size:13px;fill:#626773}
+          .h3x{font-family:var(--sans);font-size:14px;fill:#1428a0;letter-spacing:.05em}
+          .l3{stroke:#1428a0;stroke-width:1.4;marker-end:url(#ar3)}
+        </style>
+        <rect x="60" y="24" width="580" height="72" class="b3"/>
+        <text x="350" y="52" text-anchor="middle" class="h3x">제1층위 — 형식적 보장</text>
+        <text x="350" y="78" text-anchor="middle" class="s3">법·정관상 권리의 존재 (선거권 · 배당청구권 · 열람권) — 변천을 통해 완비</text>
+        <line x1="350" y1="96" x2="350" y2="122" class="l3"/>
+        <rect x="60" y="124" width="580" height="72" class="b3"/>
+        <text x="350" y="152" text-anchor="middle" class="h3x">제2층위 — 행사 조건</text>
+        <text x="350" y="178" text-anchor="middle" class="s3">경쟁적 선거 · 소화 가능한 정보 · 관여의 경로 — 시기별 기제에 의해 제약</text>
+        <line x1="350" y1="196" x2="350" y2="222" class="l3"/>
+        <rect x="60" y="224" width="580" height="72" class="b3"/>
+        <text x="350" y="252" text-anchor="middle" class="h3x">제3층위 — 통제권의 귀속</text>
+        <text x="350" y="278" text-anchor="middle" class="s3">조합원 총의가 의사와 잉여를 좌우 — 국가 → 경영진 → 지주회사 체제로 이동</text>
+        <text x="350" y="316" text-anchor="middle" class="t3">권리의 실질화 = 세 층위의 정렬</text>
+      </svg>
+      <figcaption>&lt;그림 3&gt; 조합원 권리 실질화의 세 층위</figcaption>
+    </figure>
+  </section>
+
+  <section id="s6">
+    <h2>6. 결론</h2>
+    <h3>6.1. 연구 결과의 요약</h3>
+    <p>본 연구는 농협 60여 년의 제도 변천을 조합원 권리의 확장과 수축이라는 축으로 재구성하였다. 분석 결과는 다음과 같다. 첫째, 조합원 권리는 운영참여권, 경제적 권리, 정보·통제권의 세 범주로 유형화되며, 각 범주는 형식과 실질의 두 차원을 갖는다. 둘째, 관제화기에는 권리의 형식 자체가 유보되었고, 형식적 민주화기에는 형식이 회복되었으나 금권 선거와 경영자 지배가 실질을 왜곡하였으며, 구조재편기의 개혁은 왜곡을 줄이는 대신 대리 사슬의 연장과 선거의 행정 절차화라는 새로운 제약을 낳았다. 셋째, 따라서 농협의 변천은 권리의 실질화 과정이 아니라 권리 행사 조건의 연속적 재배치 과정으로 이해되어야 하며, 실질적 통제권의 중심은 국가에서 경영진과 지주회사 체제로 이동해 왔다.</p>
+    <h3>6.2. 정책적 함의</h3>
+    <p>이러한 결론은 향후 농협 개혁의 준거 전환을 요구한다. 개혁의 성과를 사업 실적이나 절차의 공정성만으로 평가하는 관행에서 벗어나, 조합원이 실제로 행사한 권리의 밀도, 즉 경선의 실질성, 총회의 결정력, 정보 접근의 실효성을 개혁 평가의 중심 지표로 삼아야 한다. 구체적으로 운영참여권에 대해서는 후보 경쟁을 촉진하는 방향의 선거 제도 보완이, 경제적 권리에 대해서는 잉여 배분 방침에 대한 총회 심의의 실질화가, 정보·통제권에 대해서는 조합원 눈높이의 경영 공시와 조합원을 대리하는 전문 감시 기구의 강화가 각각 요구된다. 지주회사 체제에 대해서는, 사업 조직의 효율성 논리가 조합원 통제의 논리를 잠식하지 않도록 중앙회와 지주회사 사이의 책임 연계를 조합원 관점에서 재설계하는 과제가 남아 있다.</p>
+    <p>아울러 개혁의 추진 방식 자체의 전환이 요구된다. 5.4절에서 논의한 국가 의존의 역설을 끊으려면, 향후의 제도 설계는 조합원과 조합의 참여 속에서 의제화되고 검증되는 절차를 갖추어야 한다. 개혁안의 형성 단계에서 조합원 의견 수렴을 제도화하고, 개혁의 효과를 조합원 권리 지표로 사후 평가하여 다음 개정에 환류하는 순환 구조가 그 최소 조건이다. 국가가 좋은 제도를 만들어 주는 개혁에서 조합원이 제도를 만드는 경험을 축적하는 개혁으로의 전환, 그것이 본 연구의 분석이 가리키는 방향이다.</p>
+    <h3>6.3. 연구의 한계와 향후 과제</h3>
+    <p>본 연구는 문헌과 법제 분석에 기초한 이론적 고찰로서 다음의 한계를 갖는다. 첫째, 권리의 실질에 대한 판정을 경험적 지표로 검증하지 않았다. 조합장 선거 경선률과 투표율, 총회 안건 수정·부결률, 열람권과 검사청구권의 행사 빈도 등을 활용한 실증 연구가 뒤따라야 한다. 둘째, 분석 단위가 제도 수준에 있어 단위조합 간 편차, 특히 도시형 조합과 농촌형 조합, 대규모 조합과 소규모 품목조합 사이의 차이를 반영하지 못하였다. 셋째, 농협에 한정된 분석이므로, 유사한 국가 주도 경로를 걸은 다른 법정조합과의 비교를 통해 본 연구의 시기 구분과 해석이 일반화될 수 있는지 검토할 필요가 있다. 넷째, 본 연구의 시기 구분은 제도 변동의 기점을 기준으로 삼았으므로, 시기 내부의 점진적 변화와 시기 구분에 걸치는 연속성을 단순화한 측면이 있다. 이러한 한계에도 불구하고, 본 연구는 농협 개혁사를 조직과 사업의 서사에서 조합원 권리의 서사로 전환하여 읽는 하나의 분석틀을 제시하였고, 형식적 보장·행사 조건·통제권 귀속의 세 층위 모형과 실질적 통제권 이동이라는 개혁 평가의 준거를 제안하였다는 점에서 의의를 찾고자 한다.</p>
+  </section>
+
+  <section class="statement">
+    <h2>이해상충</h2>
+    <p>저자는 본 논문과 관련하여 어떠한 이해상충도 없음을 밝힌다.</p>
+  </section>
+
+  <section class="references" id="references">
+    <h2>참고문헌</h2>
+    <ol>
+      <li id="ref-kim2011">김두년. (2011). 농협중앙회 사업구조개편과 상호금융 발전방향. <em>한국협동조합연구</em>, <em>29</em>(1), 1–21. <a href="https://doi.org/10.35412/kjcs.2011.29.1.001">https://doi.org/10.35412/kjcs.2011.29.1.001</a></li>
+      <li id="ref-sim2014">심인숙. (2014). 영리기업조직의 한 유형으로서의 협동조합에 관한 소고: 협동조합기본법상 일반협동조합의 지배구조를 중심으로. <em>선진상사법률연구</em>, <em>68</em>, 33–83.</li>
+      <li id="ref-lee2014">이종현. (2014). 협동조합 발전의 초기 조건에 대한 연구: 영국의 로치데일과 스페인의 몬드라곤을 중심으로. <em>동향과 전망</em>, <em>90</em>, 229–261.</li>
+      <li id="ref-lim2014">임영선. (2014). <em>협동조합의 이론과 현실</em>. 한국협동조합연구소.</li>
+      <li id="ref-jang2003">장종익. (2003). 협동조합 원칙에 비추어 본 농협법의 문제점과 개선방향. <em>한국협동조합연구</em>, <em>21</em>(1), 177–217.</li>
+      <li id="ref-jang2014">장종익. (2014). <em>협동조합 비즈니스 전략: 협동조합의 개념·비즈니스 모델·사례</em>. 동하.</li>
+      <li id="ref-choi2017">최진배, 권오혁. (2017). 협동조합 지배구조에 대한 이론적 쟁점과 한국 금융협동조합에의 시사: 지역사회개발 문제를 중심으로. <em>공간과 사회</em>, <em>27</em>(2), 150–184. <a href="https://doi.org/10.19097/kaser.2017.27.2.150">https://doi.org/10.19097/kaser.2017.27.2.150</a></li>
+      <li id="ref-hong2012">홍행남. (2012). <em>농업협동조합법 해설</em>. 농민신문사.</li>
+      <li id="ref-berle1932">Berle, A. A., &amp; Means, G. C. (1932). <em>The modern corporation and private property</em>. Macmillan.</li>
+      <li id="ref-cornforth1995">Cornforth, C. (1995). Patterns of co-operative management: Beyond the degeneration thesis. <em>Economic and Industrial Democracy</em>, <em>16</em>(4), 487–523. <a href="https://doi.org/10.1177/0143831X95164002">https://doi.org/10.1177/0143831X95164002</a></li>
+      <li id="ref-cornforth2004">Cornforth, C. (2004). The governance of cooperatives and mutual associations: A paradox perspective. <em>Annals of Public and Cooperative Economics</em>, <em>75</em>(1), 11–32. <a href="https://doi.org/10.1111/j.1467-8292.2004.00241.x">https://doi.org/10.1111/j.1467-8292.2004.00241.x</a></li>
+      <li id="ref-fama1983">Fama, E. F., &amp; Jensen, M. C. (1983). Separation of ownership and control. <em>Journal of Law and Economics</em>, <em>26</em>(2), 301–325.</li>
+      <li id="ref-hansmann1996">Hansmann, H. (1996). <em>The ownership of enterprise</em>. Harvard University Press.</li>
+      <li id="ref-ica1995">International Co-operative Alliance. (1995). <em>Statement on the co-operative identity</em>. ICA.</li>
+      <li id="ref-jensen1976">Jensen, M. C., &amp; Meckling, W. H. (1976). Theory of the firm: Managerial behavior, agency costs and ownership structure. <em>Journal of Financial Economics</em>, <em>3</em>(4), 305–360. <a href="https://doi.org/10.1016/0304-405X(76)90026-X">https://doi.org/10.1016/0304-405X(76)90026-X</a></li>
+      <li id="ref-michels1962">Michels, R. (1962). <em>Political parties: A sociological study of the oligarchical tendencies of modern democracy</em> (E. Paul &amp; C. Paul, Trans.). Free Press. (Original work published 1911)</li>
+      <li id="ref-ostrom1990">Ostrom, E. (1990). <em>Governing the commons: The evolution of institutions for collective action</em>. Cambridge University Press.</li>
+      <li id="ref-spear2004">Spear, R. (2004). Governance in democratic member-based organisations. <em>Annals of Public and Cooperative Economics</em>, <em>75</em>(1), 33–60. <a href="https://doi.org/10.1111/j.1467-8292.2004.00242.x">https://doi.org/10.1111/j.1467-8292.2004.00242.x</a></li>
+      <li id="ref-webb1921">Webb, S., &amp; Webb, B. (1921). <em>The consumers' co-operative movement</em>. Longmans, Green.</li>
+    </ol>
+  </section>
+</article>
+<article id="art-en" style="display:none">
+  <h1 class="title">The Evolution of Agricultural Cooperatives and the Rights of Members in Korea</h1>
+  <p class="authors">Jinyong Kim</p>
+  <p class="affiliations">[Affiliation]</p>
+  <div class="meta">
+    <span class="oa-badge">OPEN ACCESS</span>
+    <span>Received: [date]</span>
+    <span>Accepted: [date]</span>
+    <span>Published online: [date]</span>
+    <span>License: CC BY 4.0</span>
+  </div>
+
+  <div class="abstract">
+    <h2>Abstract</h2>
+    <p>This study reconstructs the institutional evolution of Korea's agricultural cooperatives (Nonghyup) since the launch of the integrated cooperative system in 1961 along a single axis—the expansion and contraction of members' rights—and examines how each period of reform bore on the substantiation of those rights. Members' rights are typologized into three categories: participation rights, economic rights, and information-and-control rights. The evolution is periodized into the era of bureaucratization (1961–1987), when the state appointed officers and tutored cooperative business; the era of formal democratization (1988–2010), when direct elections of cooperative presidents and the federation chair were introduced; and the era of structural reorganization (2011–present), marked by the separation of credit and economic business into holding companies and the entrusted, nationwide simultaneous management of cooperative elections. The analysis shows that Nonghyup's evolution has been a process in which the formal expansion of members' rights repeatedly crossed with substantive constraint. In the first era the very form of rights was suspended; in the second, restored electoral rights were distorted by money politics and managerial dominance; and the reforms of the third era amounted less to the substantiation of rights than to a redeployment of the conditions of their exercise. The holding-company system, in particular, lengthened the agency chain between members and business organizations, paradoxically widening the distance of member control. The study proposes shifting the benchmark of future reform from the formal guarantee of rights to the substantiation of the conditions of their exercise.</p>
+  </div>
+  <p class="keywords"><strong>Keywords:</strong> agricultural cooperatives; members' rights; member sovereignty; institutional evolution; separation of credit and economic business; cooperative governance</p>
+
+  <section>
+    <h2>1. Introduction</h2>
+    <h3>1.1. Statement of the Problem</h3>
+    <p>The agricultural cooperative (Nonghyup) is Korea's oldest and largest cooperative organization. Since the integrated cooperative system was launched in 1961 by merging the former agricultural cooperatives with the Agricultural Bank, Nonghyup has for more than half a century carried the core of agricultural finance, marketing, and the execution of farm policy. In proportion to that weight, its institutions have been the object of unending reform debate. The method of selecting cooperative presidents moved from appointment to direct election and then to externally entrusted election management; the method of selecting the federation chair oscillated among appointment, direct election, and indirect election; and the 2011 revision of the Agricultural Cooperatives Act separated the federation's credit and economic business into a holding-company system. The history of Nonghyup is, without exaggeration, a history of institutional reform.</p>
+    <p>Yet the question that should run through this chain of reforms—whether the succession of institutional changes has substantively expanded the rights of members—has rarely been confronted head-on. The raison d'être of a cooperative lies in members owning, controlling, and benefiting from it (International Co-operative Alliance [ICA], 1995), and the legitimacy of Nonghyup's institutions must ultimately be judged by the degree to which members' rights are realized. Reform debate, however, has proceeded largely by organization-centered criteria—business efficiency, managerial soundness, governance transparency—while the effects of reform on the rights landscape of individual members remained a secondary issue. Given that a cooperative's identity is itself eroded when its principles fail to be reflected in practice (Choi & Kwon, 2017), this constitutes a significant gap in Nonghyup research.</p>
+    <p>Targeting that gap, this study reconstructs the institutional history of Nonghyup along a single axis: the expansion and contraction of members' rights. The thesis defended is as follows. Nonghyup's evolution has been a process in which the formal expansion of rights repeatedly crossed with substantive constraint, and the reforms of each period amounted less to the substantiation of rights than to a redeployment of the conditions of their exercise. The abolition of appointment restored the form of electoral rights but bred the new distortion of money politics; the state entrustment of election management mitigated that distortion but ceded part of cooperative self-governance to the state; and the holding-company system sought greater business accountability while lengthening the distance between members and business organizations. The form of rights has expanded, while the conditions for exercising them have been constrained anew, in a different way, in every period.</p>
+    <p>The question also carries timely significance beyond Nonghyup. Since the Framework Act on Cooperatives took effect in 2012, thousands of new cooperatives have been founded, and they too face the same tasks of participation dilution and managerial professionalization as they grow. Nonghyup's half-century oscillation between the form and the substance of rights is a long-run experimental record of the paths new cooperatives may walk. Reading Nonghyup's evolution through members' rights is therefore also the work of building a reference point for the future of Korea's cooperative sector as a whole.</p>
+    <h3>1.2. Research Questions and Organization</h3>
+    <p>Three questions are posed. First, of what elements are members' rights composed, and by what can their realization be judged? Second, in each period of Nonghyup's institutional evolution, how did the form and the substance of members' rights respectively change? Third, what implications does this trajectory hold for the direction of future reform?</p>
+    <p>Chapter 2 typologizes members' rights and reviews the theoretical resources and prior research. Chapter 3 sets out the periodization criteria and method. Chapter 4 analyzes the three periods—bureaucratization, formal democratization, and structural reorganization—and the changing landscape of rights. Chapter 5 synthesizes the form–substance gap by category of right and responds to anticipated objections. Chapter 6 concludes with implications and limitations.</p>
+  </section>
+
+  <section>
+    <h2>2. Theoretical Background and Prior Research</h2>
+    <h3>2.1. The Concept of Members' Rights and Three Categories</h3>
+    <p>In a cooperative, the member's position is threefold—user, owner, controller—and members' rights derive from these positions. The ICA (1995) Statement on the Co-operative Identity formalizes, through the principle of democratic member control, the member's participation in decision-making and the accountability of elected officers; through the principle of member economic participation, rights over capital contribution and the distribution of surplus; and through the principle of education and information, the right to know. On this basis the study typologizes members' rights into three categories. First, participation rights: the right to vote in the assembly, to elect and stand for office, and to petition for the removal of officers. Second, economic rights: the right to use the cooperative's business, to claim patronage dividends, and to claim the refund of shares. Third, information-and-control rights: the right to inspect books and records and to demand examination. The current Agricultural Cooperatives Act grants members rights corresponding to these categories (Hong, 2012).</p>
+    <p>These rights operate upon the peculiar structure of cooperative ownership. Cooperative shares are not tradable and are bound to membership, foreclosing the acquisition of control by accumulating shares; part of the surplus is retained as statutory reserves forming common property, and dividends follow patronage rather than shareholding. This design makes people, not capital, rule the organization—but it also creates a distinctive vulnerability in the exercise of individual rights. Unlike the joint-stock company, where the pressure of exit—selling out and leaving—disciplines management, the member's channel of influence in a cooperative is voice alone: the exercise of the rights of participation and control. When participation falls silent, no mechanism remains to discipline management. This is why the substantiation of members' rights is, in a cooperative, not merely a normative demand but a functional condition of organizational discipline.</p>
+    <p>Crucially, each right has a formal and a substantive dimension. The formal dimension asks whether the right is stipulated in statute and bylaws; the substantive dimension asks whether the right, as exercised, actually governs the cooperative's will and operation. If electoral rights exist but candidacies are effectively single, or money substitutes for votes; if inspection rights exist but information asymmetry persists—then rights exist in form only. The unit of analysis of this study is precisely this gap between form and substance.</p>
+    <h3>2.2. Theoretical Resources: Separation of Ownership and Control, and the Degeneration Thesis</h3>
+    <p>The theoretical resources for the form–substance gap come from two lines. The first is the corporate-governance tradition. Berle and Means (1932) showed that dispersed ownership separates ownership from control, making managers the de facto rulers; Jensen and Meckling (1976) generalized the problem as agency costs; Fama and Jensen (1983) analyzed the organizational problems arising when residual claimants lose decision control. Hansmann (1996) extended this tradition to ownership forms in general, defining ownership as the conjunction of formal control and residual earnings rights and identifying collective decision costs and the costs of monitoring management as the key variables of cooperative ownership. In this frame, the substantiation of members' rights translates into the question whether the members, the nominal owners, hold effective control.</p>
+    <p>The second line is the degeneration thesis and its critics. Webb and Webb (1921) held that producer cooperatives degenerate under market competition into capitalist associations; Michels (1962) formalized the iron law of oligarchy, the inevitability of power concentrating in standing leadership in large organizations. Against this, Cornforth (1995) demonstrated empirically that degeneration is a contested process that organizational design and management can arrest or reverse; Cornforth (2004) showed cooperative governance to be structured by the paradox of representativeness versus expertise; and Spear (2004) warned that, absent countervailing devices, managerial entrenchment is a risk inherent in democratic member-based organizations. These arguments imply that the substance of members' rights is a variable state—eroded and recovered over time—whose direction depends on institutional design.</p>
+    <p>Combining the two lines yields the analytical lens of this study. The separation-of-ownership-and-control literature supplies a static diagnostic: at any point in time, comparing the seat of formal control with the seat of effective control identifies the form–substance gap. The degeneration–regeneration literature supplies a dynamic interpretive tool: it asks whether the gap widens or narrows over time and what forces drive the movement. For an organization with more than half a century of change, both tools are indispensable—static diagnosis alone misses the paths by which each period's gap was formed, while dynamic narrative alone cannot specify the structure of the gap in each period.</p>
+    <h3>2.3. Prior Research and the Position of This Study</h3>
+    <p>Prior research on Nonghyup falls into three streams. First, legal studies of the fit between the Agricultural Cooperatives Act and cooperative principles: Jang (2003) systematically examined the Act's problems against the ICA principles of autonomy and democratic control and proposed directions of reform, and Hong's (2012) commentary provides the groundwork on the current state of members' rights provisions. Second, studies of business-structure and governance reform: Kim (2011) analyzed the legal issues of separating the federation's credit and economic business and the development of mutual finance, and Choi and Kwon (2017) systematized the theoretical issues of cooperative governance and raised the identity problem of Korea's financial cooperatives. Third, general cooperative theory and development paths: Jang (2014) and Lim (2014) systematized cooperative theory and Korean realities; Lee (2014) showed through the Rochdale–Mondragón comparison that initial conditions govern subsequent paths; and Sim (2014), through company-law analysis of the cooperative organ structure, identified the concentration of power in the chair and the weakness of checks.</p>
+    <p>These studies illuminated, respectively, the law at particular moments, the issues of particular reforms, and general theory; but a study reconstructing the whole of Nonghyup's sixty-odd years diachronically along the single axis of members' rights is difficult to find. Reform history has been narrated around organization and business; rights discussion has remained legal interpretation at points in time. This study is distinguished by combining the two—reading the history of change through the three categories of rights and the form–substance distinction.</p>
+  </section>
+
+  <section>
+    <h2>3. Object and Method</h2>
+    <h3>3.1. Object and Periodization</h3>
+    <p>The object of study is Nonghyup's institutional evolution from the launch of the integrated cooperative in 1961 to the present, with the analytical focus on the structure of members' rights as designed by statute and institution. The criteria of periodization are the officer-selection system, which directly determines the existence and mode of participation rights, and the organizational system, which determines the length of the agency chain and hence the practicability of control. Three periods result. Period I, bureaucratization (1961–1987): presidents and the federation chair were in effect appointed and the state tutored cooperative operation. Period II, formal democratization (1988–2010): direct election of presidents was introduced after democratization and the chair-selection method fluctuated. Period III, structural reorganization (2011–present): the Act's revision separated the federation's credit and economic business into holding companies, and election management was entrusted to a state authority and consolidated into nationwide simultaneous elections.</p>
+    <p>The periodization is justified by its two criteria: officer selection is the most sensitive indicator of the rights landscape, and organizational structure determines the practicability of control. In 1988 and 2011 discontinuities occurred on both criteria at once. Gradual change within periods and continuities across them of course exist; the three periods are to be understood as distinctions of dominant tendency, not compartments.</p>
+    <h3>3.2. Analytical Framework and Method</h3>
+    <p>The method is theoretical inquiry grounded in literature review and legal-institutional analysis. For each period, two steps are performed. First, the principal institutional changes are identified and their effects on the formal dimension of each category of rights—participation, economic, information-and-control—are set out. Second, in the light of operational realities reported in prior research, the changing substantive conditions of exercise are interpreted. The criterion of judgment is the attribution of effective control in Hansmann's (1996) sense: whether the members' collective will actually governs officer selection and major decisions. Figure 1 depicts the procedure.</p>
+    <figure>
+      <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto" role="img" aria-label="analytical framework">
+        <defs><marker id="ear1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1428a0"/></marker></defs>
+        <style>
+          .eb1{fill:#fff;stroke:#1428a0;stroke-width:1.4}
+          .eg1{fill:#f4f6f9;stroke:#e2e5eb;stroke-width:1.2}
+          .ete{font-family:var(--sans);font-size:14px;fill:#111318}
+          .ehe{font-family:var(--sans);font-size:13px;fill:#1428a0;letter-spacing:.05em}
+          .ele{stroke:#1428a0;stroke-width:1.4;marker-end:url(#ear1)}
+        </style>
+        <rect x="50" y="16" width="600" height="62" class="eg1"/>
+        <text x="350" y="40" text-anchor="middle" class="ehe">OBJECT OF ANALYSIS</text>
+        <text x="350" y="64" text-anchor="middle" class="ete">Three periods: bureaucratization · formal democratization · reorganization</text>
+        <line x1="350" y1="78" x2="350" y2="104" class="ele"/>
+        <rect x="30" y="106" width="640" height="90" class="eb1"/>
+        <text x="350" y="130" text-anchor="middle" class="ehe">THREE CATEGORIES OF MEMBERS' RIGHTS</text>
+        <text x="140" y="158" text-anchor="middle" class="ete">① Participation</text>
+        <text x="140" y="180" text-anchor="middle" class="ete">(vote · elect · remove)</text>
+        <text x="350" y="158" text-anchor="middle" class="ete">② Economic</text>
+        <text x="350" y="180" text-anchor="middle" class="ete">(use · dividend · refund)</text>
+        <text x="560" y="158" text-anchor="middle" class="ete">③ Information–control</text>
+        <text x="560" y="180" text-anchor="middle" class="ete">(inspect · examine)</text>
+        <line x1="350" y1="196" x2="350" y2="222" class="ele"/>
+        <rect x="110" y="224" width="480" height="58" class="eb1"/>
+        <text x="350" y="248" text-anchor="middle" class="ehe">DIMENSIONS</text>
+        <text x="350" y="272" text-anchor="middle" class="ete">Form (legal guarantee) vs. substance (conditions of exercise)</text>
+        <line x1="350" y1="282" x2="350" y2="308" class="ele"/>
+        <rect x="80" y="310" width="540" height="106" class="eg1"/>
+        <text x="350" y="336" text-anchor="middle" class="ehe">CRITERIA AND INTERPRETATION</text>
+        <text x="350" y="360" text-anchor="middle" class="ete">Attribution of effective control (Hansmann, 1996)</text>
+        <text x="350" y="384" text-anchor="middle" class="ete">Degeneration–regeneration dynamics (Michels, 1962; Cornforth, 1995)</text>
+        <text x="350" y="408" text-anchor="middle" class="ete">→ Reconstructing the rights landscape by period</text>
+      </svg>
+      <figcaption>&lt;Figure 1&gt; Analytical framework of the study</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>4. Nonghyup's Evolution and the Landscape of Members' Rights</h2>
+    <h3>4.1. Bureaucratization (1961–1987): The Suspension of the Form of Rights</h3>
+    <p>In 1961 the military government merged the former agricultural cooperatives with the Agricultural Bank to launch an integrated cooperative combining credit and economic business. The reorganization was effected not by members' voluntary resolution but by state legislation; in the suspension and reorganization of existing cooperative law, cooperative organizations were merged and bureaucratized. Presidents and the federation chair were in effect appointed, and cooperative business was subordinated to state goals of food production and policy execution. In exact reverse of the Rochdale path in which voluntary association preceded institutionalization (Lee, 2014), in Nonghyup the institution preceded the association, and the member was a beneficiary and object of mobilization before being an owner.</p>
+    <p>The business structure of the period was the material base reproducing this suspension of rights. The integrated cooperative served as the window of policy finance, the supplier of fertilizer and farm inputs, and the agent of government procurement; the cooperative's accounts turned on the allocation of policy business rather than on members' use and participation. From the member's standpoint, Nonghyup was not an association of their own making but a window installed by the state, and using it was closer to administrative compliance than to the exercise of a right. The passive self-understanding formed in this period—the member as client and petitioner rather than owner—remained a deep factor explaining low participation in later periods. When institutions precede association, the habits of association are also cast by the institution.</p>
+    <p>The rights landscape of the period is summarized as the suspension of form in all three categories. The electoral core of participation rights was blocked by appointment, and the assembly, though extant, was close to a ratifying organ for state-set business. Economic rights shrank to rights of use within a state-designed structure, with dividends governed by policy-fund flows rather than cooperative management. Information-and-control rights could carry little substance where state supervision substituted for member oversight. The fundamental problem of the Act measured against the principles of autonomy and democratic control (Jang, 2003) was structured in this period: the normative core of member sovereignty (ICA, 1995) was suspended at the level of form itself.</p>
+    <h3>4.2. Formal Democratization (1988–2010): Recovery of Form, Distortion of Substance</h3>
+    <p>The democratization of 1987 reached Nonghyup. From 1988 the direct election of presidents by members was introduced, and the federation chair likewise moved from appointment to election. The form of participation rights was recovered after a quarter century. But the recovery of form marched with the distortion of substance. Vote-buying and entertainment recurred in presidential elections; the so-called money election blocked the restored franchise from producing a genuine collective will. As irregularities accumulated, election administration began to be entrusted to the National Election Commission—starting with the forestry cooperatives in 2005 and extending to Nonghyup. The cooperative's internal democratic procedure became an object of state administration: a paradoxical structure in which the failed substantiation of a recovered right was corrected by state intervention.</p>
+    <p>The fluctuation of the chair-selection system condenses the character of the period. The directly elected chairship, dogged by excessive cost and turbid campaigns, was narrowed by legal revision in the late 2000s to indirect election by delegates. The base of the topmost selection in the agency chain—member, president, chair—contracted, showing that the form of participation rights expanded and contracted in turn. Meanwhile the growth of cooperative scale and credit business demanded managerial professionalization, deepening the concentration of information and resources in standing management. The general weakness of the cooperative organ structure—power concentrated in the chair, checks enfeebled (Sim, 2014)—became fully manifest in Nonghyup in this period. This shows that the organizational conditions of Michels's (1962) oligarchization can operate despite, indeed through, the introduction of elections: an election can degenerate into a procedure re-ratifying the incumbent's grip on the organization.</p>
+    <p>The changing composition of the membership also bore on the conditions of exercise. As farm structure polarized between a minority of full-time farmers and a majority of small and aging farmers, the divergence of member interests over the cooperative's business priorities widened. As Hansmann (1996) observed, growing member heterogeneity raises the cost of collective decision-making and turns the decision mechanism into an arena of interest adjustment. The harder the formation of a collective will, the more decisions pass to managerial discretion; members who lose the sense of efficacy withdraw further from participation, in a self-reinforcing circle. The participation distortions of the period were deepened not only by money and managerial dominance within the organization but by structural change in the membership base itself.</p>
+    <p>The operation of the assembly likewise displays the form–substance gap. With growing membership, most cooperatives ran an assembly of delegates in place of the general assembly; the delegate system bought decisional efficiency at the cost of excluding ordinary members from the standing institution of direct participation, and the general assembly tended toward an annual ritual. In the relation of primary cooperatives to the federation, too, the chain of agency was long: the federation held powers of guidance and audit over member cooperatives and ran credit business at the center, so primary-cooperative decisions were constrained from above. In a structure where the member-elected president stands before the federation as an object of guidance and audit, member sovereignty was diluted the moment it crossed the fence of the primary cooperative.</p>
+    <p>In the economic and information-control categories the gap persisted. The forms of patronage and capital dividends were consolidated, but the size and distribution of surplus turned on the business judgment of management and the federation rather than on members. Inspection and examination rights stood in the statute, but before the expertise of credit business and the complexity of accounts, the individual member's capacity of oversight was structurally inferior (Choi & Kwon, 2017). Formal democratization thus recovered the form of rights while a threefold distortion—money elections, managerial dominance, information asymmetry—blocked the recovery of substance.</p>
+    <h3>4.3. Structural Reorganization (2011–present): Redeploying the Conditions of Exercise</h3>
+    <p>Period III opened with the 2011 revision of the Act. The debate on separating the federation's credit and economic business, raised since the mid-1990s, bore fruit in the reorganization of 2012, when the federation's business was divided into an economic holding company and a financial holding company (Kim, 2011). The stated rationale was transparency and accountability by business division and the activation of economic business; the federation would concentrate on member education and support, with business conducted by the holding companies and their subsidiaries.</p>
+    <p>Elections were also reorganized. With the consolidation of entrusted-election legislation, the first nationwide simultaneous elections of cooperative presidents were held in 2015 under state management on a single day. The chair-selection method, after controversy over the representativeness of indirect election, was re-expanded to selection by all cooperative presidents. On the surface, the period appears to have raised both electoral fairness and business accountability.</p>
+    <p>From the standpoint of members' rights, however, the effects are ambivalent. First, the holding-company system lengthened the agency chain. What had been a two-step agency—member, primary cooperative, federation—became a multi-tier structure running member, primary cooperative, federation, holding company, subsidiary. The holding companies and subsidiaries are joint-stock companies whose governance follows company law; the member's control operates only through the federation's shareholding, refracted twice and three times over. In Hansmann's (1996) terms, the distance between the organizations to which residual earnings and effective control accrue (holding companies and subsidiaries) and the source of formal control (the members) was institutionally widened. Business accountability was recast as accountability to markets and supervisors; it is hard to hold that accountability to members strengthened in the same measure.</p>
+    <p>In the economic category, the effect of the holding-company system is summarized as mediation. Members still use business through the primary cooperative, but the underlying business system—the earnings structure of marketing and finance—is decided at the level of holding companies and subsidiaries. Subsidiary dividends flow to the holding company, holding-company dividends to the federation, federation support to member cooperatives: only through this multi-stage path does benefit reach the member, and the distribution decision at each stage lies outside the member's reach. The cooperative principle of patronage-based distribution survives at the primary level, but in the distribution of group-wide surplus the member's economic right is residual rather than principled. Whatever scale did for the total of member benefit, the member's voice in its distribution structurally receded with the system change.</p>
+    <p>Second, the full state entrustment and simultaneity of elections achieved the real result of suppressing money politics, but at the same time redefined the cooperative election from a process of communal self-governance into an administrative procedure managed by the state. The strict campaign restrictions of the entrusted-election regime have been criticized for creating competitive conditions favorable to incumbents, who lead in organization and name recognition. The narrower the challenger's channels, the closer the election comes to a procedure of incumbent re-ratification, and the member's choice becomes a choice without real alternatives. Suppressing irregularity and fostering competition are the two goals of electoral design; the entrusted regime, optimized for the former, sacrificed something of the latter. In terms of participation rights, the right to cast a vote was protected; the right to a meaningful set of choices was not sufficiently protected.</p>
+    <p>Measured against the principle of autonomy and independence (ICA, 1995), the reforms of the period were an exchange: reducing the distortion of the exercise of rights at the price of placing the very arena of exercise under state management.</p>
+    <p>Taking the period as a whole: as an answer to the two distortions left by Period II—money elections and business opacity—the reform succeeded; but because the mode of answer was the expansion of state management and the company-law reorganization of structure rather than the substantiation of members' rights, it created a new gap. The re-expansion of chair selection to all presidents corrected the representativeness deficit of indirect election, but from the ordinary member's standpoint the chair remains an object of two-step indirect selection, and at the management of holding companies and subsidiaries the line of election is replaced altogether by company-law appointment. In Period III, the formal catalogue of members' rights is more complete than in any previous period—while the reach of those rights over the organization is narrower than in any previous period. The completion of rights and the contraction of their range proceeded together: this is the paradox of the reorganization era.</p>
+    <p>Figure 2 and Table 1 summarize the evolution by period.</p>
+    <figure>
+      <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto" role="img" aria-label="timeline">
+        <defs><marker id="ear2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1428a0"/></marker></defs>
+        <style>
+          .fb2{fill:#fff;stroke:#1428a0;stroke-width:1.4}
+          .fg2{fill:#f4f6f9;stroke:#e2e5eb;stroke-width:1.2}
+          .fte{font-family:var(--sans);font-size:14px;fill:#111318}
+          .fse{font-family:var(--sans);font-size:12.5px;fill:#626773}
+          .fhe{font-family:var(--sans);font-size:13.5px;fill:#1428a0;letter-spacing:.03em}
+          .fax{stroke:#1428a0;stroke-width:1.6;marker-end:url(#ear2)}
+          .ftk{stroke:#1428a0;stroke-width:1.4}
+        </style>
+        <line x1="50" y1="60" x2="660" y2="60" class="fax"/>
+        <line x1="70" y1="52" x2="70" y2="68" class="ftk"/>
+        <text x="70" y="42" text-anchor="middle" class="fse">1961</text>
+        <line x1="270" y1="52" x2="270" y2="68" class="ftk"/>
+        <text x="270" y="42" text-anchor="middle" class="fse">1988</text>
+        <line x1="470" y1="52" x2="470" y2="68" class="ftk"/>
+        <text x="470" y="42" text-anchor="middle" class="fse">2011</text>
+        <rect x="60" y="84" width="190" height="120" class="fg2"/>
+        <text x="155" y="110" text-anchor="middle" class="fhe">I. Bureaucratization</text>
+        <text x="155" y="136" text-anchor="middle" class="fse">Integrated co-op (1961)</text>
+        <text x="155" y="158" text-anchor="middle" class="fse">Appointed officers</text>
+        <text x="155" y="180" text-anchor="middle" class="fse">State tutelage</text>
+        <rect x="260" y="84" width="190" height="120" class="fg2"/>
+        <text x="355" y="110" text-anchor="middle" class="fhe">II. Formal democratization</text>
+        <text x="355" y="136" text-anchor="middle" class="fse">Direct election (1988)</text>
+        <text x="355" y="158" text-anchor="middle" class="fse">Chair: direct → indirect</text>
+        <text x="355" y="180" text-anchor="middle" class="fse">Money politics; NEC entrustment</text>
+        <rect x="460" y="84" width="190" height="120" class="fg2"/>
+        <text x="555" y="110" text-anchor="middle" class="fhe">III. Reorganization</text>
+        <text x="555" y="136" text-anchor="middle" class="fse">Credit/economic split (2012)</text>
+        <text x="555" y="158" text-anchor="middle" class="fse">Simultaneous elections (2015)</text>
+        <text x="555" y="180" text-anchor="middle" class="fse">Chair selection re-expanded</text>
+        <rect x="60" y="236" width="190" height="120" class="fb2"/>
+        <text x="155" y="262" text-anchor="middle" class="fte">Rights landscape</text>
+        <text x="155" y="288" text-anchor="middle" class="fse">Form suspended</text>
+        <text x="155" y="310" text-anchor="middle" class="fse">Franchise blocked;</text>
+        <text x="155" y="332" text-anchor="middle" class="fse">assembly as ratifier</text>
+        <rect x="260" y="236" width="190" height="120" class="fb2"/>
+        <text x="355" y="262" text-anchor="middle" class="fte">Rights landscape</text>
+        <text x="355" y="288" text-anchor="middle" class="fse">Form recovered · substance distorted</text>
+        <text x="355" y="310" text-anchor="middle" class="fse">Money politics, managerial</text>
+        <text x="355" y="332" text-anchor="middle" class="fse">dominance, info asymmetry</text>
+        <rect x="460" y="236" width="190" height="120" class="fb2"/>
+        <text x="555" y="262" text-anchor="middle" class="fte">Rights landscape</text>
+        <text x="555" y="288" text-anchor="middle" class="fse">Conditions redeployed</text>
+        <text x="555" y="310" text-anchor="middle" class="fse">Agency chain lengthened;</text>
+        <text x="555" y="332" text-anchor="middle" class="fse">elections state-managed</text>
+      </svg>
+      <figcaption>&lt;Figure 2&gt; Nonghyup's evolution and the rights landscape by period<br><span class="fignote">Note: Years mark the principal institutional changes serving as period boundaries.</span></figcaption>
+    </figure>
+    <table>
+      <caption>&lt;Table 1&gt; Institutional change and the form and substance of members' rights by period</caption>
+      <thead>
+        <tr><th></th><th>I. Bureaucratization<br>(1961–1987)</th><th>II. Formal democratization<br>(1988–2010)</th><th>III. Reorganization<br>(2011–present)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Principal changes</td><td>Integrated co-op; appointed officers</td><td>Direct presidential election; chair direct → indirect; NEC entrustment begins</td><td>Credit/economic separation; simultaneous elections; chair selection re-expanded</td></tr>
+        <tr><td>Participation rights</td><td>Form suspended (franchise blocked)</td><td>Form recovered; substance distorted by money politics</td><td>Fairness raised; self-governance state-managed</td></tr>
+        <tr><td>Economic rights</td><td>Reduced to use within policy business</td><td>Dividend forms consolidated; distribution subordinated to management</td><td>Benefit mediated by the holding-company system</td></tr>
+        <tr><td>Information–control rights</td><td>State supervision replaced member oversight</td><td>Inspection rights extant; asymmetry persistent</td><td>Control distance widened by the multi-tier chain</td></tr>
+        <tr><td>Locus of effective control</td><td>The state</td><td>State + standing management</td><td>Management · holding-company system</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>5. Discussion</h2>
+    <h3>5.1. The Expansion of Form, the Re-Constraint of Substance</h3>
+    <p>The analysis of Chapter 4 supports the thesis of the introduction. Over sixty-odd years the form of members' rights has clearly expanded: the blocked franchise was recovered, electoral fairness was raised, divisional accounting accountability was consolidated. But looking into the substance of each period, the conditions constraining the exercise of rights did not disappear; they were redeployed in changed forms. The constraint of Period I was direct state tutelage; of Period II, the internal distortions of money and managerial dominance; of Period III, the structural distance created by the holding-company system and the proceduralization of elections. The form–substance gap has not so much narrowed as its generating mechanism has migrated—from direct state intervention, to internal power asymmetry, to structural distance built by institutional design.</p>
+    <p>This trajectory differs from the classical narrative of degeneration. The degeneration Webb and Webb (1921) drew is the transformation of a cooperative that begins from a democratic archetype; Nonghyup did not begin from one. Its evolution is a process in which suspended rights recover their form step by step while the recovery of substance is deferred at every step—a mirror image of degeneration, as it were: deferred substantiation. Superimposed on it is Michelsian oligarchization: growth of scale and expertise concentrated power in standing leadership in every period, and the introduction of elections tended to re-ratify rather than dissolve that concentration. Yet, as Cornforth (1995) stressed, the dynamic is not fate. That NEC entrustment actually suppressed money politics shows that institutional design can bend the direction of substance. The problem is to distinguish which designs contribute to substantiation and which stop at redeployment.</p>
+    <p>The last row of Table 1—the migration of effective control from the state, to state-plus-management, to management and the holding-company system—supplies the criterion for that distinction. Whether a reform contributed to substantiation can be judged by whether it moved effective control toward the members. By this criterion, the introduction of direct presidential election moved control toward members; the state entrustment of elections repaired the distortion of exercise without moving the seat of control; and the holding-company system moved control farther from members. That three directions of movement coexist within one reform history shows that the conventional reading of Nonghyup reform as a single line of progress or regress does not hold.</p>
+    <h3>5.2. Synthesis by Category of Right</h3>
+    <p>Table 2 synthesizes the present landscape of form and substance by category.</p>
+    <table>
+      <caption>&lt;Table 2&gt; The present landscape of form and substance by category of members' rights</caption>
+      <thead>
+        <tr><th>Category</th><th>Formal guarantee</th><th>Substantive constraint</th><th>Principal mechanism</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Participation</td><td>One member one vote; direct election; removal petition</td><td>Limited candidate competition; incumbent advantage; ritualized assembly</td><td>Campaign restrictions; delegate system; managerial dominance</td></tr>
+        <tr><td>Economic</td><td>Patronage priority; share-refund claim</td><td>Distribution subordinated to management; benefit mediated</td><td>Holding-company system; professionalized business judgment</td></tr>
+        <tr><td>Information–control</td><td>Inspection; examination demand</td><td>Structural inferiority of oversight capacity</td><td>Information asymmetry; multi-tier agency chain</td></tr>
+      </tbody>
+    </table>
+    <p>The common structure Table 2 displays is that in all three categories the formal guarantee approaches completeness while the mechanisms of substantive constraint operate differently by right. Prescriptions must therefore differ by category: for participation, redesign of elections to substantiate candidate competition; for economic rights, institutionalized member involvement in surplus-distribution policy; for information-and-control, disclosure in forms members can digest and professional oversight bodies acting on their behalf. Such rights-centered prescription connects with the insight of common-pool resource research that self-governance is sustainable in small communities with clear boundaries and mutual monitoring (Ostrom, 1990): the substantiation of members' rights is ultimately the recovery of the conditions of scale and information under which members can watch one another and the organization.</p>
+    <p>The three categories are, moreover, not independent but circularly linked. Information-and-control rights must be substantive for members to exercise participation rights meaningfully on an informed basis; participation must be substantive for economic distribution to be the members' decision rather than management's grace; and economic benefit must be felt for members to have the incentive to seek information and participate. Conversely, the hollowing of one category hollows the others: participation without information becomes formal hand-raising, information without decision power ends at inspection, and members take no interest in a cooperative without benefit. The three periods of Nonghyup displayed precisely three phases of this vicious circle. Reform design must therefore go beyond listing the categories as separate tasks and include the strategic judgment of where to break the circle.</p>
+    <h3>5.3. Anticipated Objections and Replies</h3>
+    <p>Three objections may be anticipated. First, that assessing the reforms of Period III as a redeployment of conditions undervalues their achievements. Simultaneous elections visibly reduced electoral irregularity; the business separation raised accounting transparency. This study does not deny the achievements; its claim concerns their character. Both reforms contributed to reducing the distortion of the exercise of rights, but neither reached the expansion of members' capacity and channels to actually govern the organization's will and surplus. The reduction of distortion and substantiation are different things, and the former does not automatically produce the latter.</p>
+    <p>Second, that a rights-centered narrative ignores the demands of efficiency: Nonghyup is a vast business organization that cannot survive without swift, expert decision-making. The demand for efficiency is not denied. The point is that in a cooperative, efficiency and member control stand in a relation of condition, not substitution. As argued in Section 2.1, in an organization without the exit mechanism the ultimate discipline on management is the members' voice; the efficiency of an organization whose voice has fallen silent is a fragile efficiency, dependent on ex-post detection by supervisors. The substantiation of member control is not a cost of efficiency but a precondition for the cooperative form to be efficient at all (Cornforth, 2004; Spear, 2004).</p>
+    <p>Third, that without empirical data, legal-institutional analysis cannot judge substance. This is partly valid and accepted as a limitation. But the judgments here are tendencies identified by institutional analysis, not settled verdicts, and they run in the same direction as the realities reported in prior research (Jang, 2003; Kim, 2011; Sim, 2014; Choi & Kwon, 2017). Testing the tendencies with indicators—contested-election rates, assembly attendance, the frequency of inspection-right exercise—remains for subsequent research.</p>
+    <h3>5.4. Why Redeployment Recurs: The Paradox of State-Dependent Reform</h3>
+    <p>The remaining question is why the reforms of every period issued in redeployment rather than substantiation. This study locates the structural cause in the identity of the reformer. Nonghyup's principal institutional changes were, without exception, effected by state legislation: bureaucratization, direct election, entrustment, and reorganization all took the form of revising the Act, with agenda and design in the hands of government and legislature. Members were the recipients of reform, not its subjects. Yet by cooperative principle, a cooperative's institutions must ultimately express member self-governance, and democratic control must not be compromised even in external relations (ICA, 1995; Jang, 2003). Reform designed by the state gives priority to the values the state weighs—prevention of irregularity, transparency of accounts, soundness of business—while the value of members' effective control is easily subordinated in the design. Hence the paradox: as reform succeeded reform, the institutions grew more refined, but the experience of members becoming the owners of the institutions did not accumulate.</p>
+    <p>The paradox resonates with the general theory of cooperative governance. Cornforth's (2004) paradox of representativeness and expertise implies that expert solutions designed from outside do not solve the internal problem of representativeness; Spear's (2004) warning of managerial entrenchment is likewise not dissolved by strengthened external supervision but demands the formation of members' countervailing power. Substantiation, in the end, is not something the state can bestow on members; it is something members must accumulate for themselves under exercisable conditions, with the state's role confined to furnishing those conditions. This perspective leads to the conceptual synthesis of the next section.</p>
+    <h3>5.5. The Conditions of Substantiation: A Conceptual Synthesis</h3>
+    <p>Synthesizing the discussion: the substantiation of members' rights is achieved when three tiers align—formal guarantee, conditions of exercise, and the attribution of control. Formal guarantee is only a necessary condition; the conditions of exercise (competitive elections, digestible information, channels of involvement) must be furnished; and ultimately effective control must be attributed to the members' collective will. Nonghyup's evolution was the completion of the first tier, while the second and third remained incomplete, in each period through a different mechanism. Figure 3 depicts the structure.</p>
+    <figure>
+      <svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto" role="img" aria-label="three tiers">
+        <defs><marker id="ear3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1428a0"/></marker></defs>
+        <style>
+          .gb3{fill:#f4f6f9;stroke:#e2e5eb;stroke-width:1.2}
+          .gt3{font-family:var(--sans);font-size:15px;fill:#111318}
+          .gs3{font-family:var(--sans);font-size:13px;fill:#626773}
+          .gh3{font-family:var(--sans);font-size:13.5px;fill:#1428a0;letter-spacing:.04em}
+          .gl3{stroke:#1428a0;stroke-width:1.4;marker-end:url(#ear3)}
+        </style>
+        <rect x="60" y="24" width="580" height="72" class="gb3"/>
+        <text x="350" y="52" text-anchor="middle" class="gh3">TIER 1 — FORMAL GUARANTEE</text>
+        <text x="350" y="78" text-anchor="middle" class="gs3">Rights in statute and bylaws (franchise · dividends · inspection) — completed over time</text>
+        <line x1="350" y1="96" x2="350" y2="122" class="gl3"/>
+        <rect x="60" y="124" width="580" height="72" class="gb3"/>
+        <text x="350" y="152" text-anchor="middle" class="gh3">TIER 2 — CONDITIONS OF EXERCISE</text>
+        <text x="350" y="178" text-anchor="middle" class="gs3">Competitive elections · digestible information · channels of involvement — constrained by period</text>
+        <line x1="350" y1="196" x2="350" y2="222" class="gl3"/>
+        <rect x="60" y="224" width="580" height="72" class="gb3"/>
+        <text x="350" y="252" text-anchor="middle" class="gh3">TIER 3 — ATTRIBUTION OF CONTROL</text>
+        <text x="350" y="278" text-anchor="middle" class="gs3">Members' will governs decisions and surplus — migrated: state → management → holding system</text>
+        <text x="350" y="316" text-anchor="middle" class="gt3">Substantiation of rights = alignment of the three tiers</text>
+      </svg>
+      <figcaption>&lt;Figure 3&gt; The three tiers of the substantiation of members' rights</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>6. Conclusion</h2>
+    <h3>6.1. Summary of Findings</h3>
+    <p>This study has reconstructed sixty-odd years of Nonghyup's institutional evolution along the axis of members' rights. First, members' rights are typologized into participation, economic, and information-and-control rights, each with a formal and a substantive dimension. Second, in the bureaucratization era the very form of rights was suspended; in the formal-democratization era the form was recovered while money politics and managerial dominance distorted the substance; and the reforms of the reorganization era reduced distortion at the cost of a lengthened agency chain and the proceduralization of elections. Third, the evolution should accordingly be understood not as a process of substantiation but as a continual redeployment of the conditions of exercise, with the locus of effective control migrating from the state to management and the holding-company system.</p>
+    <h3>6.2. Policy Implications</h3>
+    <p>These conclusions demand a shift of benchmark for future reform. Departing from the practice of evaluating reform by business results or procedural fairness alone, the density of rights actually exercised—the substance of electoral competition, the decisiveness of the assembly, the effectiveness of information access—should stand at the center of reform assessment. Concretely: for participation, electoral design that fosters candidate competition; for economic rights, substantive assembly deliberation on distribution policy; for information-and-control, member-level disclosure and strengthened professional oversight acting for members. As to the holding-company system, the task remains of redesigning the accountability linkage between the federation and the holding companies from the members' standpoint, so that the logic of business efficiency does not erode the logic of member control.</p>
+    <p>The mode of reform itself must also turn. To break the paradox of state dependence discussed in Section 5.4, future institutional design should be agenda-set and tested with the participation of members and cooperatives: institutionalized member consultation at the formation stage, and ex-post evaluation of reform by members'-rights indicators feeding back into the next revision. From reform in which the state makes good institutions for members, to reform in which members accumulate the experience of making institutions—that is the direction to which this analysis points.</p>
+    <h3>6.3. Limitations and Future Research</h3>
+    <p>As a theoretical study based on literature and legal-institutional analysis, this study has the following limitations. First, the judgments on substance have not been tested against empirical indicators—contested-election and turnout rates, amendment and rejection rates of assembly agenda, the frequency of inspection and examination demands. Second, the unit of analysis being the institutional level, variation among primary cooperatives—urban versus rural, large versus small commodity cooperatives—is not reflected. Third, the analysis is confined to Nonghyup; comparison with other statutory cooperatives that walked similar state-led paths should test whether the periodization and interpretation generalize. Fourth, the periodization, keyed to the onset of institutional change, simplifies gradual change within periods and continuities across them. Notwithstanding, the study claims significance in offering a framework that turns the reading of Nonghyup's reform history from a narrative of organization and business into a narrative of members' rights, and in proposing the three-tier model and the migration-of-control criterion for evaluating reform.</p>
+  </section>
+
+  <section class="statement">
+    <h2>Conflict of Interest</h2>
+    <p>The author declares no conflict of interest with respect to this article.</p>
+  </section>
+
+  <section class="references">
+    <h2>References</h2>
+    <ol>
+      <li id="enref-kim2011">김두년. (2011). 농협중앙회 사업구조개편과 상호금융 발전방향. <em>한국협동조합연구</em>, <em>29</em>(1), 1–21. <a href="https://doi.org/10.35412/kjcs.2011.29.1.001">https://doi.org/10.35412/kjcs.2011.29.1.001</a></li>
+      <li id="enref-sim2014">심인숙. (2014). 영리기업조직의 한 유형으로서의 협동조합에 관한 소고: 협동조합기본법상 일반협동조합의 지배구조를 중심으로. <em>선진상사법률연구</em>, <em>68</em>, 33–83.</li>
+      <li id="enref-lee2014">이종현. (2014). 협동조합 발전의 초기 조건에 대한 연구: 영국의 로치데일과 스페인의 몬드라곤을 중심으로. <em>동향과 전망</em>, <em>90</em>, 229–261.</li>
+      <li id="enref-lim2014">임영선. (2014). <em>협동조합의 이론과 현실</em>. 한국협동조합연구소.</li>
+      <li id="enref-jang2003">장종익. (2003). 협동조합 원칙에 비추어 본 농협법의 문제점과 개선방향. <em>한국협동조합연구</em>, <em>21</em>(1), 177–217.</li>
+      <li id="enref-jang2014">장종익. (2014). <em>협동조합 비즈니스 전략: 협동조합의 개념·비즈니스 모델·사례</em>. 동하.</li>
+      <li id="enref-choi2017">최진배, 권오혁. (2017). 협동조합 지배구조에 대한 이론적 쟁점과 한국 금융협동조합에의 시사: 지역사회개발 문제를 중심으로. <em>공간과 사회</em>, <em>27</em>(2), 150–184. <a href="https://doi.org/10.19097/kaser.2017.27.2.150">https://doi.org/10.19097/kaser.2017.27.2.150</a></li>
+      <li id="enref-hong2012">홍행남. (2012). <em>농업협동조합법 해설</em>. 농민신문사.</li>
+      <li id="enref-berle1932">Berle, A. A., &amp; Means, G. C. (1932). <em>The modern corporation and private property</em>. Macmillan.</li>
+      <li id="enref-cornforth1995">Cornforth, C. (1995). Patterns of co-operative management: Beyond the degeneration thesis. <em>Economic and Industrial Democracy</em>, <em>16</em>(4), 487–523. <a href="https://doi.org/10.1177/0143831X95164002">https://doi.org/10.1177/0143831X95164002</a></li>
+      <li id="enref-cornforth2004">Cornforth, C. (2004). The governance of cooperatives and mutual associations: A paradox perspective. <em>Annals of Public and Cooperative Economics</em>, <em>75</em>(1), 11–32. <a href="https://doi.org/10.1111/j.1467-8292.2004.00241.x">https://doi.org/10.1111/j.1467-8292.2004.00241.x</a></li>
+      <li id="enref-fama1983">Fama, E. F., &amp; Jensen, M. C. (1983). Separation of ownership and control. <em>Journal of Law and Economics</em>, <em>26</em>(2), 301–325.</li>
+      <li id="enref-hansmann1996">Hansmann, H. (1996). <em>The ownership of enterprise</em>. Harvard University Press.</li>
+      <li id="enref-ica1995">International Co-operative Alliance. (1995). <em>Statement on the co-operative identity</em>. ICA.</li>
+      <li id="enref-jensen1976">Jensen, M. C., &amp; Meckling, W. H. (1976). Theory of the firm: Managerial behavior, agency costs and ownership structure. <em>Journal of Financial Economics</em>, <em>3</em>(4), 305–360. <a href="https://doi.org/10.1016/0304-405X(76)90026-X">https://doi.org/10.1016/0304-405X(76)90026-X</a></li>
+      <li id="enref-michels1962">Michels, R. (1962). <em>Political parties: A sociological study of the oligarchical tendencies of modern democracy</em> (E. Paul &amp; C. Paul, Trans.). Free Press. (Original work published 1911)</li>
+      <li id="enref-ostrom1990">Ostrom, E. (1990). <em>Governing the commons: The evolution of institutions for collective action</em>. Cambridge University Press.</li>
+      <li id="enref-spear2004">Spear, R. (2004). Governance in democratic member-based organisations. <em>Annals of Public and Cooperative Economics</em>, <em>75</em>(1), 33–60. <a href="https://doi.org/10.1111/j.1467-8292.2004.00242.x">https://doi.org/10.1111/j.1467-8292.2004.00242.x</a></li>
+      <li id="enref-webb1921">Webb, S., &amp; Webb, B. (1921). <em>The consumers' co-operative movement</em>. Longmans, Green.</li>
+    </ol>
+  </section>
+</article>
+
+
+<script>
+function setLang(l){
+  document.getElementById('art-ko').style.display=(l==='ko')?'block':'none';
+  document.getElementById('art-en').style.display=(l==='en')?'block':'none';
+  document.getElementById('btn-ko').classList.toggle('active',l==='ko');
+  document.getElementById('btn-en').classList.toggle('active',l==='en');
+  document.documentElement.lang=l;
+}
+</script>
+</body>
+</html>

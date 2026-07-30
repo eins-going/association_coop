@@ -193,3 +193,32 @@
   select.addEventListener('change',showIssue);
   showIssue();
 })();
+
+;(function(){
+  var journal=document.querySelector('.journal-site');
+  if(!journal)return;
+
+  journal.addEventListener('click',function(event){
+    var button=event.target.closest('[data-paper-toggle]');
+    if(!button)return;
+
+    var panel=document.getElementById(button.getAttribute('data-paper-toggle'));
+    if(!panel)return;
+
+    var open=button.getAttribute('aria-expanded')==='true';
+    button.setAttribute('aria-expanded',String(!open));
+    button.textContent=open?'원문 보기':'원문 닫기';
+    panel.hidden=open;
+
+    if(open)return;
+
+    if(!panel.querySelector('iframe')){
+      var frame=document.createElement('iframe');
+      frame.src=button.getAttribute('data-paper-src');
+      frame.title=button.closest('.paper-item').querySelector('h3').textContent+' 원문';
+      frame.loading='lazy';
+      panel.appendChild(frame);
+    }
+    panel.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+})();

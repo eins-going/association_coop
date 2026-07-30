@@ -341,7 +341,7 @@ button,input,textarea,select{font:inherit}
 .program-title h2{font-size:clamp(28px,3vw,38px);font-weight:700}
 .qualification-grid article,.cert-standards article{border-radius:0;border-top:2px solid #1b1e24}
 .issue-heading{padding-bottom:15px;border-bottom:3px solid #171a20}
-.paper-list{border-top:0}
+.paper-list{border-top:0;border-bottom:3px solid #171a20}
 .faculty-grid,.course-list{border-top-width:3px}
 .ci-logo-stage,.officer-lead,.principle-box,.lookup-box,.cert-notice{border-radius:0}
 
@@ -640,10 +640,16 @@ button,input,textarea,select{font:inherit}
 @media(max-width:600px){.journal-site #submission .submission-steps{grid-template-columns:1fr}}
 
 /* Journal articles have exactly one rule between adjacent entries */
-.journal-site .paper-item{border-bottom:0}
-.journal-site .paper-item+.paper-item{border-top:1px solid var(--line)}
-.journal-site .paper-meta{flex-wrap:nowrap}
+.journal-site .paper-item{border-bottom:1px solid #d8dce3}
+.journal-site .paper-item:last-child{border-bottom:0}
+.journal-site .paper-item+.paper-item{border-top:0}
+.journal-site .paper-meta{display:flex;align-items:center;justify-content:space-between!important;flex-wrap:nowrap!important;width:100%;padding-bottom:0;border-bottom:0}
+.journal-site .paper-code{color:#7c8491;font-size:10px;font-weight:550;letter-spacing:.03em}
 .journal-site .paper-meta b{width:auto;margin-left:auto;white-space:nowrap}
+.journal-site .paper-toggle{margin-left:auto;padding:5px 10px;border:1px solid var(--blue);background:#fff;color:var(--blue);font-size:10px;font-weight:800;cursor:pointer;white-space:nowrap}
+.journal-site .paper-toggle:hover,.journal-site .paper-toggle[aria-expanded="true"]{background:var(--blue);color:#fff}
+.journal-site .paper-reader{margin-top:18px;border-top:2px solid var(--ink);background:#fff}
+.journal-site .paper-reader iframe{display:block;width:100%;height:min(78vh,900px);border:1px solid var(--line);border-top:0;background:#fbfaf7}
 
 /* Fully rounded event resource pills */
 .event-record .record-resource span{border-radius:999px 0 0 999px}
