@@ -286,6 +286,8 @@ button,input,textarea,select{font:inherit}
 @media(max-width:720px){.editorial-news .news-front{padding-bottom:38px}.editorial-news .article-stream{padding:38px 0 42px}.editorial-news .news-section{padding:40px 0}.editorial-news .news-section-head{margin-bottom:20px;padding-bottom:11px}.editorial-news .story-card>div{padding:14px}.editorial-news .story-list>article{padding:14px 2px}.editorial-news .idea-grid{gap:22px}.editorial-news .idea-art{min-height:185px}.editorial-news .policy-feature>div{padding:21px 18px}.editorial-news .latest-feed article{padding:16px 2px}.editorial-news .paper-notice{padding:21px}.editorial-news .editorial-principle{padding:43px 0}}
 
 /* Korea Coop DB */
+.coopdb-site .page-section .section-head{padding-bottom:0;border-bottom:0}
+.coopdb-site .page-section .card{border:1px solid #dce1e9;border-radius:12px;padding:26px 24px}
 .coopdb-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px}
 .coopdb-stats>div{padding:16px 18px;background:#fff;border:1px solid #dce1e9;border-radius:12px}
 .coopdb-stats b{display:block;font-size:17px;letter-spacing:-.02em}
