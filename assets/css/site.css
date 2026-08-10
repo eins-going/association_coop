@@ -291,7 +291,7 @@ button,input,textarea,select{font:inherit}
 .coopdb-stats b{display:block;font-size:17px;letter-spacing:-.02em}
 .coopdb-stats span{display:block;margin-top:3px;color:var(--muted);font-size:11px}
 .coopdb-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.coopdb-type{padding:22px 20px;background:#fff;border:1px solid #dce1e9;border-top:3px solid var(--blue);border-radius:0 0 12px 12px}
+.coopdb-type{padding:22px 20px;background:#fff;border:1px solid #dce1e9;border-radius:12px}
 .coopdb-type h3{font-size:17px;letter-spacing:-.02em}
 .coopdb-type h3 small{margin-left:4px;color:#b3821c;font-size:10px;font-weight:700;vertical-align:2px}
 .coopdb-type .rel{margin:6px 0 0;color:var(--blue);font-size:11px;font-weight:700;line-height:1.5}
