@@ -300,6 +300,7 @@ button,input,textarea,select{font:inherit}
 .coopdb-type dl{margin-top:12px}
 .coopdb-type dt{color:var(--dim);font-size:9.5px;font-weight:800;letter-spacing:.06em}
 .coopdb-type dd{margin:3px 0 10px;color:var(--muted);font-size:11.5px;line-height:1.65}
+.coopdb-type dd.forms{color:#2c3547;font-weight:700}
 .coopdb-type dd:last-child{margin-bottom:0}
 @media(max-width:1024px){.coopdb-grid,.coopdb-stats{grid-template-columns:1fr 1fr}}
 @media(max-width:640px){.coopdb-grid,.coopdb-stats{grid-template-columns:1fr}}
