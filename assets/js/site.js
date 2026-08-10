@@ -153,21 +153,6 @@
 })();
 
 ;(function(){
-  var table=document.querySelector('.about-site .officer-table');
-  if(!table||Array.from(table.querySelectorAll('.officer-row b')).some(function(item){return item.textContent.trim()==='사무총장';}))return;
-  var president=Array.from(table.querySelectorAll('.officer-row')).find(function(row){
-    var role=row.querySelector('b');
-    return role&&role.textContent.trim()==='회장';
-  });
-  if(!president)return;
-  var secretary=document.createElement('div');
-  secretary.className='officer-row';
-  secretary.setAttribute('role','row');
-  secretary.innerHTML='<b>사무총장</b><span>조승현</span><span>경제학박사</span><em>창립 임원</em>';
-  president.insertAdjacentElement('afterend',secretary);
-})();
-
-;(function(){
   var label=document.querySelector('.college-hero-grid>div:first-child>span');
   if(!label)return;
   label.className='college-school-name';
