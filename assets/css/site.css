@@ -101,7 +101,7 @@ button,input,textarea,select{font:inherit}
 .award-process b{display:block}.award-process span{display:block;margin-top:7px;color:var(--muted);font-size:13px}
 
 /* membership */
-.membership-types{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.membership-types{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .membership-type{padding:28px 24px;border-radius:20px;background:var(--soft)}
 .membership-type h3{font-size:18px}.membership-type p{margin-top:10px;color:var(--muted);font-size:13px}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:20px;overflow:hidden}
