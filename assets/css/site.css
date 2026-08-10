@@ -320,7 +320,7 @@ button,input,textarea,select{font:inherit}
 :is(.about-site,.journal-site,.college-site,.cert-site) .section-head p,
 .award-hero~.page-section .section-head p,.page-hero~.page-section .section-head p{font-size:14px;line-height:1.75}
 :is(.about-site,.journal-site,.college-site,.cert-site) .card,
-.award-hero~.page-section .card,.page-hero~.page-section .card{border:0;border-top:2px solid #1b1e24;border-radius:0;padding:25px 22px;background:#fff}
+.award-hero~.page-section .card,.page-hero~.page-section .card{border:1px solid #dce1e9;border-radius:12px;padding:25px 22px;background:#fff}
 :is(.about-site,.journal-site,.college-site,.cert-site) .cards,
 .award-hero~.page-section .cards,.page-hero~.page-section .cards{gap:14px}
 
