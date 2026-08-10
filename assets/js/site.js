@@ -163,7 +163,7 @@
   var secretary=document.createElement('div');
   secretary.className='officer-row';
   secretary.setAttribute('role','row');
-  secretary.innerHTML='<b>사무총장</b><span>조승현</span><span>서울대학교 경제학박사</span><em>창립 임원</em>';
+  secretary.innerHTML='<b>사무총장</b><span>조승현</span><span>경제학박사</span><em>창립 임원</em>';
   president.insertAdjacentElement('afterend',secretary);
 })();
 
