@@ -91,7 +91,7 @@
   if(!highlight)return;
 
   var events=[
-    {image:'assets/images/events/event-poster-conference.png',type:'학술대회',state:'개최 준비',title:'한국조합경영학회 창립 학술대회',date:'2026년 하반기 예정',venue:'장소 확정 후 안내'},
+    {image:'assets/images/events/event-poster-conference.png',type:'학술대회',state:'개최 준비',title:'한국조합학회 창립 학술대회',date:'2026년 하반기 예정',venue:'장소 확정 후 안내'},
     {image:'assets/images/events/event-poster-forum.png',type:'조합경영포럼',state:'기획 중',title:'조합 거버넌스와 조합원 가치 포럼',date:'2026년 하반기 예정',venue:'온·오프라인 병행 검토'},
     {image:'assets/images/events/event-poster-policy.png',type:'정책세미나',state:'기획 중',title:'법정조합의 회계·감사와 정보공개',date:'2026년 하반기 예정',venue:'장소 확정 후 안내'},
     {image:'assets/images/events/event-poster-webinar.png',type:'웨비나',state:'기획 중',title:'조합경영 연구방법론 온라인 세미나',date:'2026년 일정 미정',venue:'온라인 개최'}
