@@ -730,13 +730,3 @@ button,input,textarea,select{font:inherit}
 }
 
 /* About: historical cooperation visual */
-.about-site .heritage-bridge{background:#f5f2eb;padding:68px 0}
-.heritage-bridge .wrap{display:grid;grid-template-columns:minmax(220px,.65fr) minmax(0,1.35fr);gap:clamp(30px,5vw,72px);align-items:center}
-.heritage-bridge-copy .eyebrow{display:block;margin-bottom:14px;color:#8b6b37;font-size:11px;font-weight:800;letter-spacing:.12em}
-.heritage-bridge-copy h2{max-width:12em;color:#202735;font-size:clamp(28px,3vw,38px);line-height:1.3;letter-spacing:-.045em;word-break:keep-all}
-.heritage-bridge-copy p{margin-top:22px;color:#414754;font-size:15px;line-height:1.85;word-break:keep-all}
-.heritage-bridge-figure{margin:0;min-width:0}
-.heritage-bridge-figure img{display:block;width:100%;height:auto;border:1px solid #ddd3c2}
-.heritage-bridge-figure figcaption{margin-top:11px;color:#62646b;font-size:12px;line-height:1.65;word-break:keep-all}
-.heritage-bridge-figure figcaption a{color:#32516a;text-decoration:underline;text-underline-offset:2px}
-@media(max-width:800px){.heritage-bridge .wrap{grid-template-columns:1fr;gap:26px}.heritage-bridge-copy h2{max-width:none}.heritage-bridge-copy p{margin-top:14px}}
