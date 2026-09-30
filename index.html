@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="한국조합학회 공식 홈페이지 — 조합학 이론과 실무를 연결하는 학술단체입니다.">
+<meta name="description" content="한국조합학회 — 법률이 ‘조합’으로 규율하는 88종의 법정 유형을 하나의 연구대상으로 삼아 조합학을 연구하는 학술단체입니다.">
 <meta name="theme-color" content="#1428A0">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="한국조합학회 — Korean Association for the Study of Partnerships, Cooperatives and Trade Unions">
-<meta property="og:description" content="대한민국의 법정조합과 조합형 조직을 하나의 조직범주로 연구하는 학술단체.">
+<meta property="og:description" content="민법상 조합부터 협동조합·노동조합·투자조합·공제조합·지방자치단체조합까지, 법률상 조합 88종을 하나의 연구대상으로 삼는 학술단체.">
 <title>한국조합학회 — Korean Association for the Study of Partnerships, Cooperatives and Trade Unions</title>
 <link rel="icon" type="image/svg+xml" href="assets/images/brand/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -443,6 +443,40 @@ section{padding:120px 0}
 .award-main{background:#111318;border:0;border-radius:24px;padding:42px;position:relative;overflow:hidden;min-height:360px}.award-main h3{font-weight:800;max-width:62%}.award-main p{max-width:58%}.award-main .year{color:#b5bac7;max-width:62%}.award-main .status{max-width:58%}.award-emblem{position:absolute;right:-8px;bottom:24px;width:210px;height:auto;object-fit:contain;filter:drop-shadow(0 12px 18px rgba(0,0,0,.18))}
 .award-list{gap:12px}.award-item{border:0;border-radius:18px;padding:23px 25px;background:#fff}.award-item b{font-size:15px}
 .cta-band{background:#173F73;padding:90px 0}.cta-band .wrap{flex-wrap:nowrap}.cta-band h2{font-size:clamp(32px,4vw,48px);line-height:1.2;font-weight:700}.cta-band p{max-width:760px}.member-criteria li{border-color:rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.1)}.cta-band .btn{color:#111318;padding:14px 28px}
+/* 조합의 정의 */
+.def-statement{max-width:1080px;margin:0 auto;background:#111318;color:#fff;border-radius:24px;padding:44px 48px}
+.def-label{display:block;font-size:11px;font-weight:800;letter-spacing:.16em;color:#b5bac7;margin-bottom:16px}
+.def-statement p{font-size:clamp(17px,1.6vw,20px);line-height:1.9;letter-spacing:-.015em;text-wrap:pretty}
+.def-statement mark{background:none;color:#fff;font-weight:700;box-shadow:inset 0 -.42em 0 rgba(120,160,215,.5)}
+.def-parts{max-width:1080px;margin:16px auto 0;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.def-part{background:#fff;border-radius:18px;padding:26px 24px}
+.def-part span{display:block;font-size:11.5px;font-weight:800;color:#173F73;letter-spacing:.02em}
+.def-part.form span{color:#5d626e}
+.def-part h3{font-size:17px;line-height:1.4;margin:8px 0 10px;letter-spacing:-.02em}
+.def-part p{font-size:13.5px;line-height:1.75;color:#5d626e}
+.def-open{max-width:1080px;margin:16px auto 0;font-size:14px;line-height:1.8;color:#444;padding:18px 24px;border-radius:18px;background:#e8eef5}
+.def-open b{color:#103159}
+.def-counter{max-width:1080px;margin:40px auto 0}
+.def-counter h3{font-size:15px;font-weight:800;padding-bottom:12px;border-bottom:2px solid #111318}
+.def-counter ul{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:0 28px}
+.def-counter li{padding:16px 0;border-bottom:1px solid #d5d9e1}
+.def-counter li b{display:flex;align-items:center;gap:8px;font-size:15px}
+.def-counter li b::before{content:"✕";display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#f7e4de;color:#b5482e;font-size:11px;font-weight:800;flex:0 0 auto}
+.def-counter li span{display:block;margin-top:6px;font-size:12.5px;line-height:1.7;color:#5d626e}
+
+/* 법정 유형 14개 대분류 */
+.type-board{list-style:none;max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(7,auto);gap:0 48px;border-top:2px solid #111318}
+.type-board li{display:grid;grid-template-columns:36px minmax(0,1fr) 170px;gap:16px;align-items:center;padding:17px 0;border-bottom:1px solid #e3e6ec}
+.type-board i{font-style:normal;font-size:12px;font-weight:800;color:#173F73}
+.type-board b{display:block;font-size:16px;letter-spacing:-.02em}
+.type-board div span{display:block;margin-top:2px;font-size:12.5px;line-height:1.6;color:#666}
+.type-board em{font-style:normal;font-size:18px;font-weight:800;text-align:right;position:relative;padding-bottom:9px}
+.type-board em small{margin-left:8px;font-size:11.5px;font-weight:500;color:#747986}
+.type-board em::before{content:"";position:absolute;right:0;bottom:0;height:4px;width:100%;border-radius:4px;background:#e8eef5}
+.type-board em::after{content:"";position:absolute;right:0;bottom:0;height:4px;width:calc(var(--n) / 16 * 100%);border-radius:4px;background:#173F73}
+.type-note{max-width:1180px;margin:20px auto 0;font-size:13px;line-height:1.8;color:#666}
+#types .section-actions{max-width:1180px;margin-left:auto;margin-right:auto}
+
 footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}.foot-grid{border-color:#ddd}.foot-grid h4,.foot-brand .kr{color:#000}.foot-brand .kr{font-weight:800}.foot-grid a:hover{color:#000;text-decoration:underline}
 
 @media(max-width:1180px){
@@ -460,6 +494,8 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
   .hero-stats .wrap{grid-template-columns:1fr 1fr}.hstat{border-left:0;padding:14px 12px 14px 0}
   section{padding:88px 0}.about-grid,.pub-grid,.cert-grid,.award-layout,.greeting{grid-template-columns:1fr}.greeting{gap:34px;max-width:760px}.president-photo{max-width:210px;margin:0 auto}.president-card .signature{max-width:210px;margin-left:auto;margin-right:auto;text-align:center}
   .twin{margin-top:30px;gap:20px}
+  .def-parts{grid-template-columns:1fr 1fr}.def-counter ul{grid-template-columns:1fr 1fr}
+  .type-board{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none}
   .cta-band .wrap{align-items:flex-start;flex-direction:column}.foot-grid{grid-template-columns:1fr 1fr}
 }
 @media(max-width:600px){
@@ -475,6 +511,9 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
   .journal-info,.newsletter{padding:28px 24px}.journal-meta{grid-template-columns:1fr}.newsletter li{align-items:flex-start}.nl-form button{padding-left:18px;padding-right:18px}
   .cert-card .head{padding:26px 24px 20px;flex-direction:column}.cert-card .body{padding:22px 24px 26px}.cert-card .foot{align-items:flex-start;flex-direction:column;gap:14px}.cert-ethics{padding:22px 24px}
   .award-main{padding:30px 26px;min-height:auto}.award-main h3{font-size:26px;max-width:none}.award-main p,.award-main .year,.award-main .status{max-width:none}.award-emblem{position:static;width:150px;align-self:center;margin:22px auto 0}.award-item{padding:20px}
+  .def-statement{padding:30px 24px;border-radius:20px}.def-statement p{font-size:16px}
+  .def-parts,.def-counter ul{grid-template-columns:1fr}.def-part{padding:22px 20px}.def-open{padding:16px 18px;font-size:13.5px}
+  .type-board li{grid-template-columns:28px minmax(0,1fr);row-gap:8px}.type-board em{grid-column:2;text-align:left;font-size:15px}.type-board em::before,.type-board em::after{left:0;right:auto}
   .member-criteria{gap:8px}.member-criteria li{font-size:12px}.cta-band{padding:72px 0}
   .foot-grid{grid-template-columns:1fr}.foot-bottom{flex-direction:column}
 }
@@ -529,19 +568,19 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
 <div class="hero">
   <div class="wrap">
     <div class="eyebrow">PARTNERSHIPS · COOPERATIVES · TRADE UNIONS</div>
-    <h1>조합의 고유한 원리를<br><em>조합학</em>으로 체계화합니다</h1>
-    <p class="thesis">법률상 조합으로 형성되는 다양한 결합관계의 성립·조직·운영·재산·책임·성과귀속 및 공공적 규율을 종합적·비교적으로 연구합니다.</p>
+    <h1>법률이 ‘조합’이라 부르는<br><em>88종</em>을 하나의 학문으로</h1>
+    <p class="thesis">민법상 조합에서 협동조합·노동조합·투자조합·공제조합·정비사업조합·지방자치단체조합까지, 법률상 조합 전체를 하나의 연구대상으로 삼아 그 성립·조직·운영·재산·책임·성과귀속과 공공적 규율을 비교 연구합니다.</p>
     <div class="actions">
       <a class="btn btn-seal" href="membership.html">창립회원 가입</a>
-      <a class="btn btn-ghost" href="about.html#definition">조합과 조합학 보기</a>
+      <a class="btn btn-ghost" href="#definition">조합의 정의 보기</a>
     </div>
   </div>
   <div class="hero-stats">
     <div class="wrap">
-      <div class="hstat"><b>연구대상</b>법정조합과 조합형 조직의 통합적 이해</div>
-      <div class="hstat"><b>이론체계</b>소유·의결·집행·통제 구조의 비교 연구</div>
-      <div class="hstat"><b>실무표준</b>거버넌스·회계·위험관리 기준의 정립</div>
-      <div class="hstat"><b>사회적 신뢰</b>조합원 보호와 책임경영의 제도화</div>
+      <div class="hstat"><b>1,275건</b>본문에 ‘조합’이 나타나는 현행 법령</div>
+      <div class="hstat"><b>88종</b>설립·정의 조문으로 확정한 법정 유형</div>
+      <div class="hstat"><b>14개</b>법 영역과 작동 방식에 따른 대분류</div>
+      <div class="hstat"><b>61건</b>법정 유형의 근거 법률</div>
     </div>
   </div>
 </div>
@@ -555,8 +594,8 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
     </div>
     <div class="about-grid">
       <div class="lede">
-        <p>조합에는 민법상 조합계약으로 성립하는 공동관계부터 협동조합·공제조합·노동조합·투자조합·공법상 조합까지 서로 다른 법적 결합형식이 있습니다. <strong>조합원 관계, 공동의사, 목적사업, 권리·의무와 성과의 귀속</strong>이 각 유형에서 어떻게 형성되는지 살펴야 합니다.</p>
-        <p style="margin-top:22px">한국조합학회는 이처럼 다양한 조합의 성립·조직·운영·재산·책임·성과귀속과 공공적 규율을 종합적·비교적으로 연구합니다. <a href="about.html#definition">조합과 조합학의 정의 보기 →</a></p>
+        <p>민사와 상사, 농림과 금융, 노동과 도시개발, 지방행정에 걸쳐 법률은 <strong>둘 이상의 당사자가 결합하여 사업을 수행하고 그 결과를 나누는 형식</strong>을 되풀이하여 두고, 그 형식을 조합이라 부릅니다. 근거 조문으로 확인한 법정 유형만 88종입니다.</p>
+        <p style="margin-top:22px">그 가운데 지역개발조합·투자조합·산업발전공제조합이 37종으로 40%를 넘습니다. 법률상 조합의 무게중심은 개발·투자·보증의 영역에 있고, 그동안 조합 연구가 주로 다루어 온 협동조합과 노동조합은 그 일부입니다. 한국조합학회는 분야별로 흩어져 있던 조합을 하나의 연구대상으로 모아, 유형 사이의 공통 구조와 차이를 비교합니다. <a href="about.html#discipline">조합학의 정의 보기 →</a></p>
       </div>
     </div>
     <div class="pillars">
@@ -573,6 +612,82 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
         <p>축적된 연구 성과를 바탕으로 교육과정, 평가 기준, 표준정관과 내부통제 지침을 단계적으로 마련하고자 합니다.</p>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- 조합의 정의 -->
+<section id="definition" class="sec-alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">조합의 정의</div>
+      <h2>조합이란 무엇인가</h2>
+      <p>흔히 조합의 요건으로 여겨지는 법인격·출자·1인 1표·잉여배분은 88종 가운데 모두 반례가 있습니다. 88종 전부에서 예외 없이 확인되는 구조와 법률의 명명으로 조합을 정의합니다.</p>
+    </div>
+    <div class="def-statement">
+      <span class="def-label">DEFINITION</span>
+      <p>조합이란 법률이 ‘조합’으로 규율하는 조직 또는 계약관계로서, <mark>둘 이상의 당사자가 결합</mark>하여 <mark>그 결합을 매개로 목적사업이 수행</mark>되고, <mark>그에 따르는 부담과 결과가 결합관계에 따라 당사자에게 귀속</mark>되며, 목적과 법인격, 성립절차, 의결·출자·책임·배분의 방식은 개별 법률 또는 정관·규약·조합계약이 정하는 것을 말한다.</p>
+    </div>
+    <div class="def-parts">
+      <div class="def-part form">
+        <span>형식 요건</span>
+        <h3>법률이 ‘조합’으로 규율</h3>
+        <p>연구의 단위를 확정합니다. 결합의 구조를 갖추었더라도 법률이 별도의 조직형으로 명명한 주식회사·협회·새마을금고는 여기서 갈립니다.</p>
+      </div>
+      <div class="def-part">
+        <span>실질 요건 ① 결합</span>
+        <h3>둘 이상의 당사자가 결합</h3>
+        <p>88종 모두 조합원·회원 또는 계약 당사자를 상정합니다. 결합하는 당사자가 없는 재단법인과 1인 조직은 배제됩니다.</p>
+      </div>
+      <div class="def-part">
+        <span>실질 요건 ② 수행</span>
+        <h3>결합을 매개로 목적사업 수행</h3>
+        <p>수행의 주체는 묻지 않습니다. 영업자만 영업하는 익명조합, 업무집행조합원만 집행하는 투자조합도 여기에 포함됩니다.</p>
+      </div>
+      <div class="def-part">
+        <span>실질 요건 ③ 귀속</span>
+        <h3>부담과 결과가 당사자에게 귀속</h3>
+        <p>배당·손익분배·보증·교섭력·행정사무 처리로 방식은 달라도, 결과가 결합 밖으로 귀속되는 유형은 없습니다.</p>
+      </div>
+    </div>
+    <p class="def-open"><b>개방조항 —</b> 목적·법인격·성립절차·의결·출자·책임·배분은 요건이 아닙니다. 그 자리는 개별 법률과 정관·규약·조합계약이 채웁니다. 어느 조합의 구조를 알려면 정의가 아니라 그 조합의 근거 법률과 정관을 보아야 합니다.</p>
+    <div class="def-counter">
+      <h3>요건이 될 수 없는 것</h3>
+      <ul>
+        <li><b>법인격</b><span>계약관계로 남는 16종(민법상 조합·익명조합·투자조합 계열 등), 비법인 7종(주택조합 3종·우리사주조합 등)</span></li>
+        <li><b>조합원의 출자</b><span>출자가 없는 6종(노동조합 3종·도시개발사업조합·예술인조합·납세조합)</span></li>
+        <li><b>1인 1표</b><span>출자비례 의결(전기공사공제조합), 운영위원회 의결 2종, 조합계약에 맡긴 6종</span></li>
+        <li><b>잉여의 배분</b><span>배분 자체가 없는 5종(노동조합 3종 등), 배당이 금지된 2종(사회적협동조합·보건·의료조합)</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 한국의 조합 -->
+<section id="types">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">한국의 조합</div>
+      <h2>법정 유형 88종, 14개 대분류</h2>
+      <p>‘조합’이 본문에 나타나는 법령 1,275건에서 명칭 후보 189종을 추출하고, 설립·정의 조문을 대조하여 법정 유형 88종을 확정했습니다. 대분류는 연구상의 분류이며, 각 유형의 근거는 법률과 조문입니다.</p>
+    </div>
+    <ol class="type-board">
+      <li><i>01</i><div><b>민법상 조합</b><span>조합(민법 제703조)</span></div><em style="--n:1">1종<small>법률 1</small></em></li>
+      <li><i>02</i><div><b>상법상 조합</b><span>익명조합, 합자조합, 투자익명조합, 투자합자조합</span></div><em style="--n:4">4종<small>법률 2</small></em></li>
+      <li><i>03</i><div><b>협동조합</b><span>협동조합, 사회적협동조합, 소비자생활협동조합, 보건·의료조합, 신용협동조합</span></div><em style="--n:5">5종<small>법률 3</small></em></li>
+      <li><i>04</i><div><b>정책적 조합</b><span>농업·수산업협동조합, 산림조합, 중소기업협동조합, 엽연초생산협동조합, 염업조합</span></div><em style="--n:16">16종<small>법률 6</small></em></li>
+      <li><i>05</i><div><b>동업조합</b><span>영농조합, 영어조합</span></div><em style="--n:2">2종<small>법률 1</small></em></li>
+      <li><i>06</i><div><b>투자조합</b><span>벤처투자조합, 신기술사업투자조합, 농식품투자조합 등</span></div><em style="--n:11">11종<small>법률 6</small></em></li>
+      <li><i>07</i><div><b>노동조합</b><span>노동조합, 공무원·교원노동조합, 영화근로자조합, 우리사주조합</span></div><em style="--n:5">5종<small>법률 5</small></em></li>
+      <li><i>08</i><div><b>지역개발조합</b><span>재건축·재개발조합, 지역·직장·리모델링주택조합, 도시개발사업조합 등</span></div><em style="--n:15">15종<small>법률 12</small></em></li>
+      <li><i>09</i><div><b>연구조합</b><span>산업기술연구조합</span></div><em style="--n:1">1종<small>법률 1</small></em></li>
+      <li><i>10</i><div><b>환경조합</b><span>폐기물처리·건설폐기물·재활용사업공제조합</span></div><em style="--n:3">3종<small>법률 3</small></em></li>
+      <li><i>11</i><div><b>산업발전공제조합</b><span>전문건설·소프트웨어·전기공사공제조합 등</span></div><em style="--n:11">11종<small>법률 10</small></em></li>
+      <li><i>12</i><div><b>자동차, 여객, 해운</b><span>자동차매매사업조합, 선주상호보험조합, 한국해운조합 등</span></div><em style="--n:7">7종<small>법률 4</small></em></li>
+      <li><i>13</i><div><b>직능, 세금, 단체</b><span>법무조합, 예술인조합, 납세조합, 동업자조합</span></div><em style="--n:4">4종<small>법률 4</small></em></li>
+      <li><i>14</i><div><b>지방자치단체</b><span>지방자치단체조합, 상수도조합, 지방세조합</span></div><em style="--n:3">3종<small>법률 3</small></em></li>
+    </ol>
+    <p class="type-note">2026년 9월 현행 법령 기준. 법률이 구분마다 설립·구역·조합원 자격 등을 따로 정하는 하위 구분은 유형 수에 포함하고, 조합의 연합조직인 중앙회·연합회는 세지 않았습니다. 근거 법률은 대분류 사이에 중복이 없습니다.</p>
+    <div class="section-actions"><a class="section-more" href="coop-db.html"><span>+</span> 한국조합DB에서 88종 전체 보기</a></div>
   </div>
 </section>
 
@@ -862,12 +977,13 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
             <div class="en">Korean Association for the Study of Partnerships, Cooperatives and Trade Unions</div>
           </div>
         </div>
-        <p>대한민국의 법정조합과 조합형 조직을 하나의 조직범주로 연구하고, 조합의 건전한 경영과 거버넌스에 관한 이론·자료·표준을 생산하는 대표 학술기관을 지향합니다.</p>
+        <p>법률이 ‘조합’으로 규율하는 조직과 계약관계 전체를 하나의 연구대상으로 삼고, 조합에 관한 이론·자료·표준을 생산하는 대표 학술기관을 지향합니다.</p>
       </div>
       <div>
         <h4>학회</h4>
         <ul>
           <li><a href="index.html#about">학회 소개</a></li>
+          <li><a href="index.html#definition">조합의 정의</a></li>
           <li><a href="index.html#greeting">회장 인사말</a></li>
           <li><a href="about.html#org">조직도</a></li>
           <li><a href="bylaws.html">정관</a></li>
@@ -891,7 +1007,7 @@ footer{background:#fff;color:#666;border-top:1px solid #ddd;padding:64px 0 32px}
         <h4>자료</h4>
         <ul>
           <li><span>법정조합 총람 (준비 중)</span></li>
-          <li><span>한국 조합분류체계 (준비 중)</span></li>
+          <li><a href="index.html#types">한국 조합 14개 대분류</a></li>
           <li><span>조합경영 8대 원칙 (준비 중)</span></li>
           <li><span>표준정관 자료실 (준비 중)</span></li>
         </ul>
