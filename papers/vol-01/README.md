@@ -4,7 +4,7 @@ Status: `published`
 
 Published: `2026-03-01`
 
-Journal: `조합경영연구`
+Journal: `조합학연구`
 
 ## Articles
 
