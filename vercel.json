@@ -30,5 +30,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/papers/:vol/ksmo-doi-:num",
+      "destination": "/papers/:vol/kpact-doi-:num",
+      "permanent": true
+    }
   ]
 }

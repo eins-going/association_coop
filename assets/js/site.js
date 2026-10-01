@@ -156,7 +156,7 @@
   var label=document.querySelector('.college-hero-grid>div:first-child>span');
   if(!label)return;
   label.className='college-school-name';
-  label.innerHTML='<b>한국조합경영대학교</b><small>KSMO MBA</small>';
+  label.innerHTML='<b>한국조합경영대학교</b><small>KPaCT MBA</small>';
 })();
 
 ;(function(){

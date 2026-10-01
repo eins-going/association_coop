@@ -12,7 +12,7 @@
   - Vol. 1부터 Vol. 4까지 논문 목록을 `book/research-agenda/vol-01.md` ~ `vol-04.md` 기준으로 반영했다.
   - 각 Vol.은 8편 구성으로 정리했다.
   - Number 표기는 사용하지 않고 Volume만 사용한다.
-  - 논문 코드는 `KSMO-DOI-202601001` 형식으로 정리했다.
+  - 논문 코드는 `KPaCT-DOI-202601001` 형식으로 정리했다.
   - Vol. 1의 1번, 2번 논문에 `원문 보기` 버튼을 연결했다.
 
 - `assets/css/site.css`
@@ -24,23 +24,23 @@
 - `assets/js/site.js`
   - `원문 보기` 버튼 클릭 시 논문 HTML을 같은 페이지 안에서 펼쳐 보이도록 iframe 기반 토글 기능을 추가했다.
 
-- `papers/vol-01/ksmo-doi-202601001.html`
+- `papers/vol-01/kpact-doi-202601001.html`
   - Vol. 1 1번 논문 작성.
   - 제목: `조합학은 독자적 학문인가: 다섯 구조 축을 통한 정체성 논증`
   - 저자: 김진용
   - 소속: 한국조합경영대학교
   - 본문 길이: 약 원고지 120매
   - 참고문헌: 26개
-  - `journal.html`의 `KSMO-DOI-202601001` 원문 보기와 연결됨.
+  - `journal.html`의 `KPaCT-DOI-202601001` 원문 보기와 연결됨.
 
-- `papers/vol-01/ksmo-doi-202601002.html`
+- `papers/vol-01/kpact-doi-202601002.html`
   - Vol. 1 2번 논문 작성.
   - 제목: `소유·의결·통제·위험부담·성과배분 다섯 축의 조작적 정의와 측정모형 개발`
   - 저자: 조승현, 김진용
   - 소속: 한국조합경영대학교
   - 본문 길이: 원고지 100매 수준
   - 참고문헌: 25개
-  - `journal.html`의 `KSMO-DOI-202601002` 원문 보기와 연결됨.
+  - `journal.html`의 `KPaCT-DOI-202601002` 원문 보기와 연결됨.
 
 - `C:\Users\my\.codex\skills\academic-paper-oa\SKILL.md`
   - 사회과학 논문 분량 기준을 강화했다.
@@ -53,8 +53,8 @@
 
 | Vol. | 코드 | 제목 | 원문 HTML |
 |---|---|---|---|
-| Vol. 1 | KSMO-DOI-202601001 | 조합학은 독자적 학문인가: 다섯 구조 축을 통한 정체성 논증 | `papers/vol-01/ksmo-doi-202601001.html` |
-| Vol. 1 | KSMO-DOI-202601002 | 소유·의결·통제·위험부담·성과배분 다섯 축의 조작적 정의와 측정모형 개발 | `papers/vol-01/ksmo-doi-202601002.html` |
+| Vol. 1 | KPaCT-DOI-202601001 | 조합학은 독자적 학문인가: 다섯 구조 축을 통한 정체성 논증 | `papers/vol-01/kpact-doi-202601001.html` |
+| Vol. 1 | KPaCT-DOI-202601002 | 소유·의결·통제·위험부담·성과배분 다섯 축의 조작적 정의와 측정모형 개발 | `papers/vol-01/kpact-doi-202601002.html` |
 
 Vol. 1의 3번 이후 논문과 Vol. 2~4 논문은 목록에는 반영되어 있으나 아직 원문 HTML은 생성되지 않았다.
 
@@ -70,11 +70,11 @@ Vol. 1의 3번 이후 논문과 Vol. 2~4 논문은 목록에는 반영되어 있
 
 - `journal.html`은 화면 표시용 목록이다.
 - 논문 목록의 원천은 `book/research-agenda/vol-XX.md`로 본다.
-- 논문 HTML은 `papers/vol-XX/ksmo-doi-YYYYVVNNN.html` 형식으로 배치한다.
+- 논문 HTML은 `papers/vol-XX/kpact-doi-YYYYVVNNN.html` 형식으로 배치한다.
 - 원문은 새 창이 아니라 `journal.html` 안에서 펼쳐 보는 방식으로 제공한다.
 - 전자저널이므로 페이지 범위(`pp. 1-24`)는 표시하지 않는다.
 - 논문 코드는 왼쪽, `원문 보기`는 오른쪽에 배치한다.
-- 코드 표기는 `KSMO-DOI-202601001` 형식을 사용한다.
+- 코드 표기는 `KPaCT-DOI-202601001` 형식을 사용한다.
 - 한국조합경영대학교 소속은 학과명 없이 기관명만 표기한다.
 
 ## 남은 작업

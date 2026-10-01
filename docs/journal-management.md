@@ -75,10 +75,10 @@ withdrawn
 
 ## Article Codes
 
-Use a compact KSMO code for article identification.
+Use a compact KPaCT code for article identification.
 
 ```text
-KSMO-DOI-YYYYVVAAA
+KPaCT-DOI-YYYYVVAAA
 ```
 
 - `YYYY`: publication year
@@ -88,10 +88,10 @@ KSMO-DOI-YYYYVVAAA
 Example:
 
 ```text
-KSMO-DOI-202601001
+KPaCT-DOI-202601001
 ```
 
-This is the journal's local KSMO code. When a formal DOI is registered, add it as a separate field.
+This is the journal's local KPaCT code. When a formal DOI is registered, add it as a separate field.
 
 ## Article Page Requirements
 
